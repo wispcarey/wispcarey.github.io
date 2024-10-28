@@ -93,7 +93,7 @@ skills:
       - name: Card Game 
         description: ''
         percent: 60
-        icon: icon: "custom/card-random"
+        icon: custom/card-random
       - name: Cats
         description: ''
         percent: 100
@@ -101,7 +101,7 @@ skills:
       - name: Cooking
         description: ''
         percent: 80
-        icon: icon: "custom/cook"
+        icon: custom/cook
 
 languages:
   - name: English
