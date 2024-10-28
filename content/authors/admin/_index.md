@@ -52,7 +52,7 @@ education:
   - area: PhD in Mathematics
     institution: University of California, Los Angeles
     date_start: 2018-09-01
-    date_end: 2024-06-31
+    date_end: 2024-06-30
     summary: |
       Thesis on _Exploring the Frontier of Graph-based Approaches for Image and Document Analysis_. Supervised by [Prof Andrea Bertozzi](https://www.math.ucla.edu/~bertozzi/). 
     button:
@@ -61,7 +61,7 @@ education:
   - area: B.S. in Mathematics
     institution: Peking University
     date_start: 2014-09-01
-    date_end: 2018-06-31
+    date_end: 2018-06-30
     summary: 
       
 work:
