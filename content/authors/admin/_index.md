@@ -43,10 +43,10 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-4159-076X
 
 interests:
-  - Data Assimilation: Learning-based Filtering Process
-  - Machine Learning: Graph learning, Active Learning, and Contrastive Learning 
-  - Image Analysis and Processing: Image segmentation and classification, Hyperspectral image unmixing
-  - Mathematical Modeling: Optimal Control, Mean-field Models, Stochastic Process
+  - "Data Assimilation: Learning-based Filtering Process"
+  - "Machine Learning: Graph learning, Active Learning, and Contrastive Learning"
+  - "Image Analysis and Processing: Image segmentation and classification, Hyperspectral image unmixing"
+  - "Mathematical Modeling: Optimal Control, Mean-field Models, Stochastic Process"
 
 education:
   - area: PhD in Mathematics
