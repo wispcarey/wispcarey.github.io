@@ -5,7 +5,7 @@ authors:
 - Yifei Lou
 - Andrea L. Bertozzi
 - Jocelyn Chanussot
-date: '2023-01-01'
+date: '2023-09-11'
 publishDate: '2024-10-29T00:57:35.621019Z'
 publication_types:
 - article-journal
@@ -27,7 +27,7 @@ abstract: Hyperspectral unmixing (HSU) is an effective tool to ascertain the mat
   methods improve the state-of-the-art blind unmixing approaches by 50% or more using
   only 0.4% of training pixels.
 tags:
-- Active learning
+- Graph-based Optimization
 - Estimation
 - Geology
 - graph learning
@@ -41,4 +41,5 @@ tags:
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10246337/?arnumber=10246337
+featured: true
 ---

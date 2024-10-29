@@ -8,7 +8,7 @@ authors:
 - Jeff Calder
 - Kevin Miller
 - Andrea L. Bertozzi
-date: '2023-06-01'
+date: '2023-06-13'
 publishDate: '2024-10-29T00:57:35.606235Z'
 publication_types:
 - paper-conference
@@ -29,8 +29,11 @@ abstract: 'Active learning improves the performance of machine learning methods 
   batch size. As an application, a pipeline is built based on transfer learning feature
   embedding, graph learning, DAC, and LocalMax to classify the FUSAR-Ship and OpenSARShip
   datasets. Our pipeline outperforms the state-of-the-art CNN-based methods.'
+tags:
+- Batch active learning
 links:
 - name: URL
   url: 
     https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12520/125200B/Novel-batch-active-learning-approach-and-its-application-to-synthetic/10.1117/12.2662393.full
+featured: true
 ---
