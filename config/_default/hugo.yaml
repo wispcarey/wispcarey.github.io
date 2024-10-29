@@ -7,6 +7,12 @@
 title: Bohan Chen's Personal Webpage
 # Website URL
 baseURL: 'https://chenbh.com/'
+params:
+  contact:
+    email: bhchen@caltech.edu
+    phone: +1 424-402-7355
+  subtitle: Postdoctoral Researcher at Caltech
+  favicon: cube-transparent
 
 ############################
 ## LANGUAGE

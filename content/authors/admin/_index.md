@@ -152,3 +152,7 @@ awards:
 ## About Me
 
 Bohan Chen is a postdoctoral researcher at Caltech under the supervision of Prof. Andrew Stuart. His research interests includes data assimilation, stochastic process models, graph-based machine learning, and active learning. His work during Ph.D. applied graph-based active learning methods to tackle different image processing problems, and developed innovative batch active learning strategies. He explored the integration of large language models with knowledge graphs. His current research is primarily focused on data assimilation.
+
+Email: bhchen@caltech.edu
+
+Phone: +1 424-402-7355

@@ -3,7 +3,7 @@ title: 'AutoKG: Efficient Automated Knowledge Graph Generation for Language Mode
 authors:
 - Bohan Chen
 - Andrea L. Bertozzi
-date: '2023-12-01'
+date: '2023-12-18'
 publishDate: '2024-10-29T00:57:35.613756Z'
 publication_types:
 - paper-conference
@@ -21,11 +21,6 @@ abstract: Traditional methods of linking large language models (LLMs) to knowled
   to the semantic similarity search, thereby enhancing the capabilities of LLMs in
   generating more insightful and relevant outputs.
 tags:
-- Big Data
-- Computer architecture
-- Data visualization
-- Graph Learning
-- Knowledge based systems
 - Knowledge Graph
 - Knowledge graphs
 - Language model
@@ -35,4 +30,5 @@ tags:
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/10386454
+featured: true
 ---
