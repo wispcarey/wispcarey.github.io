@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: ''
+    org_name: 'Caltech Institute of Technology'
+    description: 'Postdoctoral Researcher at Caltech'
     twitter: ''
   analytics:
     google_analytics: ''
