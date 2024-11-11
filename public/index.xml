@@ -13,6 +13,69 @@
     </image>
     
     <item>
+      <title>🎉 Caltech SURF 2025</title>
+      <link>http://localhost:1313/post/surf2025/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/surf2025/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#research-focus&#34;&gt;Research Focus&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#expectations-for-students&#34;&gt;Expectations for Students&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p&gt;
+&lt;p&gt;In 2025, I will serve as a mentor in the SURF program, co-mentoring alongside CMS postdoctoral researcher 
+. Together, we will guide a team of 2 to 3 undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;p&gt;The research project in the SURF program will address accessible yet meaningful problems in data assimilation (DA), particularly in combining DA with machine learning methods. The project is designed to be manageable, and I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources.&lt;/p&gt;
+&lt;p&gt;My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for students to gain a solid understanding and valuable skills in DA and ML. Ultimately, if you walk away from this project having learned a great deal, I will consider it a success.&lt;/p&gt;
+&lt;h2 id=&#34;expectations-for-students&#34;&gt;Expectations for Students&lt;/h2&gt;
+&lt;p&gt;My primary expectation is that you bring genuine enthusiasm to this project. Please make sure that the general research direction outlined above aligns with your interests and that you’re willing to dedicate time and effort to it over the summer of 2025.&lt;/p&gt;
+&lt;p&gt;In terms of skills, I hope you have a foundational understanding of probability, stochastic processes, (ordinary) differential equations, and linear algebra—ideally having taken coursework in these areas. Coding proficiency is also important; Python experience is essential, and familiarity with or experience in PyTorch is a plus, though not required—I’m happy to provide guidance on this if needed.&lt;/p&gt;
+&lt;p&gt;Passion and curiosity are the key qualities I’m looking for. If you’re excited about this topic and ready to engage deeply, I believe you’ll find this project both rewarding and educational.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;For more information on the SURF program, please refer to the official 
+. This page provides additional links to details about the program, including 
+, 
+, 
+, and 
+.&lt;/p&gt;
+&lt;p&gt;For background information on data assimilation, you may find the following resources helpful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Review Paper&lt;/strong&gt;: &lt;em&gt;Data assimilation: The Schrödinger perspective&lt;/em&gt;, available 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Book&lt;/strong&gt;: &lt;em&gt;Data Assimilation: A Mathematical Introduction&lt;/em&gt;, available on 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share this opportunity with undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
       <link>http://localhost:1313/publication/leng-narrative-nodate/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
