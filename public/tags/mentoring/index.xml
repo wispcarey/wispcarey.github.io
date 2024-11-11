@@ -7,16 +7,16 @@
     <description>Mentoring</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu17287772398080690417.png</url>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Mentoring</title>
       <link>http://localhost:1313/tags/mentoring/</link>
     </image>
     
     <item>
       <title>🎉 Caltech SURF 2025</title>
-      <link>http://localhost:1313/post/get-started/</link>
+      <link>http://localhost:1313/post/surf2025/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/get-started/</guid>
+      <guid>http://localhost:1313/post/surf2025/</guid>
       <description>
 
 
@@ -38,8 +38,8 @@
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p&gt;
-&lt;p&gt;In 2025, I will serve as a mentor in the SURF program, co-mentoring alongside CMS postdoctoral researcher George Stepaniants (
-). Together, we will guide a team of 2 to 3 undergraduate students.&lt;/p&gt;
+&lt;p&gt;In 2025, I will serve as a mentor in the SURF program, co-mentoring alongside CMS postdoctoral researcher 
+. Together, we will guide a team of 2 to 3 undergraduate students.&lt;/p&gt;
 &lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
 &lt;p&gt;The research project in the SURF program will address accessible yet meaningful problems in data assimilation (DA), particularly in combining DA with machine learning methods. The project is designed to be manageable, and I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources.&lt;/p&gt;
 &lt;p&gt;My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for students to gain a solid understanding and valuable skills in DA and ML. Ultimately, if you walk away from this project having learned a great deal, I will consider it a success.&lt;/p&gt;

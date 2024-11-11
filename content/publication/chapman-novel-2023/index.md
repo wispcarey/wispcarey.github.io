@@ -30,7 +30,7 @@ abstract: 'Active learning improves the performance of machine learning methods 
   embedding, graph learning, DAC, and LocalMax to classify the FUSAR-Ship and OpenSARShip
   datasets. Our pipeline outperforms the state-of-the-art CNN-based methods.'
 tags:
-- Batch active learning
+- Batch active learning, Graph Learning, synthetic aperture radar
 links:
 - name: URL
   url: 

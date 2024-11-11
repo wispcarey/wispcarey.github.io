@@ -23,12 +23,9 @@ abstract: Deforestation is a major threat to global environmental wellness, with
   calibrate our model using real deforestation data from the Brazilian rainforest
   and demonstrate the importance of geographically targeted patrol strategies.
 tags:
-- Fast sweeping method
-- Hamilton–Jacobi–Bellman equation
-- Illegal logging
-- Optimal control
-- Optimal path planning
+- Optimal control, Level set, Hamilton–Jacobi–Bellman equation
 links:
 - name: URL
   url: https://doi.org/10.1007/s40687-021-00263-6
+featured: true
 ---

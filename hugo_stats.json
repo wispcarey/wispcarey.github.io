@@ -521,6 +521,7 @@
       "TableOfContents",
       "about-me",
       "acknowledgments",
+      "copyright",
       "expectations-for-students",
       "hide-button",
       "license",
@@ -553,7 +554,8 @@
       "sun",
       "talks",
       "teaching",
-      "top"
+      "top",
+      "use-and-purpose"
     ]
   }
 }

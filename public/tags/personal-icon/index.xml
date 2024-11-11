@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Icon | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/personal-icon/</link>
+      <atom:link href="http://localhost:1313/tags/personal-icon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal Icon</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Personal Icon</title>
+      <link>http://localhost:1313/tags/personal-icon/</link>
+    </image>
+    
+    <item>
+      <title>My Personal Icon Design</title>
+      <link>http://localhost:1313/post/my-personal-icon/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/my-personal-icon/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#use-and-purpose&#34;&gt;Use and Purpose&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#copyright&#34;&gt;Copyright&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This personal icon is a unique design created independently by me, Bohan Chen, inspired by symbols from mathematics. The concept combines the symbols $ \Sigma $ (Sigma), $ \Pi $ (Pi), and $ \int $ (Integral) into one cohesive form. In my design, the Sigma symbol transforms seamlessly into the shape of an integral sign, which cleverly intertwines to resemble the shape of Pi. This integration of mathematical symbols not only represents my affinity for mathematics but also serves as a distinctive representation of my identity, Bohan Chen.&lt;/p&gt;
+&lt;h2 id=&#34;use-and-purpose&#34;&gt;Use and Purpose&lt;/h2&gt;
+&lt;p&gt;This icon is currently used as the symbol for my personal website and will also be incorporated into other platforms and contexts as a recognizable personal mark that represents me, Bohan Chen.&lt;/p&gt;
+&lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;All rights reserved. This icon is an original design and is protected under copyright law. It may not be copied, reproduced, or redistributed in any form without explicit permission from the copyright holder. For inquiries regarding use or licensing, please contact me directly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

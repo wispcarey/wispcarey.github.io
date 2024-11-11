@@ -10,12 +10,9 @@ date: 2024-06-07
 publishDate: '2024-10-29T00:57:35.657572Z'
 publication_types:
 - article-journal
-abstract: We develop a contrastive graph-based active learning pipeline (CGAP) to
-  identify surface water and nearwater sediment pixels in multispectral images. CGAP
-  enhances the graph-based active learning pipeline (GAP) designed for surface water
-  and sediment
+abstract: We develop a contrastive graph-based active learning pipeline (CGAP) to identify surface water and near-water sediment pixels in multispectral images. CGAP enhances the graph-based active learning pipeline (GAP) (10.1109/IGARSS52108.2023.10282009), which outperforms methods such as CNN-Unet, support vector machine (SVM), and random forest (RF), while requiring less training data. Active learning plays an important role for training data reduction, resulting in an order of magintude less training data compared with conventional methods and three or more orders of magnitude less compared with CNN-Unet. Our improvements focus on boosting both the pipeline's robustness and efficiency by integrating a feature-embedding neural network prior to graph construction. This neural network, trained using contrastive learning, performs effective data dimension reduction by projecting high-dimensional raw features into a lower-dimensional space, thereby facilitating more efficient graph learning. The training process incorporates specialized augmentations to bolster the embedded features' resilience to geometric transformations, varying resolutions, and light cloud cover. Moreover, we develop a Python-based demo, GraphRiverClassifier (GRC), that uses the Google Earth Engine and our enhanced pipeline to provide a user-friendly tool for rapid and accurate surface water and sediment analyses and rapid testing of algorithm performances.
 links:
 - name: URL
   url: 
-    https://www.authorea.com/doi/full/10.36227/techrxiv.171778689.93223348?commit=ada28c10a4f0d77b5b1e973534a27a58eff2cbdf
+    https://ieeexplore.ieee.org/document/10747084
 ---

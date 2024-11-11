@@ -27,17 +27,7 @@ abstract: Hyperspectral unmixing (HSU) is an effective tool to ascertain the mat
   methods improve the state-of-the-art blind unmixing approaches by 50% or more using
   only 0.4% of training pixels.
 tags:
-- Graph-based Optimization
-- Estimation
-- Geology
-- graph learning
-- Hyperspectral imaging
-- hyperspectral unmixing (HSU)
-- Matrix decomposition
-- Optimization
-- semisupervised learning
-- Training
-- TV
+- Graph-based Optimization, Hyperspectral Unmixing, positive matrix factorization
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10246337/?arnumber=10246337

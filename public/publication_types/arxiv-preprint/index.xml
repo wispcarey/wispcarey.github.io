@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arxiv-Preprint | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/publication_types/arxiv-preprint/</link>
+      <atom:link href="http://localhost:1313/publication_types/arxiv-preprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arxiv-Preprint</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Arxiv-Preprint</title>
+      <link>http://localhost:1313/publication_types/arxiv-preprint/</link>
+    </image>
+    
+    <item>
+      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
+      <link>http://localhost:1313/publication/leng-narrative-nodate/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/leng-narrative-nodate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

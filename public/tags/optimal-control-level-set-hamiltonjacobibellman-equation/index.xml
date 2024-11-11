@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimal Control, Level Set, Hamilton–Jacobi–Bellman Equation | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/optimal-control-level-set-hamiltonjacobibellman-equation/</link>
+      <atom:link href="http://localhost:1313/tags/optimal-control-level-set-hamiltonjacobibellman-equation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Optimal Control, Level Set, Hamilton–Jacobi–Bellman Equation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Optimal Control, Level Set, Hamilton–Jacobi–Bellman Equation</title>
+      <link>http://localhost:1313/tags/optimal-control-level-set-hamiltonjacobibellman-equation/</link>
+    </image>
+    
+    <item>
+      <title>Modeling illegal logging in Brazil</title>
+      <link>http://localhost:1313/publication/chen-modeling-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-modeling-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

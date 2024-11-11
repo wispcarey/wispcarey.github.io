@@ -21,12 +21,7 @@ abstract: Traditional methods of linking large language models (LLMs) to knowled
   to the semantic similarity search, thereby enhancing the capabilities of LLMs in
   generating more insightful and relevant outputs.
 tags:
-- Knowledge Graph
-- Knowledge graphs
-- Language model
-- Retrieval-augmented Generation
-- Semantics
-- Training
+- Knowledge Graph, Language model, Retrieval-augmented Generation
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/10386454
