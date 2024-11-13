@@ -43,11 +43,9 @@ Passion and curiosity are the key qualities I’m looking for. If you’re excit
 
 For more information on the SURF program, please refer to the official [Caltech SURF page](https://sfp.caltech.edu/undergraduate-research/programs/surf). This page provides additional links to details about the program, including [Eligibility](https://sfp.caltech.edu/undergraduate-research/programs/surf/eligibility_requirements), [Application Information](https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information), [Announcements of Opportunity](http://announcements.surf.caltech.edu/index.cfm?event=ShowAOPublicList&inFrame=&type=SURF&formType=AO_CIT), and [FAQs](https://sfp.caltech.edu/undergraduate-research/programs/surf/faqs).
 
-For background information on data assimilation, you may find the following resources helpful:
+For a comprehensive understanding of data assimilation, I highly recommend the following resource:
 
-- **Review Paper**: *Data assimilation: The Schrödinger perspective*, available [here](https://www.cambridge.org/core/journals/acta-numerica/article/data-assimilation-the-schrodinger-perspective/9C27410C665B9676110813C31CD53446).
-
-- **Book**: *Data Assimilation: A Mathematical Introduction*, available on [arXiv](https://arxiv.org/abs/1506.07825).
+- **Inverse Problems and Data Assimilation: A Machine Learning Approach**: available on [arXiv](https://arxiv.org/pdf/2410.10523).
 
 ## Acknowledgments
 
