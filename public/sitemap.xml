@@ -26,7 +26,11 @@
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/article-journal/</loc>
+    <loc>http://localhost:1313/publication_types/arxiv-preprint/</loc>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/knowledge-graphs-true-crime-podcasts-large-language-models/</loc>
     <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -44,6 +48,26 @@
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/copyright/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/design/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/my-personal-icon/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal-icon/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/article-journal/</loc>
+    <lastmod>2024-06-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication/chen-cgap-nodate/</loc>
@@ -90,31 +114,11 @@
     <lastmod>2023-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/knowledge-graph/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/knowledge-graphs/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/language-model/</loc>
+    <loc>http://localhost:1313/tags/knowledge-graph-language-model-retrieval-augmented-generation/</loc>
     <lastmod>2023-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication_types/paper-conference/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/retrieval-augmented-generation/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/semantics/</loc>
-    <lastmod>2023-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/training/</loc>
     <lastmod>2023-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -178,39 +182,11 @@
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/estimation/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/geology/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/publication/chen-graph-based-2023/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/graph-based-optimization/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/hyperspectral-unmixing-hsu/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/matrix-decomposition/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/optimization/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/semisupervised-learning/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/tv/</loc>
+    <loc>http://localhost:1313/tags/graph-based-optimization-hyperspectral-unmixing-positive-matrix-factorization/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -250,8 +226,16 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/tags/training/</loc>
+    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/tags/training-data/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/batch-active-learning-graph-learning-synthetic-aperture-radar/</loc>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication/chapman-novel-2023/</loc>
@@ -266,27 +250,11 @@
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/fast-sweeping-method/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/hamiltonjacobibellman-equation/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/illegal-logging/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/publication/chen-modeling-2021/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/optimal-control/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/optimal-path-planning/</loc>
+    <loc>http://localhost:1313/tags/optimal-control-level-set-hamiltonjacobibellman-equation/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

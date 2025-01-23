@@ -7,7 +7,7 @@
     <description>SURF</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>SURF</title>
       <link>http://localhost:1313/tags/surf/</link>
     </image>
@@ -54,16 +54,10 @@
 , 
 , and 
 .&lt;/p&gt;
-&lt;p&gt;For background information on data assimilation, you may find the following resources helpful:&lt;/p&gt;
+&lt;p&gt;For a comprehensive understanding of data assimilation, I highly recommend the following resource:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Review Paper&lt;/strong&gt;: &lt;em&gt;Data assimilation: The Schrödinger perspective&lt;/em&gt;, available 
-.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Book&lt;/strong&gt;: &lt;em&gt;Data Assimilation: A Mathematical Introduction&lt;/em&gt;, available on 
-.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inverse Problems and Data Assimilation: A Machine Learning Approach&lt;/strong&gt;: available on 
+.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
 &lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share this opportunity with undergraduate students.&lt;/p&gt;

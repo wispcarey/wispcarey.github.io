@@ -38,7 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |
-         My current research focuses on learning-based filtering processes in data assimilation problems.
+         My current research focuses on learning-based filtering processes in [data assimilation](https://en.wikipedia.org/wiki/Data_assimilation) problems. Additionally, I am exploring machine learning theorems for [attention mechanisms](https://en.wikipedia.org/wiki/Attention_(machine_learning)) on measures.
 
          Previously, I explored various topics in graph-based machine learning and active learning, applying these methods to semi-supervised learning tasks to reduce reliance on traditional data-hungry approaches. These tasks often involve training with scarce ground-truth information, such as manually labeled remote sensing data by LANL experts, SAR image classification, and hyperspectral unmixing.
 

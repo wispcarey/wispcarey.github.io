@@ -5,28 +5,12 @@
     <link>http://localhost:1313/tags/training/</link>
       <atom:link href="http://localhost:1313/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <description>Training</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Training</title>
       <link>http://localhost:1313/tags/training/</link>
     </image>
-    
-    <item>
-      <title>AutoKG: Efficient Automated Knowledge Graph Generation for Language Models</title>
-      <link>http://localhost:1313/publication/chen-autokg-2023/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/chen-autokg-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph-Based Active Learning for Nearly Blind Hyperspectral Unmixing</title>
-      <link>http://localhost:1313/publication/chen-graph-based-2023/</link>
-      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/chen-graph-based-2023/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Graph-Based Active Learning for Surface Water and Sediment Detection in Multispectral Images</title>
