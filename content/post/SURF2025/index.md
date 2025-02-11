@@ -19,6 +19,9 @@ tags:
 
 {{< toc mobile_only=true is_open=true >}}
 
+## I have already selected my SURF student
+This is an update on 2/11/2025 that I have already selected my 2025 SURF student. I am writing the SURF proposal with him. Thank you very much for your interest in my research and the SURF program. However, I sincerely apologize as I am unable to accommodate any further inquiries at this time.
+
 ## Overview
 
 The Summer Undergraduate Research Fellowships (SURF) program is one of the "crown jewels" of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.
