@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/transformer/</link>
+      <atom:link href="http://localhost:1313/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transformer</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Transformer</title>
+      <link>http://localhost:1313/tags/transformer/</link>
+    </image>
+    
+    <item>
+      <title>Talk Announcement: SIAM DS25 Minisymposium ‘Advances in Dynamic Data Analysis’</title>
+      <link>http://localhost:1313/event/siam-ds25/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/siam-ds25/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#session-details&#34;&gt;Session Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#my-talk-schedule&#34;&gt;My Talk Schedule&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I’m pleased to announce that I will be presenting in the minisymposium “Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II” at the SIAM Conference on Applications of Dynamical Systems (DS25).&lt;/p&gt;
+&lt;h2 id=&#34;session-details&#34;&gt;Session Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Monday, May 12, 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session:&lt;/strong&gt; MS87 – Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; 4:45 PM – 6:45 PM&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Room:&lt;/strong&gt; Plaza Concourse Level – Plaza Ballroom BCEF&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;See Part I:&lt;/strong&gt; MS69&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-talk-schedule&#34;&gt;My Talk Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5:45 – 6:10 PM&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Learning Enhanced Ensemble Filters&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
