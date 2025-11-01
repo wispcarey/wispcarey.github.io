@@ -5,7 +5,7 @@
     <link>http://localhost:1313/publication/</link>
       <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Publications</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/publication/bach-learning-2025/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-learning-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLL: A Differentiable Graph Learning Layer for Neural Networks</title>
+      <link>http://localhost:1313/publication/brown-gll-2024/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/brown-gll-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The CommUnity near-Surface Permafrost (CUSP) dataset a global compilation of permafrost observations and related properties to support AI/ML model development</title>
+      <link>http://localhost:1313/publication/solander-cusp-2024/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/solander-cusp-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
-      <link>http://localhost:1313/publication/leng-narrative-nodate/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/leng-narrative-nodate/</guid>
+      <link>http://localhost:1313/publication/chapman-narrative-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-narrative-2024/</guid>
       <description></description>
     </item>
     

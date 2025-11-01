@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ensemble Methods | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/ensemble-methods/</link>
+      <atom:link href="http://localhost:1313/tags/ensemble-methods/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ensemble Methods</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Ensemble Methods</title>
+      <link>http://localhost:1313/tags/ensemble-methods/</link>
+    </image>
+    
+    <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

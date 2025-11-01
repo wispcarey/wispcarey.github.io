@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/adversarial-robustness/</link>
       <atom:link href="http://localhost:1313/tags/adversarial-robustness/index.xml" rel="self" type="application/rss+xml" />
     <description>Adversarial Robustness</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Adversarial Robustness</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>GLL: A Differentiable Graph Learning Layer for Neural Networks</title>
-      <link>http://localhost:1313/publication/brown-gll-2024/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/brown-gll-2024/</guid>
+      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
+      <link>http://localhost:1313/publication/chapman-narrative-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-narrative-2024/</guid>
       <description></description>
     </item>
     

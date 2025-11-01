@@ -13,6 +13,75 @@
     </image>
     
     <item>
+      <title>Talk Announcement: 1W-MINDS Seminar — Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/event/1w-minds-seminar/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/1w-minds-seminar/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#add-to-calendar&#34;&gt;Add to Calendar&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I’m pleased to share that I’ll be speaking in the &lt;strong&gt;1W-MINDS&lt;/strong&gt; seminar series. The talk will present new results on learning-augmented ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Thursday, &lt;strong&gt;November 6, 2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;2:30 PM – 3:30 PM Eastern&lt;/strong&gt; (11:30 AM – 12:30 PM Pacific)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom:&lt;/strong&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Password:&lt;/strong&gt; 101 &lt;em&gt;(likely not required when using the full link)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learning Enhanced Ensemble Filters&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+The filtering distribution in hidden Markov models evolves according to a mean-field law on the joint state–observation space. While the ensemble Kalman filter (EnKF) provides a robust particle approximation, its Gaussian ansatz limits accuracy for non-Gaussian dynamics. We address this with a measure neural mapping (MNM)—a neural operator defined on probability measures—which yields the MNM-enhanced ensemble filter (MNMEF) in both the mean-field limit and as an interacting-particle algorithm. The ensemble instantiation uses a permutation-invariant set transformer, enabling a single parameterization to operate across varying ensemble sizes, with light size-specific fine-tuning further improving accuracy. Empirically, MNMEF achieves superior RMSE to leading methods on Lorenz-96 and Kuramoto–Sivashinsky benchmarks.&lt;/p&gt;
+&lt;p&gt;A central theoretical contribution establishes a continuum limit for attention on measures: attention layers fed empirical measures are consistent with their continuous-measure counterparts, with outputs converging to those from the underlying measure in Wasserstein distance as the sample size goes to infinity. This result justifies cross-size parameter sharing, explains the observed stability of MNMEF when changing ensemble sizes.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;add-to-calendar&#34;&gt;Add to Calendar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eastern Time:&lt;/strong&gt; Nov 6, 2025, 2:30–3:30 PM ET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pacific Time:&lt;/strong&gt; Nov 6, 2025, 11:30 AM–12:30 PM PT&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/publication/bach-learning-2025/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-learning-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Talk Announcement: Learning Enhanced Ensemble Filters at SOCAMS 2025</title>
       <link>http://localhost:1313/event/southern-california-applied-mathematics-symposium-socams/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
@@ -102,6 +171,14 @@
     </item>
     
     <item>
+      <title>The CommUnity near-Surface Permafrost (CUSP) dataset a global compilation of permafrost observations and related properties to support AI/ML model development</title>
+      <link>http://localhost:1313/publication/solander-cusp-2024/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/solander-cusp-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>🎉 Caltech SURF 2025</title>
       <link>http://localhost:1313/post/surf2025/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
@@ -162,14 +239,6 @@
     </item>
     
     <item>
-      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
-      <link>http://localhost:1313/publication/leng-narrative-nodate/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/leng-narrative-nodate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>My Personal Icon Design</title>
       <link>http://localhost:1313/post/my-personal-icon/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
@@ -199,6 +268,14 @@
 .&lt;/p&gt;
 &lt;p&gt;All rights reserved. This icon is an original design and is protected under copyright law. It may not be copied, reproduced, or redistributed in any form without explicit permission from the copyright holder. For inquiries regarding use or licensing, please contact me directly.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
+      <link>http://localhost:1313/publication/chapman-narrative-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-narrative-2024/</guid>
+      <description></description>
     </item>
     
     <item>
