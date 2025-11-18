@@ -5,12 +5,20 @@
     <link>http://localhost:1313/publication_types/article-journal/</link>
       <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Article-Journal</title>
       <link>http://localhost:1313/publication_types/article-journal/</link>
     </image>
+    
+    <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CGAP: A Hybrid Contrastive and Graph-based Active Learning Pipeline to Detect Water and Sediment in Multispectral Images</title>

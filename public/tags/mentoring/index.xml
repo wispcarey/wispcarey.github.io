@@ -5,12 +5,131 @@
     <link>http://localhost:1313/tags/mentoring/</link>
       <atom:link href="http://localhost:1313/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
     <description>Mentoring</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Mentoring</title>
       <link>http://localhost:1313/tags/mentoring/</link>
     </image>
+    
+    <item>
+      <title>🎉 Caltech SURF 2026</title>
+      <link>http://localhost:1313/post/surf2026/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/surf2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#research-focus&#34;&gt;Research Focus&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-machine-learning-for-data-assimilation&#34;&gt;1. Machine Learning for Data Assimilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-machine-learning-theory-attention-mechanisms-and-transformers&#34;&gt;2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#expectations-for-students&#34;&gt;Expectations for Students&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references-for-surf&#34;&gt;References for SURF&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p&gt;
+&lt;p&gt;In 2026, I will serve again as a mentor in the SURF program.&lt;/p&gt;
+&lt;p&gt;This year, there will be &lt;strong&gt;two main research directions&lt;/strong&gt; available:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning for Data Assimilation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning Theory, with a focus on Attention Mechanisms and Transformers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may indicate your preferred direction in your application; I am happy to discuss which option is a better fit for your background and interests.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;h3 id=&#34;1-machine-learning-for-data-assimilation&#34;&gt;1. Machine Learning for Data Assimilation&lt;/h3&gt;
+&lt;p&gt;This direction will explore accessible yet meaningful problems in &lt;strong&gt;data assimilation (DA)&lt;/strong&gt;, with an emphasis on how &lt;strong&gt;machine learning methods&lt;/strong&gt; can enhance or complement classical DA techniques.&lt;/p&gt;
+&lt;p&gt;Possible topics include (but are not limited to):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing &lt;strong&gt;ML-augmented ensemble filters&lt;/strong&gt; that are &lt;em&gt;amortized&lt;/em&gt; over families of observation operators and noise levels, so that a single learned component can adapt efficiently to changing observation models and uncertainty structures.&lt;/li&gt;
+&lt;li&gt;Using &lt;strong&gt;machine learning to approximate optimal particle filters&lt;/strong&gt;, with learned mechanisms that jointly improve both the &lt;strong&gt;prediction&lt;/strong&gt; (propagation) step and the &lt;strong&gt;analysis&lt;/strong&gt; (update) step, aiming for better stability, accuracy, and computational efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project is designed to be manageable. I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources. A typical workflow may include reading and discussing selected papers, implementing algorithms in Python, running controlled numerical experiments, and analyzing the results.&lt;/p&gt;
+&lt;p&gt;My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for you to gain a solid understanding and valuable skills in DA and ML.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-machine-learning-theory-attention-mechanisms-and-transformers&#34;&gt;2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/h3&gt;
+&lt;p&gt;This direction will use &lt;strong&gt;carefully designed experiments to explore questions in modern machine learning theory&lt;/strong&gt;, with a particular focus on the role of the &lt;strong&gt;activation function inside the attention mechanism&lt;/strong&gt; of Transformer architectures.&lt;/p&gt;
+&lt;p&gt;According to my current theoretical work, under certain assumptions, the conventional choice of softmax in attention may &lt;strong&gt;not&lt;/strong&gt; be theoretically optimal. Motivated by this, I would like SURF students to systematically investigate, through experiments, how replacing softmax with alternative activation functions changes the behavior and performance of Transformers.&lt;/p&gt;
+&lt;p&gt;In this project, you may:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement Transformer variants in which the attention weights are produced by &lt;strong&gt;different activation functions&lt;/strong&gt; (for example, polynomial activations, ReLU-type alternatives, or normalization-based replacements for softmax).&lt;/li&gt;
+&lt;li&gt;Design and run experiments on &lt;strong&gt;benchmark tasks&lt;/strong&gt; to compare these variants in terms of accuracy, stability, and training dynamics.&lt;/li&gt;
+&lt;li&gt;Probe how the &lt;strong&gt;optimization, generalization, and robustness&lt;/strong&gt; of these models relate to the theoretical predictions that I am developing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is already a growing empirical literature on &lt;strong&gt;softmax-free or softmax-alternative attention mechanisms&lt;/strong&gt;. This project is designed to complement those works from a &lt;strong&gt;theory-first perspective&lt;/strong&gt;: I will start from theoretical analysis to derive concrete hypotheses, and you will help test these hypotheses experimentally. Through this process, you will both:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gain a &lt;strong&gt;deeper understanding of the theory behind Transformers and attention&lt;/strong&gt;, and&lt;/li&gt;
+&lt;li&gt;Build &lt;strong&gt;practical experience&lt;/strong&gt; implementing and training modern Transformer-style models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;expectations-for-students&#34;&gt;Expectations for Students&lt;/h2&gt;
+&lt;p&gt;My primary expectation is that you bring &lt;strong&gt;genuine enthusiasm&lt;/strong&gt; to this project. Please make sure that at least one of the two general research directions outlined above aligns with your interests and that you are willing to dedicate time and effort to it over the summer of 2026.&lt;/p&gt;
+&lt;p&gt;In terms of skills, it would be very helpful if you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A foundational understanding of &lt;strong&gt;probability&lt;/strong&gt;, &lt;strong&gt;stochastic processes&lt;/strong&gt;, &lt;strong&gt;(ordinary) differential equations&lt;/strong&gt;, and &lt;strong&gt;linear algebra&lt;/strong&gt; (ideally from coursework).&lt;/li&gt;
+&lt;li&gt;Solid &lt;strong&gt;coding proficiency&lt;/strong&gt;, especially in &lt;strong&gt;Python&lt;/strong&gt;; experience with &lt;strong&gt;PyTorch&lt;/strong&gt; (or a similar framework) is helpful but not strictly required—I am happy to provide guidance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passion and curiosity are the key qualities I am looking for. If you are excited about these topics and ready to engage deeply, I believe you will find this project both rewarding and educational.&lt;/p&gt;
+&lt;h2 id=&#34;references-for-surf&#34;&gt;References for SURF&lt;/h2&gt;
+&lt;p&gt;For more information on the SURF program, please refer to the official 
+. This page provides additional links to details about the program, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a comprehensive understanding of data assimilation, I highly recommend the following resource:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inverse Problems and Data Assimilation: A Machine Learning Approach&lt;/strong&gt;: available on 
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You may also add more specific references to each of the two research directions by filling in the placeholders above.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share these opportunities with undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>🎉 Caltech SURF 2025</title>

@@ -5,12 +5,28 @@
     <link>http://localhost:1313/publication_types/paper-conference/</link>
       <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Paper-Conference</title>
       <link>http://localhost:1313/publication_types/paper-conference/</link>
     </image>
+    
+    <item>
+      <title>The CommUnity near-Surface Permafrost (CUSP) dataset a global compilation of permafrost observations and related properties to support AI/ML model development</title>
+      <link>http://localhost:1313/publication/solander-cusp-2024/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/solander-cusp-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
+      <link>http://localhost:1313/publication/chapman-narrative-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-narrative-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AutoKG: Efficient Automated Knowledge Graph Generation for Language Models</title>

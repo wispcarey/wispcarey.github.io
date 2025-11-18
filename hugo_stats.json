@@ -428,6 +428,7 @@
       "rtl:-ml-4",
       "rtl:-rotate-180",
       "rtl:hidden",
+      "rtl:pr-4",
       "rtl:text-left",
       "scale-95",
       "scroll-my-6",
@@ -521,6 +522,8 @@
       "z-30"
     ],
     "ids": [
+      "1-machine-learning-for-data-assimilation",
+      "2-machine-learning-theory-attention-mechanisms-and-transformers",
       "TableOfContents",
       "about-me",
       "acknowledgments",
@@ -542,6 +545,7 @@
       "presenter",
       "profile",
       "references",
+      "references-for-surf",
       "research-focus",
       "search",
       "search_toggle",
