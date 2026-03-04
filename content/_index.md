@@ -38,11 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |
-         My current research focuses on learning-based filtering processes in [data assimilation](https://en.wikipedia.org/wiki/Data_assimilation) problems. Additionally, I am exploring machine learning theorems for [attention mechanisms](https://en.wikipedia.org/wiki/Attention_(machine_learning)) on measures.
-
-         Previously, I explored various topics in graph-based machine learning and active learning, applying these methods to semi-supervised learning tasks to reduce reliance on traditional data-hungry approaches. These tasks often involve training with scarce ground-truth information, such as manually labeled remote sensing data by LANL experts, SAR image classification, and hyperspectral unmixing.
-
-         If you’re interested in these topics, feel free to reach out to collaborate 😃
+         My research bridges mathematical and data-driven models through interpretable, computationally efficient, and robust scientific machine learning. A central focus is the development of machine learning-enhanced [data assimilation](https://en.wikipedia.org/wiki/Data_assimilation) algorithms for high-dimensional, chaotic physical systems, together with principled approaches to inverse problems grounded in rigorous mathematical analysis. In parallel, I develop theoretical foundations for modern learning architectures by studying [attention mechanisms](https://en.wikipedia.org/wiki/Attention_(machine_learning)) and transformers as measure-to-measure operators. Beyond these directions, my work includes graph-based machine learning methods that leverage data geometry for active learning, as well as the integration of large language models with knowledge graphs to support complex mathematical reasoning and retrieval.
   - block: collection
     id: news
     content:
