@@ -5,12 +5,28 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Blog</title>
       <link>http://localhost:1313/post/</link>
     </image>
+    
+    <item>
+      <title>News: Two Talks on March 11, 2026</title>
+      <link>http://localhost:1313/post/talk-updates-march-2026/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/talk-updates-march-2026/</guid>
+      <description>&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+&lt;p&gt;I will give two talks on Wednesday, March 11, 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>🎉 Caltech SURF 2026</title>
@@ -115,12 +131,6 @@
 &lt;li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For a comprehensive understanding of data assimilation, I highly recommend the following resource:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Inverse Problems and Data Assimilation: A Machine Learning Approach&lt;/strong&gt;: available on 
-.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You may also add more specific references to each of the two research directions by filling in the placeholders above.&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
 &lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share these opportunities with undergraduate students.&lt;/p&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;

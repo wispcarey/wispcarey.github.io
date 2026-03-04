@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncertainty Quantification | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/uncertainty-quantification/</link>
+      <atom:link href="http://localhost:1313/tags/uncertainty-quantification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Uncertainty Quantification</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Uncertainty Quantification</title>
+      <link>http://localhost:1313/tags/uncertainty-quantification/</link>
+    </image>
+    
+    <item>
+      <title>AGU25 Oral — Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/event/agu25/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/agu25/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Join us at &lt;strong&gt;AGU25&lt;/strong&gt; for an oral presentation on learning-enhanced ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conference:&lt;/strong&gt; AGU25 — New Orleans, LA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentation Type:&lt;/strong&gt; Oral&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session:&lt;/strong&gt; &lt;strong&gt;NG21A&lt;/strong&gt; — &lt;em&gt;Advances in Data Assimilation, Data Fusion, Machine Learning, Predictability, and Uncertainty Quantification in the Geosciences I (Oral)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; &lt;strong&gt;Tuesday, December 16, 2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;09:42–09:52 Central Time (CT)&lt;/strong&gt; / &lt;strong&gt;07:42–07:52 Pacific Time (PT)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; New Orleans Convention Center, &lt;strong&gt;Rooms 298–299&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstract ID:&lt;/strong&gt; &lt;strong&gt;2000239&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk Title:&lt;/strong&gt; &lt;em&gt;Learning Enhanced Ensemble Filters&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The filtering distribution in hidden Markov models evolves according to the law of a mean-field model in state-observation space. The ensemble Kalman filter (EnKF) approximates this mean-field model with an ensemble of interacting particles, employing a Gaussian ansatz for the joint distribution of the state and observation at each observation time. These methods are robust, but the Gaussian ansatz limits accuracy. This shortcoming is addressed by approximating the mean-field evolution using a novel form of neural operator taking probability distributions as input: a measure neural mapping (MNM). A MNM is used to design a novel approach to filtering, the MNM-enhanced ensemble filter (MNMEF), which is defined in both the mean-field limit and for interacting ensemble particle approximations. The ensemble approach uses empirical measures as input to the MNM and is implemented using the set transformer, which is invariant to ensemble permutation and allows for different ensemble sizes. The derivation of methods from a mean-field formulation allows a single parameterization of the algorithm to be deployed at different ensemble sizes. In practice fine-tuning of a small number of parameters, for specific ensemble sizes, further enhances the accuracy of the scheme. The promise of the approach is demonstrated by its superior root mean-square-error performance relative to leading methods in filtering the Lorenz 96 and Kuramoto–Sivashinsky models.&lt;/p&gt;
+&lt;h2 id=&#34;why-attend&#34;&gt;Why Attend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;See a &lt;strong&gt;measure neural mapping (MNM)&lt;/strong&gt; approach that treats probability measures as inputs.&lt;/li&gt;
+&lt;li&gt;Learn how &lt;strong&gt;MNMEF&lt;/strong&gt; operates in both &lt;strong&gt;mean-field limits&lt;/strong&gt; and &lt;strong&gt;interacting-particle&lt;/strong&gt; implementations.&lt;/li&gt;
+&lt;li&gt;Understand why &lt;strong&gt;set transformers&lt;/strong&gt; enable &lt;strong&gt;permutation invariance&lt;/strong&gt; and &lt;strong&gt;cross-ensemble-size&lt;/strong&gt; deployment.&lt;/li&gt;
+&lt;li&gt;Review &lt;strong&gt;benchmark results&lt;/strong&gt; on &lt;strong&gt;Lorenz-96&lt;/strong&gt; and &lt;strong&gt;Kuramoto–Sivashinsky&lt;/strong&gt; showing improved RMSE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bohan Chen&lt;/strong&gt; — California Institute of Technology&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,97 @@
     <link>http://localhost:1313/tags/ensemble-methods/</link>
       <atom:link href="http://localhost:1313/tags/ensemble-methods/index.xml" rel="self" type="application/rss+xml" />
     <description>Ensemble Methods</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
       <title>Ensemble Methods</title>
       <link>http://localhost:1313/tags/ensemble-methods/</link>
     </image>
+    
+    <item>
+      <title>Talk Announcement: JHU AMS Postdoc Seminar - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title>
+      <link>http://localhost:1313/event/jhu-ams-postdoc-seminar/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/jhu-ams-postdoc-seminar/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I will give a seminar at the Johns Hopkins University Department of Applied Mathematics and Statistics (JHU AMS) postdoc seminar series on learnable operators for ensemble data assimilation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Wednesday, &lt;strong&gt;March 11, 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;12:30 PM - 1:30 PM Eastern&lt;/strong&gt; (&lt;strong&gt;9:30 AM - 10:30 AM Pacific&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom Link:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Meeting ID:&lt;/strong&gt; 916 6248 1391&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passcode:&lt;/strong&gt; 123456&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Announcement: SIAM Student Chapter Talk - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title>
+      <link>http://localhost:1313/event/siam-student-chapter-talk-caltech/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/siam-student-chapter-talk-caltech/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I will give an in-person Society for Industrial and Applied Mathematics (SIAM) student chapter talk at Caltech on learnable operators for ensemble data assimilation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Wednesday, &lt;strong&gt;March 11, 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;12:00 PM - 1:00 PM Pacific&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;strong&gt;ANB 213, Caltech&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; In person&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Flow Matching for Efficient and Scalable Data Assimilation</title>

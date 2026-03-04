@@ -66,6 +66,8 @@
       "avatar",
       "avatar-emoji",
       "avatar-wrapper",
+      "backlink",
+      "backlinks",
       "bg-[length:0px_10px]",
       "bg-gradient-to-r",
       "bg-gray-100",
@@ -526,6 +528,7 @@
       "2-machine-learning-theory-attention-mechanisms-and-transformers",
       "TableOfContents",
       "about-me",
+      "abstract",
       "acknowledgments",
       "add-to-calendar",
       "copyright",
@@ -570,8 +573,10 @@
       "talks",
       "teaching",
       "top",
+      "update",
       "use-and-purpose",
-      "venue--schedule"
+      "venue--schedule",
+      "why-attend"
     ]
   }
 }
