@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inverse Problems | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/tags/inverse-problems/</link><atom:link href="https://chenbh.com/tags/inverse-problems/index.xml" rel="self" type="application/rss+xml"/><description>Inverse Problems</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Inverse Problems</title><link>https://chenbh.com/tags/inverse-problems/</link></image><item><title>GitHub Demos for Machine Learning for Inverse Problems and Data Assimilation</title><link>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</guid><description>
+&lt;details class="print:hidden xl:hidden" open>
+&lt;summary>Table of Contents&lt;/summary>
+&lt;div class="text-sm">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#what-the-repository-contains">What the Repository Contains&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-to-use-it">How to Use It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#relation-to-other-materials">Relation to Other Materials&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/details>
+&lt;div style="margin: 1.5rem 0; text-align: center;">
+&lt;img src="combined_vi.gif" alt="Variational posterior approximation demos" style="max-width: 100%; height: auto;">
+&lt;/div>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>I wrote a detailed GitHub repository of demo notebooks for the textbook &lt;strong>Machine Learning for Inverse Problems and Data Assimilation&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Repository:&lt;/strong>
+&lt;/li>
+&lt;li>&lt;strong>Textbook:&lt;/strong>
+&lt;/li>
+&lt;/ul>
+&lt;p>The repository is designed to make the mathematical and algorithmic ideas in the textbook more concrete through executable examples. Each notebook is written as a self-contained demonstration, with references to the relevant textbook chapters and sections.&lt;/p>
+&lt;h2 id="what-the-repository-contains">What the Repository Contains&lt;/h2>
+&lt;p>The codebase contains a collection of textbook-ready Jupyter notebooks covering both inverse problems and data assimilation, with an emphasis on how modern machine learning methods interact with classical Bayesian and filtering ideas.&lt;/p>
+&lt;p>The demos include:&lt;/p>
+&lt;ul>
+&lt;li>A basic PyTorch machine learning pipeline, including supervised learning, model training, checkpointing, and diagnostics.&lt;/li>
+&lt;li>Introductory Bayesian inverse problems, including priors, likelihoods, posteriors, MAP estimation, and image reconstruction examples.&lt;/li>
+&lt;li>Classical posterior sampling methods, including importance sampling, Markov chain Monte Carlo, and ensemble Kalman inversion.&lt;/li>
+&lt;li>Variational posterior approximation and transport-map-based posterior sampling.&lt;/li>
+&lt;li>Amortized posterior sampling with conditional normalizing flows and energy-distance objectives.&lt;/li>
+&lt;li>Data assimilation basics, including Kalman filtering, particle filters, ensemble Kalman filters, and filtering diagnostics.&lt;/li>
+&lt;li>Lorenz-63 and Lorenz-96 examples for parameter estimation, learned regularization, learned gains, model-error learning, and ensemble transport filtering.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-use-it">How to Use It&lt;/h2>
+&lt;p>The notebooks are intended to be interactive. They can be read alongside the textbook or opened directly in Google Colab from the repository README.&lt;/p>
+&lt;p>For Colab, I recommend using a high-RAM runtime with a GPU accelerator. A standard T4 or L4 GPU should be sufficient for the intended experiments.&lt;/p>
+&lt;p>The repository currently follows the chapter and section references from version 2 of the textbook, dated October 6, 2025.&lt;/p>
+&lt;h2 id="relation-to-other-materials">Relation to Other Materials&lt;/h2>
+&lt;p>Some materials in the repository are based on the &lt;strong>ML for IP and DA winter school in Amsterdam&lt;/strong>, whose original resources are available here:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;p>My goal with
+is to provide a detailed, organized, and executable companion to the textbook, especially for readers who want to move back and forth between mathematical formulations and working code.&lt;/p>
+&lt;p>The notebooks may still contain small mistakes. If you find an issue, please feel free to contact me or open a GitHub issue.&lt;/p></description></item><item><title>ACM 154: Inverse Problems and Data Assimilation</title><link>https://chenbh.com/teaching/acm-154-winter-2026/</link><pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/teaching/acm-154-winter-2026/</guid><description>
+&lt;details class="print:hidden xl:hidden" open>
+&lt;summary>Table of Contents&lt;/summary>
+&lt;div class="text-sm">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#description">Description&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#prerequisites">Prerequisites&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#main-textbook">Main Textbook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#course-repositories">Course Repositories&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/details>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>In the winter 2026 term, I co-taught &lt;strong>ACM 154: Inverse Problems and Data Assimilation&lt;/strong> at Caltech with &lt;strong>Prof. Andrew Stuart&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Course title:&lt;/strong> Inverse Problems and Data Assimilation&lt;br>
+&lt;strong>Units:&lt;/strong> 9 units (3-0-6)&lt;br>
+&lt;strong>Term:&lt;/strong> Second term&lt;/p>
+&lt;h2 id="description">Description&lt;/h2>
+&lt;p>Models in applied mathematics often have input parameters that are uncertain; observed data can be used to learn about these parameters and thereby to improve predictive capability. The purpose of the course is to describe the mathematical and algorithmic principles of this area.&lt;/p>
+&lt;p>The topic lies at the intersection of fields including inverse problems, differential equations, machine learning, and uncertainty quantification. Applications are drawn from the physical, biological, and data sciences.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>Basic differential equations, linear algebra, probability, and statistics, such as:&lt;/p>
+&lt;ul>
+&lt;li>ACM/IDS 104&lt;/li>
+&lt;li>ACM/EE 106 ab&lt;/li>
+&lt;li>ACM/EE/IDS 116&lt;/li>
+&lt;li>IDS/ACM/CS 157&lt;/li>
+&lt;li>Or equivalent preparation&lt;/li>
+&lt;/ul>
+&lt;h2 id="main-textbook">Main Textbook&lt;/h2>
+&lt;p>The main textbook for the course is:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="course-repositories">Course Repositories&lt;/h2>
+&lt;p>Related GitHub repositories:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;/li>
+&lt;li>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

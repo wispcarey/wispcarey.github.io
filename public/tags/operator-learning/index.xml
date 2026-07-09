@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Operator Learning | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/tags/operator-learning/</link><atom:link href="https://chenbh.com/tags/operator-learning/index.xml" rel="self" type="application/rss+xml"/><description>Operator Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Operator Learning</title><link>https://chenbh.com/tags/operator-learning/</link></image><item><title>ILAS 2026 Talk - Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures</title><link>https://chenbh.com/event/ilas-2026/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/ilas-2026/</guid><description>
+&lt;details class="print:hidden xl:hidden" open>
+&lt;summary>Table of Contents&lt;/summary>
+&lt;div class="text-sm">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#event-details">Event Details&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#talk">Talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#conference-photos">Conference Photos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#about-ilas-2026">About ILAS 2026&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/div>
+&lt;/details>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>I will give a minisymposium talk at the 27th Conference of the International Linear Algebra Society (ILAS 2026) in the session &lt;strong>Theoretical Advances in Operator Learning&lt;/strong>.&lt;/p>
+&lt;h2 id="event-details">Event Details&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Conference:&lt;/strong>
+&lt;/li>
+&lt;li>&lt;strong>Date:&lt;/strong> Tuesday, &lt;strong>May 19, 2026&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>2:50 PM Eastern&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Duration:&lt;/strong> &lt;strong>25 minutes&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Location:&lt;/strong> &lt;strong>McBryde Hall 113, Virginia Tech&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Session:&lt;/strong> &lt;strong>Theoretical Advances in Operator Learning&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Talk page:&lt;/strong>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="talk">Talk&lt;/h2>
+&lt;p>&lt;strong>Title&lt;/strong>&lt;br>
+&lt;em>Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures&lt;/em>&lt;/p>
+&lt;p>This talk is about using learnable operators on probability measures to improve ensemble filtering methods for data assimilation. Classical ensemble Kalman filtering is efficient and widely used, but its Gaussian approximation can struggle in nonlinear and non-Gaussian regimes. The method I will discuss replaces part of this update with a measure neural mapping, implemented through set-transformer architectures, so that the learned update acts naturally on ensembles viewed as empirical probability measures.&lt;/p>
+&lt;p>A main point of the talk is the theoretical connection between finite ensembles and their continuum limit. In particular, attention layers applied to empirical measures can be related to attention operators acting directly on probability measures, with convergence in Wasserstein distance as the ensemble size grows. This gives a mathematical explanation for why one learned parameterization can be useful across different ensemble sizes. I will also describe numerical results on chaotic dynamical systems such as Lorenz-96 and Kuramoto-Sivashinsky.&lt;/p>
+&lt;h2 id="conference-photos">Conference Photos&lt;/h2>
+&lt;p>These are group photos from this year&amp;rsquo;s ILAS 2026 meeting at Virginia Tech.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="ILAS 2026 group photo" srcset="
+/event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp 400w,
+/event/ilas-2026/ilas-2026-group-1_hu1923205212139985075.webp 760w,
+/event/ilas-2026/ilas-2026-group-1_hu17040429587526547971.webp 1200w"
+src="https://chenbh.com/event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="ILAS 2026 group photo" srcset="
+/event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp 400w,
+/event/ilas-2026/ilas-2026-group-2_hu4486036824104017256.webp 760w,
+/event/ilas-2026/ilas-2026-group-2_hu3284641270746441860.webp 1200w"
+src="https://chenbh.com/event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="about-ilas-2026">About ILAS 2026&lt;/h2>
+&lt;p>ILAS 2026 is the 27th Conference of the
+. It will be held May 18-22, 2026, on the campus of Virginia Tech in Blacksburg, Virginia. The conference theme, &lt;strong>Linear Algebra on the Blue Ridge: Panoramas of Theory and Application&lt;/strong>, reflects a broad program spanning linear algebra theory, numerical analysis, applications, and linear algebra education.&lt;/p></description></item></channel></rss>
