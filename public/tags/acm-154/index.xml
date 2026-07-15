@@ -1,46 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ACM 154 | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/tags/acm-154/</link><atom:link href="https://chenbh.com/tags/acm-154/index.xml" rel="self" type="application/rss+xml"/><description>ACM 154</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>ACM 154</title><link>https://chenbh.com/tags/acm-154/</link></image><item><title>ACM 154: Inverse Problems and Data Assimilation</title><link>https://chenbh.com/teaching/acm-154-winter-2026/</link><pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/teaching/acm-154-winter-2026/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#description">Description&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#prerequisites">Prerequisites&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#main-textbook">Main Textbook&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#course-repositories">Course Repositories&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>In the winter 2026 term, I co-taught &lt;strong>ACM 154: Inverse Problems and Data Assimilation&lt;/strong> at Caltech with &lt;strong>Prof. Andrew Stuart&lt;/strong>.&lt;/p>
-&lt;p>&lt;strong>Course title:&lt;/strong> Inverse Problems and Data Assimilation&lt;br>
-&lt;strong>Units:&lt;/strong> 9 units (3-0-6)&lt;br>
-&lt;strong>Term:&lt;/strong> Second term&lt;/p>
-&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Models in applied mathematics often have input parameters that are uncertain; observed data can be used to learn about these parameters and thereby to improve predictive capability. The purpose of the course is to describe the mathematical and algorithmic principles of this area.&lt;/p>
-&lt;p>The topic lies at the intersection of fields including inverse problems, differential equations, machine learning, and uncertainty quantification. Applications are drawn from the physical, biological, and data sciences.&lt;/p>
-&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
-&lt;p>Basic differential equations, linear algebra, probability, and statistics, such as:&lt;/p>
-&lt;ul>
-&lt;li>ACM/IDS 104&lt;/li>
-&lt;li>ACM/EE 106 ab&lt;/li>
-&lt;li>ACM/EE/IDS 116&lt;/li>
-&lt;li>IDS/ACM/CS 157&lt;/li>
-&lt;li>Or equivalent preparation&lt;/li>
-&lt;/ul>
-&lt;h2 id="main-textbook">Main Textbook&lt;/h2>
-&lt;p>The main textbook for the course is:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="course-repositories">Course Repositories&lt;/h2>
-&lt;p>Related GitHub repositories:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACM 154 | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/acm-154/</link>
+      <atom:link href="http://localhost:1313/tags/acm-154/index.xml" rel="self" type="application/rss+xml" />
+    <description>ACM 154</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>ACM 154</title>
+      <link>http://localhost:1313/tags/acm-154/</link>
+    </image>
+    
+    <item>
+      <title>ACM 154: Inverse Problems and Data Assimilation</title>
+      <link>http://localhost:1313/teaching/acm-154-winter-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/acm-154-winter-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#main-textbook&#34;&gt;Main Textbook&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#course-repositories&#34;&gt;Course Repositories&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In the winter 2026 term, I co-taught &lt;strong&gt;ACM 154: Inverse Problems and Data Assimilation&lt;/strong&gt; at Caltech with &lt;strong&gt;Prof. Andrew Stuart&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course title:&lt;/strong&gt; Inverse Problems and Data Assimilation&lt;br&gt;
+&lt;strong&gt;Units:&lt;/strong&gt; 9 units (3-0-6)&lt;br&gt;
+&lt;strong&gt;Term:&lt;/strong&gt; Second term&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Models in applied mathematics often have input parameters that are uncertain; observed data can be used to learn about these parameters and thereby to improve predictive capability. The purpose of the course is to describe the mathematical and algorithmic principles of this area.&lt;/p&gt;
+&lt;p&gt;The topic lies at the intersection of fields including inverse problems, differential equations, machine learning, and uncertainty quantification. Applications are drawn from the physical, biological, and data sciences.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Basic differential equations, linear algebra, probability, and statistics, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ACM/IDS 104&lt;/li&gt;
+&lt;li&gt;ACM/EE 106 ab&lt;/li&gt;
+&lt;li&gt;ACM/EE/IDS 116&lt;/li&gt;
+&lt;li&gt;IDS/ACM/CS 157&lt;/li&gt;
+&lt;li&gt;Or equivalent preparation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;main-textbook&#34;&gt;Main Textbook&lt;/h2&gt;
+&lt;p&gt;The main textbook for the course is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;course-repositories&#34;&gt;Course Repositories&lt;/h2&gt;
+&lt;p&gt;Related GitHub repositories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

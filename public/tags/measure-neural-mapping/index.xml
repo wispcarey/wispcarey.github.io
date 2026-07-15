@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Measure Neural Mapping | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/measure-neural-mapping/</link>
+      <atom:link href="http://localhost:1313/tags/measure-neural-mapping/index.xml" rel="self" type="application/rss+xml" />
+    <description>Measure Neural Mapping</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Measure Neural Mapping</title>
+      <link>http://localhost:1313/tags/measure-neural-mapping/</link>
+    </image>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/publication/bach-learning-2025/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-learning-2025/</guid>
+      <description>&lt;p&gt;This work introduces the &lt;strong&gt;measure neural mapping enhanced ensemble filter (MNMEF)&lt;/strong&gt;,
+a learning-based data-assimilation method derived from a mean-field formulation of the
+filtering problem. Measure neural mappings extend neural operators to maps acting on
+probability measures; their finite-ensemble implementation uses a permutation-invariant set
+transformer.&lt;/p&gt;
+&lt;p&gt;The mean-field construction allows most learned parameters to be shared across ensemble
+sizes. A model can therefore be trained efficiently using a small ensemble and deployed at
+other ensemble sizes, while lightweight fine-tuning adapts a limited number of parameters
+such as inflation and localization.&lt;/p&gt;
+&lt;p&gt;Experiments on Lorenz-63, Lorenz-96, and Kuramoto–Sivashinsky systems show improved
+filtering accuracy relative to optimized classical ensemble methods across both small and
+larger ensembles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters Published in JCP</title>
+      <link>http://localhost:1313/post/learning-enhanced-ensemble-filters-jcp/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/learning-enhanced-ensemble-filters-jcp/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;“Learning Enhanced Ensemble Filters,”&lt;/strong&gt; has been published in the
+&lt;strong&gt;Journal of Computational Physics&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Journal article:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The paper introduces the &lt;strong&gt;measure neural mapping enhanced ensemble filter (MNMEF)&lt;/strong&gt;.
+Starting from a mean-field formulation of filtering, we use a set transformer to learn
+corrections to ensemble filtering updates while respecting the permutation symmetry of an
+ensemble. The mean-field perspective allows a model trained at one ensemble size to be
+deployed at another, with lightweight fine-tuning for ensemble-size-dependent parameters.&lt;/p&gt;
+&lt;p&gt;Across Lorenz-63, Lorenz-96, and Kuramoto–Sivashinsky experiments, MNMEF improves on
+optimized classical ensemble filters over a range of ensemble sizes. I led this work in
+collaboration with &lt;strong&gt;Eviatar Bach&lt;/strong&gt;, &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Edoardo Calvello&lt;/strong&gt;, and
+&lt;strong&gt;Andrew Stuart&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The final article appears in &lt;strong&gt;Journal of Computational Physics, Volume 547, Article
+114550&lt;/strong&gt;: 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

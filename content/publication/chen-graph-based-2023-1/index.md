@@ -33,6 +33,21 @@ tags:
 - Training
 - Training data
 links:
-- name: URL
+- name: IEEE Xplore
   url: https://ieeexplore.ieee.org/abstract/document/10282009
+- name: PDF
+  url: /publication/chen-graph-based-2023-1/Graph-Based_Active_Learning_for_Surface_Water_and_Sediment_Detection_in_Multispectral_Images.pdf
+- name: DOI
+  url: https://doi.org/10.1109/IGARSS52108.2023.10282009
 ---
+
+The **graph active learning pipeline (GAP)** treats multispectral pixels as nodes in a
+similarity graph and uses graph Laplace learning to distinguish land, surface water, and
+in-river sediment. An acquisition function identifies the pixels whose expert labels are
+expected to improve the classifier most, directly targeting the expensive step of building
+a hand-labeled remote-sensing dataset.
+
+On the RiverPIXELS imagery, GAP trained with only 3,270 selected pixels surpasses the
+reported neural-network baseline trained on roughly 2.1 million pixels. The result
+demonstrates that graph geometry and targeted labeling can provide strong segmentation
+performance when dense annotation is impractical.

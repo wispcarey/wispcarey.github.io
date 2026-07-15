@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Set Transformer | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/set-transformer/</link>
+      <atom:link href="http://localhost:1313/tags/set-transformer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Set Transformer</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Set Transformer</title>
+      <link>http://localhost:1313/tags/set-transformer/</link>
+    </image>
+    
+    <item>
+      <title>Learning Probabilistic Filters with Strictly Proper Scoring Rules</title>
+      <link>http://localhost:1313/publication/bach-probabilistic-2026/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-probabilistic-2026/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;proper scoring ensemble filter (PSEF)&lt;/strong&gt; learns an ensemble analysis operator that
+targets the complete Bayesian filtering distribution rather than only its conditional mean.
+The operator takes a forecast ensemble and a new observation as input and returns an
+analysis ensemble. A permutation-invariant transformer ensures that the result respects the
+exchangeability of ensemble members and can be evaluated at different ensemble sizes.&lt;/p&gt;
+&lt;p&gt;The key training device is a &lt;strong&gt;strictly proper scoring rule&lt;/strong&gt;, implemented with the energy
+score. Its expected value is uniquely minimized by the true filtering distribution, yet its
+empirical form requires only simulated state–observation trajectories—not direct access to
+the generally intractable filtering distribution. Under a realizability assumption, the
+population objective recovers the Bayesian filter, and a mean-field time-averaging argument
+connects the practical single-trajectory objective to this population target.&lt;/p&gt;
+&lt;p&gt;Experiments cover a linear–Gaussian diagnostic, the strongly non-Gaussian doubling-angle
+model, Lorenz-63, and Lorenz-96. Energy-score training captures multimodal distributions
+missed by Gaussian filters and mean-based learning objectives. The results also reveal a
+useful architectural distinction: an EnKF correction provides an effective inductive bias in
+close-to-Gaussian problems, while a flexible end-to-end update is better suited to strongly
+non-Gaussian posterior geometry.&lt;/p&gt;
+&lt;p&gt;The manuscript is currently submitted to the &lt;strong&gt;Journal of Machine Learning Research&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning the Whole Filtering Distribution with Proper Scoring Rules</title>
+      <link>http://localhost:1313/post/proper-scoring-ensemble-filter-2026/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/proper-scoring-ensemble-filter-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#learning-a-distribution-without-seeing-it&#34;&gt;Learning a Distribution Without Seeing It&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-proper-scoring-ensemble-filter&#34;&gt;The Proper Scoring Ensemble Filter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#why-the-loss-function-matters&#34;&gt;Why the Loss Function Matters&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#non-gaussian-filtering-in-lorenz-systems&#34;&gt;Non-Gaussian Filtering in Lorenz Systems&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#collaboration-and-reproducibility&#34;&gt;Collaboration and Reproducibility&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Our new paper, &lt;strong&gt;“Learning Probabilistic Filters with Strictly Proper Scoring Rules,”&lt;/strong&gt;
+is now available on arXiv and has been &lt;strong&gt;submitted to the Journal of Machine Learning
+Research (JMLR)&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-a-distribution-without-seeing-it&#34;&gt;Learning a Distribution Without Seeing It&lt;/h2&gt;
+&lt;p&gt;Bayesian filtering aims to infer the evolving distribution of a hidden state from partial
+and noisy observations. That full distribution—not only its mean—is what represents
+uncertainty, multimodality, and the range of plausible system states.&lt;/p&gt;
+&lt;p&gt;This creates a basic learning problem: the true filtering distribution is generally
+intractable, so it is not available as a supervised target. A simulator can readily produce
+state trajectories and their corresponding noisy observations, but it does not hand us the
+conditional distribution we would like a filter to learn.&lt;/p&gt;
+&lt;p&gt;Our solution is to change the training objective. A &lt;strong&gt;strictly proper scoring rule&lt;/strong&gt; evaluates
+a predictive distribution against a realized state, and its expected score is uniquely
+optimized by the true data-generating distribution. We use the &lt;strong&gt;energy score&lt;/strong&gt;, which lets
+us train from simulated state–observation trajectories while still targeting the entire
+Bayesian filtering distribution.&lt;/p&gt;
+&lt;h2 id=&#34;the-proper-scoring-ensemble-filter&#34;&gt;The Proper Scoring Ensemble Filter&lt;/h2&gt;
+&lt;p&gt;We introduce the &lt;strong&gt;proper scoring ensemble filter (PSEF)&lt;/strong&gt;. Its learned analysis map takes
+a forecast ensemble and the latest observation, then outputs an updated analysis ensemble.
+The map is implemented with a permutation-invariant transformer, respecting the fact that
+an ensemble represents an unordered empirical distribution. The same parameterization can
+also operate across different ensemble sizes, with lightweight fine-tuning where needed.&lt;/p&gt;
+&lt;p&gt;The paper studies two ways to parameterize the update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Correction terms:&lt;/strong&gt; retain the EnKF update as an inductive bias and learn how to
+correct it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End to end:&lt;/strong&gt; learn a more flexible analysis map without constraining it to an
+EnKF-style correction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The distinction matters. In close-to-Gaussian settings, the EnKF structure is useful and the
+correction-based approach performs best. When the observation creates a strongly
+non-Gaussian or multimodal posterior, the end-to-end map has the flexibility needed to
+represent its geometry.&lt;/p&gt;
+&lt;h2 id=&#34;why-the-loss-function-matters&#34;&gt;Why the Loss Function Matters&lt;/h2&gt;
+&lt;p&gt;The header figure gives a controlled example on the doubling-angle model. The true
+posterior is bimodal. Training the same learning architecture with the energy score captures
+both modes across ensemble sizes, including ensembles much smaller than those used by the
+classical baselines. A normalized mean-squared objective and Kalman-type filters instead
+miss the distributional structure, because matching a conditional mean is not enough to
+learn uncertainty.&lt;/p&gt;
+&lt;p&gt;The theory mirrors this empirical difference. Under a realizability assumption, the
+population proper-scoring objective is minimized by the true Bayesian filtering
+distribution. We also connect the finite-ensemble, single-trajectory loss used in training to
+the population objective through a mean-field consistency and time-averaging argument.&lt;/p&gt;
+&lt;h2 id=&#34;non-gaussian-filtering-in-lorenz-systems&#34;&gt;Non-Gaussian Filtering in Lorenz Systems&lt;/h2&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;lorenz63-distributions.jpg&#34; alt=&#34;Projected Lorenz-63 filtering distributions produced by PSEF and comparison methods&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Lorenz-63 with a partial square observation. The end-to-end, energy-score-trained PSEF most closely follows the particle-filter reference, including its cross-shaped and bimodal structures.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;We evaluate PSEF on a linear–Gaussian diagnostic, the doubling-angle model, Lorenz-63,
+and Lorenz-96. In Lorenz-63, squaring the observed coordinate introduces sign ambiguity
+and produces complex non-Gaussian filtering distributions. The end-to-end PSEF trained
+with the energy score reproduces these structures more faithfully than mean-based learned
+filters and classical Gaussian ensemble filters.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;lorenz96-benchmarks.jpg&#34; alt=&#34;Energy score and calibration comparisons for Lorenz-96 filtering&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Lorenz-96 results across identity, square, and arctangent observations. Proper-score-trained filters remain among the strongest methods, while the best architecture depends on the posterior geometry.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The Lorenz-96 results reinforce that there is no single architectural bias that is optimal
+for every problem. Correction terms are effective when the filtering distribution remains
+approximately unimodal, whereas the end-to-end energy-score model is strongest when the
+observation induces multimodality. Across both cases, probabilistic training is what allows
+the learned ensemble to target distributional accuracy rather than only state-estimation
+error.&lt;/p&gt;
+&lt;h2 id=&#34;collaboration-and-reproducibility&#34;&gt;Collaboration and Reproducibility&lt;/h2&gt;
+&lt;p&gt;This work was led by &lt;strong&gt;Eviatar Bach&lt;/strong&gt;, with &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Jochen Bröcker&lt;/strong&gt;,
+&lt;strong&gt;Andrew Stuart&lt;/strong&gt;, and me. I developed the implementation and carried out the numerical
+experiments. The 
+
+contains the code and experiment scripts.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figures on this page were extracted from the paper, which is available under a CC BY 4.0 license.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,313 +1,534 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Learning | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/tags/machine-learning/</link><atom:link href="https://chenbh.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><description>Machine Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Machine Learning</title><link>https://chenbh.com/tags/machine-learning/</link></image><item><title>GitHub Demos for Machine Learning for Inverse Problems and Data Assimilation</title><link>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#what-the-repository-contains">What the Repository Contains&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-to-use-it">How to Use It&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#relation-to-other-materials">Relation to Other Materials&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;div style="margin: 1.5rem 0; text-align: center;">
-&lt;img src="combined_vi.gif" alt="Variational posterior approximation demos" style="max-width: 100%; height: auto;">
-&lt;/div>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I wrote a detailed GitHub repository of demo notebooks for the textbook &lt;strong>Machine Learning for Inverse Problems and Data Assimilation&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Repository:&lt;/strong>
-&lt;/li>
-&lt;li>&lt;strong>Textbook:&lt;/strong>
-&lt;/li>
-&lt;/ul>
-&lt;p>The repository is designed to make the mathematical and algorithmic ideas in the textbook more concrete through executable examples. Each notebook is written as a self-contained demonstration, with references to the relevant textbook chapters and sections.&lt;/p>
-&lt;h2 id="what-the-repository-contains">What the Repository Contains&lt;/h2>
-&lt;p>The codebase contains a collection of textbook-ready Jupyter notebooks covering both inverse problems and data assimilation, with an emphasis on how modern machine learning methods interact with classical Bayesian and filtering ideas.&lt;/p>
-&lt;p>The demos include:&lt;/p>
-&lt;ul>
-&lt;li>A basic PyTorch machine learning pipeline, including supervised learning, model training, checkpointing, and diagnostics.&lt;/li>
-&lt;li>Introductory Bayesian inverse problems, including priors, likelihoods, posteriors, MAP estimation, and image reconstruction examples.&lt;/li>
-&lt;li>Classical posterior sampling methods, including importance sampling, Markov chain Monte Carlo, and ensemble Kalman inversion.&lt;/li>
-&lt;li>Variational posterior approximation and transport-map-based posterior sampling.&lt;/li>
-&lt;li>Amortized posterior sampling with conditional normalizing flows and energy-distance objectives.&lt;/li>
-&lt;li>Data assimilation basics, including Kalman filtering, particle filters, ensemble Kalman filters, and filtering diagnostics.&lt;/li>
-&lt;li>Lorenz-63 and Lorenz-96 examples for parameter estimation, learned regularization, learned gains, model-error learning, and ensemble transport filtering.&lt;/li>
-&lt;/ul>
-&lt;h2 id="how-to-use-it">How to Use It&lt;/h2>
-&lt;p>The notebooks are intended to be interactive. They can be read alongside the textbook or opened directly in Google Colab from the repository README.&lt;/p>
-&lt;p>For Colab, I recommend using a high-RAM runtime with a GPU accelerator. A standard T4 or L4 GPU should be sufficient for the intended experiments.&lt;/p>
-&lt;p>The repository currently follows the chapter and section references from version 2 of the textbook, dated October 6, 2025.&lt;/p>
-&lt;h2 id="relation-to-other-materials">Relation to Other Materials&lt;/h2>
-&lt;p>Some materials in the repository are based on the &lt;strong>ML for IP and DA winter school in Amsterdam&lt;/strong>, whose original resources are available here:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;p>My goal with
-is to provide a detailed, organized, and executable companion to the textbook, especially for readers who want to move back and forth between mathematical formulations and working code.&lt;/p>
-&lt;p>The notebooks may still contain small mistakes. If you find an issue, please feel free to contact me or open a GitHub issue.&lt;/p></description></item><item><title>ILAS 2026 Talk - Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures</title><link>https://chenbh.com/event/ilas-2026/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/ilas-2026/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#event-details">Event Details&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#talk">Talk&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#conference-photos">Conference Photos&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#about-ilas-2026">About ILAS 2026&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I will give a minisymposium talk at the 27th Conference of the International Linear Algebra Society (ILAS 2026) in the session &lt;strong>Theoretical Advances in Operator Learning&lt;/strong>.&lt;/p>
-&lt;h2 id="event-details">Event Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Conference:&lt;/strong>
-&lt;/li>
-&lt;li>&lt;strong>Date:&lt;/strong> Tuesday, &lt;strong>May 19, 2026&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>2:50 PM Eastern&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Duration:&lt;/strong> &lt;strong>25 minutes&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Location:&lt;/strong> &lt;strong>McBryde Hall 113, Virginia Tech&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Session:&lt;/strong> &lt;strong>Theoretical Advances in Operator Learning&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Talk page:&lt;/strong>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="talk">Talk&lt;/h2>
-&lt;p>&lt;strong>Title&lt;/strong>&lt;br>
-&lt;em>Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures&lt;/em>&lt;/p>
-&lt;p>This talk is about using learnable operators on probability measures to improve ensemble filtering methods for data assimilation. Classical ensemble Kalman filtering is efficient and widely used, but its Gaussian approximation can struggle in nonlinear and non-Gaussian regimes. The method I will discuss replaces part of this update with a measure neural mapping, implemented through set-transformer architectures, so that the learned update acts naturally on ensembles viewed as empirical probability measures.&lt;/p>
-&lt;p>A main point of the talk is the theoretical connection between finite ensembles and their continuum limit. In particular, attention layers applied to empirical measures can be related to attention operators acting directly on probability measures, with convergence in Wasserstein distance as the ensemble size grows. This gives a mathematical explanation for why one learned parameterization can be useful across different ensemble sizes. I will also describe numerical results on chaotic dynamical systems such as Lorenz-96 and Kuramoto-Sivashinsky.&lt;/p>
-&lt;h2 id="conference-photos">Conference Photos&lt;/h2>
-&lt;p>These are group photos from this year&amp;rsquo;s ILAS 2026 meeting at Virginia Tech.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="ILAS 2026 group photo" srcset="
-/event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp 400w,
-/event/ilas-2026/ilas-2026-group-1_hu1923205212139985075.webp 760w,
-/event/ilas-2026/ilas-2026-group-1_hu17040429587526547971.webp 1200w"
-src="https://chenbh.com/event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp"
-width="760"
-height="428"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="flex justify-center ">
-&lt;div class="w-100" >&lt;img alt="ILAS 2026 group photo" srcset="
-/event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp 400w,
-/event/ilas-2026/ilas-2026-group-2_hu4486036824104017256.webp 760w,
-/event/ilas-2026/ilas-2026-group-2_hu3284641270746441860.webp 1200w"
-src="https://chenbh.com/event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp"
-width="760"
-height="507"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h2 id="about-ilas-2026">About ILAS 2026&lt;/h2>
-&lt;p>ILAS 2026 is the 27th Conference of the
-. It will be held May 18-22, 2026, on the campus of Virginia Tech in Blacksburg, Virginia. The conference theme, &lt;strong>Linear Algebra on the Blue Ridge: Panoramas of Theory and Application&lt;/strong>, reflects a broad program spanning linear algebra theory, numerical analysis, applications, and linear algebra education.&lt;/p></description></item><item><title>Talk Announcement: JHU AMS Postdoc Seminar - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title><link>https://chenbh.com/event/jhu-ams-postdoc-seminar/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/jhu-ams-postdoc-seminar/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#event-details">Event Details&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#talk">Talk&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#presenter">Presenter&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I will give a seminar at the Johns Hopkins University Department of Applied Mathematics and Statistics (JHU AMS) postdoc seminar series on learnable operators for ensemble data assimilation.&lt;/p>
-&lt;h2 id="event-details">Event Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Date:&lt;/strong> Wednesday, &lt;strong>March 11, 2026&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>12:30 PM - 1:30 PM Eastern&lt;/strong> (&lt;strong>9:30 AM - 10:30 AM Pacific&lt;/strong>)&lt;/li>
-&lt;li>&lt;strong>Format:&lt;/strong> Online (Zoom)&lt;/li>
-&lt;li>&lt;strong>Zoom Link:&lt;/strong>
-&lt;/li>
-&lt;li>&lt;strong>Meeting ID:&lt;/strong> 916 6248 1391&lt;/li>
-&lt;li>&lt;strong>Passcode:&lt;/strong> 123456&lt;/li>
-&lt;/ul>
-&lt;h2 id="talk">Talk&lt;/h2>
-&lt;p>&lt;strong>Title&lt;/strong>&lt;br>
-&lt;em>Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Abstract&lt;/strong>&lt;br>
-Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p>
-&lt;h2 id="presenter">Presenter&lt;/h2>
-&lt;p>&lt;em>Bohan Chen, California Institute of Technology, U.S.&lt;/em>&lt;/p></description></item><item><title>Talk Announcement: SIAM Student Chapter Talk - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title><link>https://chenbh.com/event/siam-student-chapter-talk-caltech/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/siam-student-chapter-talk-caltech/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#event-details">Event Details&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#talk">Talk&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#presenter">Presenter&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I will give an in-person Society for Industrial and Applied Mathematics (SIAM) student chapter talk at Caltech on learnable operators for ensemble data assimilation.&lt;/p>
-&lt;h2 id="event-details">Event Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Date:&lt;/strong> Wednesday, &lt;strong>March 11, 2026&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>12:00 PM - 1:00 PM Pacific&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Location:&lt;/strong> &lt;strong>ANB 213, Caltech&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Format:&lt;/strong> In person&lt;/li>
-&lt;/ul>
-&lt;h2 id="talk">Talk&lt;/h2>
-&lt;p>&lt;strong>Title&lt;/strong>&lt;br>
-&lt;em>Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Abstract&lt;/strong>&lt;br>
-Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p>
-&lt;h2 id="presenter">Presenter&lt;/h2>
-&lt;p>&lt;em>Bohan Chen, California Institute of Technology, U.S.&lt;/em>&lt;/p></description></item><item><title>ACM 154: Inverse Problems and Data Assimilation</title><link>https://chenbh.com/teaching/acm-154-winter-2026/</link><pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/teaching/acm-154-winter-2026/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#description">Description&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#prerequisites">Prerequisites&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#main-textbook">Main Textbook&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#course-repositories">Course Repositories&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>In the winter 2026 term, I co-taught &lt;strong>ACM 154: Inverse Problems and Data Assimilation&lt;/strong> at Caltech with &lt;strong>Prof. Andrew Stuart&lt;/strong>.&lt;/p>
-&lt;p>&lt;strong>Course title:&lt;/strong> Inverse Problems and Data Assimilation&lt;br>
-&lt;strong>Units:&lt;/strong> 9 units (3-0-6)&lt;br>
-&lt;strong>Term:&lt;/strong> Second term&lt;/p>
-&lt;h2 id="description">Description&lt;/h2>
-&lt;p>Models in applied mathematics often have input parameters that are uncertain; observed data can be used to learn about these parameters and thereby to improve predictive capability. The purpose of the course is to describe the mathematical and algorithmic principles of this area.&lt;/p>
-&lt;p>The topic lies at the intersection of fields including inverse problems, differential equations, machine learning, and uncertainty quantification. Applications are drawn from the physical, biological, and data sciences.&lt;/p>
-&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
-&lt;p>Basic differential equations, linear algebra, probability, and statistics, such as:&lt;/p>
-&lt;ul>
-&lt;li>ACM/IDS 104&lt;/li>
-&lt;li>ACM/EE 106 ab&lt;/li>
-&lt;li>ACM/EE/IDS 116&lt;/li>
-&lt;li>IDS/ACM/CS 157&lt;/li>
-&lt;li>Or equivalent preparation&lt;/li>
-&lt;/ul>
-&lt;h2 id="main-textbook">Main Textbook&lt;/h2>
-&lt;p>The main textbook for the course is:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="course-repositories">Course Repositories&lt;/h2>
-&lt;p>Related GitHub repositories:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;/ul></description></item><item><title>AGU25 Oral — Learning Enhanced Ensemble Filters</title><link>https://chenbh.com/event/agu25/</link><pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/agu25/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>Join us at &lt;strong>AGU25&lt;/strong> for an oral presentation on learning-enhanced ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p>
-&lt;h2 id="event-details">Event Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Conference:&lt;/strong> AGU25 — New Orleans, LA&lt;/li>
-&lt;li>&lt;strong>Presentation Type:&lt;/strong> Oral&lt;/li>
-&lt;li>&lt;strong>Session:&lt;/strong> &lt;strong>NG21A&lt;/strong> — &lt;em>Advances in Data Assimilation, Data Fusion, Machine Learning, Predictability, and Uncertainty Quantification in the Geosciences I (Oral)&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Date:&lt;/strong> &lt;strong>Tuesday, December 16, 2025&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>09:42–09:52 Central Time (CT)&lt;/strong> / &lt;strong>07:42–07:52 Pacific Time (PT)&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Location:&lt;/strong> New Orleans Convention Center, &lt;strong>Rooms 298–299&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Abstract ID:&lt;/strong> &lt;strong>2000239&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Talk Title:&lt;/strong> &lt;em>Learning Enhanced Ensemble Filters&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>The filtering distribution in hidden Markov models evolves according to the law of a mean-field model in state-observation space. The ensemble Kalman filter (EnKF) approximates this mean-field model with an ensemble of interacting particles, employing a Gaussian ansatz for the joint distribution of the state and observation at each observation time. These methods are robust, but the Gaussian ansatz limits accuracy. This shortcoming is addressed by approximating the mean-field evolution using a novel form of neural operator taking probability distributions as input: a measure neural mapping (MNM). A MNM is used to design a novel approach to filtering, the MNM-enhanced ensemble filter (MNMEF), which is defined in both the mean-field limit and for interacting ensemble particle approximations. The ensemble approach uses empirical measures as input to the MNM and is implemented using the set transformer, which is invariant to ensemble permutation and allows for different ensemble sizes. The derivation of methods from a mean-field formulation allows a single parameterization of the algorithm to be deployed at different ensemble sizes. In practice fine-tuning of a small number of parameters, for specific ensemble sizes, further enhances the accuracy of the scheme. The promise of the approach is demonstrated by its superior root mean-square-error performance relative to leading methods in filtering the Lorenz 96 and Kuramoto–Sivashinsky models.&lt;/p>
-&lt;h2 id="why-attend">Why Attend&lt;/h2>
-&lt;ul>
-&lt;li>See a &lt;strong>measure neural mapping (MNM)&lt;/strong> approach that treats probability measures as inputs.&lt;/li>
-&lt;li>Learn how &lt;strong>MNMEF&lt;/strong> operates in both &lt;strong>mean-field limits&lt;/strong> and &lt;strong>interacting-particle&lt;/strong> implementations.&lt;/li>
-&lt;li>Understand why &lt;strong>set transformers&lt;/strong> enable &lt;strong>permutation invariance&lt;/strong> and &lt;strong>cross-ensemble-size&lt;/strong> deployment.&lt;/li>
-&lt;li>Review &lt;strong>benchmark results&lt;/strong> on &lt;strong>Lorenz-96&lt;/strong> and &lt;strong>Kuramoto–Sivashinsky&lt;/strong> showing improved RMSE.&lt;/li>
-&lt;/ul>
-&lt;h2 id="presenter">Presenter&lt;/h2>
-&lt;p>&lt;strong>Bohan Chen&lt;/strong> — California Institute of Technology&lt;/p>
-&lt;hr></description></item><item><title>Talk Announcement: 1W-MINDS Seminar — Learning Enhanced Ensemble Filters</title><link>https://chenbh.com/event/1w-minds-seminar/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/1w-minds-seminar/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#event-details">Event Details&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#talk">Talk&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#presenter">Presenter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#add-to-calendar">Add to Calendar&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I’m pleased to share that I’ll be speaking in the &lt;strong>1W-MINDS&lt;/strong> seminar series. The talk will present new results on learning-augmented ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p>
-&lt;h2 id="event-details">Event Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Date:&lt;/strong> Thursday, &lt;strong>November 6, 2025&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> &lt;strong>2:30 PM – 3:30 PM Eastern&lt;/strong> (11:30 AM – 12:30 PM Pacific)&lt;/li>
-&lt;li>&lt;strong>Format:&lt;/strong> Online (Zoom)&lt;/li>
-&lt;li>&lt;strong>Zoom:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;strong>Password:&lt;/strong> 101 &lt;em>(likely not required when using the full link)&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="talk">Talk&lt;/h2>
-&lt;p>&lt;strong>Title&lt;/strong>&lt;br>
-&lt;em>Learning Enhanced Ensemble Filters&lt;/em>&lt;/p>
-&lt;p>&lt;strong>Abstract&lt;/strong>&lt;br>
-The filtering distribution in hidden Markov models evolves according to a mean-field law on the joint state–observation space. While the ensemble Kalman filter (EnKF) provides a robust particle approximation, its Gaussian ansatz limits accuracy for non-Gaussian dynamics. We address this with a measure neural mapping (MNM)—a neural operator defined on probability measures—which yields the MNM-enhanced ensemble filter (MNMEF) in both the mean-field limit and as an interacting-particle algorithm. The ensemble instantiation uses a permutation-invariant set transformer, enabling a single parameterization to operate across varying ensemble sizes, with light size-specific fine-tuning further improving accuracy. Empirically, MNMEF achieves superior RMSE to leading methods on Lorenz-96 and Kuramoto–Sivashinsky benchmarks.&lt;/p>
-&lt;p>A central theoretical contribution establishes a continuum limit for attention on measures: attention layers fed empirical measures are consistent with their continuous-measure counterparts, with outputs converging to those from the underlying measure in Wasserstein distance as the sample size goes to infinity. This result justifies cross-size parameter sharing, explains the observed stability of MNMEF when changing ensemble sizes.&lt;/p>
-&lt;h2 id="presenter">Presenter&lt;/h2>
-&lt;p>&lt;em>Bohan Chen, California Institute of Technology, U.S.&lt;/em>&lt;/p>
-&lt;h2 id="add-to-calendar">Add to Calendar&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Eastern Time:&lt;/strong> Nov 6, 2025, 2:30–3:30 PM ET&lt;/li>
-&lt;li>&lt;strong>Pacific Time:&lt;/strong> Nov 6, 2025, 11:30 AM–12:30 PM PT&lt;/li>
-&lt;/ul></description></item><item><title>Talk Announcement: SIAM DS25 Minisymposium ‘Advances in Dynamic Data Analysis’</title><link>https://chenbh.com/event/siam-ds25/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/event/siam-ds25/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#session-details">Session Details&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#my-talk-schedule">My Talk Schedule&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I’m pleased to announce that I will be presenting in the minisymposium “Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II” at the SIAM Conference on Applications of Dynamical Systems (DS25).&lt;/p>
-&lt;h2 id="session-details">Session Details&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Date:&lt;/strong> Monday, May 12, 2025&lt;/li>
-&lt;li>&lt;strong>Session:&lt;/strong> MS87 – Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II&lt;/li>
-&lt;li>&lt;strong>Time:&lt;/strong> 4:45 PM – 6:45 PM&lt;/li>
-&lt;li>&lt;strong>Room:&lt;/strong> Plaza Concourse Level – Plaza Ballroom BCEF&lt;/li>
-&lt;li>&lt;strong>See Part I:&lt;/strong> MS69&lt;/li>
-&lt;/ul>
-&lt;h2 id="my-talk-schedule">My Talk Schedule&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>5:45 – 6:10 PM&lt;/strong>&lt;br>
-&lt;strong>Learning Enhanced Ensemble Filters&lt;/strong>&lt;br>
-&lt;em>Bohan Chen, California Institute of Technology, U.S.&lt;/em>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+      <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>GitHub Demos for Machine Learning for Inverse Problems and Data Assimilation</title>
+      <link>http://localhost:1313/post/ml-for-ip-and-da-github-demos/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/ml-for-ip-and-da-github-demos/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#what-the-repository-contains&#34;&gt;What the Repository Contains&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#how-to-use-it&#34;&gt;How to Use It&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#relation-to-other-materials&#34;&gt;Relation to Other Materials&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;div style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;combined_vi.gif&#34; alt=&#34;Variational posterior approximation demos&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I wrote a detailed GitHub repository of demo notebooks for the textbook &lt;strong&gt;Machine Learning for Inverse Problems and Data Assimilation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Textbook:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The repository is designed to make the mathematical and algorithmic ideas in the textbook more concrete through executable examples. Each notebook is written as a self-contained demonstration, with references to the relevant textbook chapters and sections.&lt;/p&gt;
+&lt;h2 id=&#34;what-the-repository-contains&#34;&gt;What the Repository Contains&lt;/h2&gt;
+&lt;p&gt;The codebase contains a collection of textbook-ready Jupyter notebooks covering both inverse problems and data assimilation, with an emphasis on how modern machine learning methods interact with classical Bayesian and filtering ideas.&lt;/p&gt;
+&lt;p&gt;The demos include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A basic PyTorch machine learning pipeline, including supervised learning, model training, checkpointing, and diagnostics.&lt;/li&gt;
+&lt;li&gt;Introductory Bayesian inverse problems, including priors, likelihoods, posteriors, MAP estimation, and image reconstruction examples.&lt;/li&gt;
+&lt;li&gt;Classical posterior sampling methods, including importance sampling, Markov chain Monte Carlo, and ensemble Kalman inversion.&lt;/li&gt;
+&lt;li&gt;Variational posterior approximation and transport-map-based posterior sampling.&lt;/li&gt;
+&lt;li&gt;Amortized posterior sampling with conditional normalizing flows and energy-distance objectives.&lt;/li&gt;
+&lt;li&gt;Data assimilation basics, including Kalman filtering, particle filters, ensemble Kalman filters, and filtering diagnostics.&lt;/li&gt;
+&lt;li&gt;Lorenz-63 and Lorenz-96 examples for parameter estimation, learned regularization, learned gains, model-error learning, and ensemble transport filtering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-use-it&#34;&gt;How to Use It&lt;/h2&gt;
+&lt;p&gt;The notebooks are intended to be interactive. They can be read alongside the textbook or opened directly in Google Colab from the repository README.&lt;/p&gt;
+&lt;p&gt;For Colab, I recommend using a high-RAM runtime with a GPU accelerator. A standard T4 or L4 GPU should be sufficient for the intended experiments.&lt;/p&gt;
+&lt;p&gt;The repository currently follows the chapter and section references from version 2 of the textbook, dated October 6, 2025.&lt;/p&gt;
+&lt;h2 id=&#34;relation-to-other-materials&#34;&gt;Relation to Other Materials&lt;/h2&gt;
+&lt;p&gt;Some materials in the repository are based on the &lt;strong&gt;ML for IP and DA winter school in Amsterdam&lt;/strong&gt;, whose original resources are available here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My goal with 
+ is to provide a detailed, organized, and executable companion to the textbook, especially for readers who want to move back and forth between mathematical formulations and working code.&lt;/p&gt;
+&lt;p&gt;The notebooks may still contain small mistakes. If you find an issue, please feel free to contact me or open a GitHub issue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variational Flow Maps: Make Some Noise for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/publication/mammadov-variational-2026/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mammadov-variational-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ILAS 2026 Talk - Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures</title>
+      <link>http://localhost:1313/event/ilas-2026/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/ilas-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#conference-photos&#34;&gt;Conference Photos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#about-ilas-2026&#34;&gt;About ILAS 2026&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I will give a minisymposium talk at the 27th Conference of the International Linear Algebra Society (ILAS 2026) in the session &lt;strong&gt;Theoretical Advances in Operator Learning&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conference:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Tuesday, &lt;strong&gt;May 19, 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;2:50 PM Eastern&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration:&lt;/strong&gt; &lt;strong&gt;25 minutes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;strong&gt;McBryde Hall 113, Virginia Tech&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session:&lt;/strong&gt; &lt;strong&gt;Theoretical Advances in Operator Learning&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk page:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learning Enhanced Ensemble Filters: Continuum Limits of Attention on Measures&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This talk is about using learnable operators on probability measures to improve ensemble filtering methods for data assimilation. Classical ensemble Kalman filtering is efficient and widely used, but its Gaussian approximation can struggle in nonlinear and non-Gaussian regimes. The method I will discuss replaces part of this update with a measure neural mapping, implemented through set-transformer architectures, so that the learned update acts naturally on ensembles viewed as empirical probability measures.&lt;/p&gt;
+&lt;p&gt;A main point of the talk is the theoretical connection between finite ensembles and their continuum limit. In particular, attention layers applied to empirical measures can be related to attention operators acting directly on probability measures, with convergence in Wasserstein distance as the ensemble size grows. This gives a mathematical explanation for why one learned parameterization can be useful across different ensemble sizes. I will also describe numerical results on chaotic dynamical systems such as Lorenz-96 and Kuramoto-Sivashinsky.&lt;/p&gt;
+&lt;h2 id=&#34;conference-photos&#34;&gt;Conference Photos&lt;/h2&gt;
+&lt;p&gt;These are group photos from this year&amp;rsquo;s ILAS 2026 meeting at Virginia Tech.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ILAS 2026 group photo&#34; srcset=&#34;
+               /event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp 400w,
+               /event/ilas-2026/ilas-2026-group-1_hu1923205212139985075.webp 760w,
+               /event/ilas-2026/ilas-2026-group-1_hu17040429587526547971.webp 1200w&#34;
+               src=&#34;http://localhost:1313/event/ilas-2026/ilas-2026-group-1_hu17296408588923424330.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ILAS 2026 group photo&#34; srcset=&#34;
+               /event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp 400w,
+               /event/ilas-2026/ilas-2026-group-2_hu4486036824104017256.webp 760w,
+               /event/ilas-2026/ilas-2026-group-2_hu3284641270746441860.webp 1200w&#34;
+               src=&#34;http://localhost:1313/event/ilas-2026/ilas-2026-group-2_hu3099694667573481800.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;about-ilas-2026&#34;&gt;About ILAS 2026&lt;/h2&gt;
+&lt;p&gt;ILAS 2026 is the 27th Conference of the 
+. It will be held May 18-22, 2026, on the campus of Virginia Tech in Blacksburg, Virginia. The conference theme, &lt;strong&gt;Linear Algebra on the Blue Ridge: Panoramas of Theory and Application&lt;/strong&gt;, reflects a broad program spanning linear algebra theory, numerical analysis, applications, and linear algebra education.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🔊 Make Some Noise: Variational Flow Maps for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/post/variational-flow-maps-icml-2026/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/variational-flow-maps-icml-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Our paper, &lt;strong&gt;“Variational Flow Maps: Make Some Noise for One-Step Conditional Generation,”&lt;/strong&gt; has been accepted to the main track of &lt;strong&gt;ICML 2026&lt;/strong&gt; as a poster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code and checkpoints:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/h2&gt;
+&lt;p&gt;Flow maps can turn noise into a high-quality image in one forward pass. That makes them dramatically faster than iterative diffusion models, but it also removes the trajectory normally used to inject measurements, constraints, or rewards.&lt;/p&gt;
+&lt;p&gt;For an inverse problem, we observe a degraded image—perhaps blurred, masked, or downsampled—and want samples that are both consistent with that observation and plausible under the learned image prior. Diffusion methods can repeatedly guide an evolving sample toward the observation. A one-step flow map has no intermediate states to steer: once its initial noise is fixed, its output is fixed too.&lt;/p&gt;
+&lt;p&gt;VFM addresses this “guidance gap” by changing the question. Instead of asking how to guide the sampling path, we ask:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is the right noise distribution to start from?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/h2&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;vfm-overview.png&#34; alt=&#34;Overview of one-step conditional generation with Variational Flow Maps&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Given an observation, a noise adapter produces conditional noise samples; the jointly trained flow map transports them to conditional data samples in one step.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Given an observation or condition, VFM uses a lightweight &lt;strong&gt;noise adapter&lt;/strong&gt; to predict a distribution in latent noise space. A sample from this distribution is then decoded by the flow map in a single forward pass.&lt;/p&gt;
+&lt;p&gt;The adapter and flow map are trained jointly with a variational objective. This joint training is essential: a simple Gaussian adapter may be too limited when paired with a frozen generator, but the flow map can reshape the noise-to-data coupling so that the same simple adapter represents a complex, multimodal posterior in data space. In a linear-Gaussian setting, our analysis shows that joint training recovers the exact posterior mean, whereas separate training is generically biased.&lt;/p&gt;
+&lt;p&gt;We also connect the data-reconstruction term in the variational objective to the mean-flow loss. That structural constraint keeps generated samples near the learned data manifold and avoids the off-manifold failure mode seen when the adapter and generator are optimized without a flow-map constraint.&lt;/p&gt;
+&lt;h2 id=&#34;one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/h2&gt;
+&lt;p&gt;The adapter can be conditioned on the inverse-problem class, allowing a single model to amortize inference across denoising, random and box inpainting, super-resolution, Gaussian deblurring, and motion deblurring.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;inpainting-results.jpg&#34; alt=&#34;ImageNet box-inpainting comparison and diverse posterior samples from VFM&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;ImageNet 256×256 box inpainting. The lower row shows distinct VFM posterior samples that remain consistent with the visible image.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;On ImageNet 256×256 inverse problems, VFM combines distributional quality with a large speed advantage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For box inpainting, one-step VFM reaches an FID of &lt;strong&gt;33.34&lt;/strong&gt;, compared with &lt;strong&gt;62.35–75.62&lt;/strong&gt; for the iterative guidance baselines reported in the paper.&lt;/li&gt;
+&lt;li&gt;VFM uses &lt;strong&gt;1 neural function evaluation&lt;/strong&gt;, while those baselines use &lt;strong&gt;250×2&lt;/strong&gt; evaluations with classifier-free guidance.&lt;/li&gt;
+&lt;li&gt;A single VFM sample takes about &lt;strong&gt;0.025–0.027 seconds&lt;/strong&gt; in our experiments, versus roughly &lt;strong&gt;7–47 seconds&lt;/strong&gt; for the iterative methods.&lt;/li&gt;
+&lt;li&gt;VFM performs strongly on distributional and calibration metrics including &lt;strong&gt;FID, MMD, CRPS, and LPIPS&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is an important evaluation lesson here. For posterior sampling, diversity and calibration matter alongside pixel-wise fidelity. PSNR and SSIM often reward posterior-mean-like, smoother reconstructions, so they do not by themselves capture whether a method produces the right distribution of plausible solutions. Averaging several VFM draws improves these pixel-wise metrics, while the individual draws expose meaningful posterior uncertainty.&lt;/p&gt;
+&lt;h2 id=&#34;beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/h2&gt;
+&lt;p&gt;The same idea extends naturally from observations to general differentiable rewards. VFM learns a context-dependent noise adapter while fine-tuning the flow map toward a reward-tilted distribution. In our experiments, strong reward alignment emerges in less than half an epoch of fine-tuning, and the resulting model still generates with a single forward pass. The uncurated reward-aligned samples shown in this post&amp;rsquo;s header were generated by that fine-tuned flow map.&lt;/p&gt;
+&lt;h2 id=&#34;code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/h2&gt;
+&lt;p&gt;The 
+ includes the training and sampling code, released checkpoints, scripts for the ImageNet inverse problems, and a small checkerboard example that illustrates how joint training changes the latent coupling. The conditional sampler supports one-step generation as well as two-to-four-step refinement.&lt;/p&gt;
+&lt;p&gt;This work was a wonderful collaboration among &lt;strong&gt;Abbas Mammadov&lt;/strong&gt;, &lt;strong&gt;So Takao&lt;/strong&gt;, &lt;strong&gt;Bohan Chen&lt;/strong&gt;, &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Morteza Mardani&lt;/strong&gt;, &lt;strong&gt;Yee Whye Teh&lt;/strong&gt;, and &lt;strong&gt;Julius Berner&lt;/strong&gt;, spanning the University of Oxford, Caltech, PhysicsX, the University of Toronto, and NVIDIA. Abbas Mammadov and So Takao contributed equally.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figures on this page were extracted from the paper, which is available under a CC BY 4.0 license.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Announcement: JHU AMS Postdoc Seminar - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title>
+      <link>http://localhost:1313/event/jhu-ams-postdoc-seminar/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/jhu-ams-postdoc-seminar/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I will give a seminar at the Johns Hopkins University Department of Applied Mathematics and Statistics (JHU AMS) postdoc seminar series on learnable operators for ensemble data assimilation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Wednesday, &lt;strong&gt;March 11, 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;12:30 PM - 1:30 PM Eastern&lt;/strong&gt; (&lt;strong&gt;9:30 AM - 10:30 AM Pacific&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom Link:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Meeting ID:&lt;/strong&gt; 916 6248 1391&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passcode:&lt;/strong&gt; 123456&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Announcement: SIAM Student Chapter Talk - Learnable Operators on Probability Measures for Ensemble Data Assimilation</title>
+      <link>http://localhost:1313/event/siam-student-chapter-talk-caltech/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/siam-student-chapter-talk-caltech/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I will give an in-person Society for Industrial and Applied Mathematics (SIAM) student chapter talk at Caltech on learnable operators for ensemble data assimilation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Wednesday, &lt;strong&gt;March 11, 2026&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;12:00 PM - 1:00 PM Pacific&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;strong&gt;ANB 213, Caltech&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; In person&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learnable Operators on Probability Measures for Ensemble Data Assimilation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+Data assimilation (DA) in hidden Markov models evolves the filtering distribution via a nonlinear, measure-valued recursion that propagates uncertainty through the dynamics and updates it with observations. Classical ensemble methods such as the ensemble Kalman filter remain efficient and robust, but their Gaussian update can be inaccurate in strongly nonlinear, non-Gaussian regimes. We introduce the measure neural mapping (MNM), a learnable operator acting directly on probability measures to approximate the filtering map, leading to an MNM-enhanced ensemble filter (MNMEF) formulated both at the mean-field level and as an interacting-particle algorithm. MNMEF is implemented with the set transformer, enabling a single parameterization to transfer across ensemble sizes and the permutation invariance. We provide a theoretical foundation for this transfer by establishing a continuum limit for attention on measures: under mild regularity or boundedness assumptions, attention applied to empirical measures converges in Wasserstein distance to its continuous-measure counterpart as sample size increases. This consistency explains the observed stability of MNMEF when changing ensemble size. Empirically, shared parameters, optionally augmented with light size-specific fine-tuning, yield improved RMSE over strong baselines on Lorenz-96 and Kuramoto-Sivashinsky benchmarks.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ACM 154: Inverse Problems and Data Assimilation</title>
+      <link>http://localhost:1313/teaching/acm-154-winter-2026/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/acm-154-winter-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#main-textbook&#34;&gt;Main Textbook&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#course-repositories&#34;&gt;Course Repositories&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In the winter 2026 term, I co-taught &lt;strong&gt;ACM 154: Inverse Problems and Data Assimilation&lt;/strong&gt; at Caltech with &lt;strong&gt;Prof. Andrew Stuart&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course title:&lt;/strong&gt; Inverse Problems and Data Assimilation&lt;br&gt;
+&lt;strong&gt;Units:&lt;/strong&gt; 9 units (3-0-6)&lt;br&gt;
+&lt;strong&gt;Term:&lt;/strong&gt; Second term&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Models in applied mathematics often have input parameters that are uncertain; observed data can be used to learn about these parameters and thereby to improve predictive capability. The purpose of the course is to describe the mathematical and algorithmic principles of this area.&lt;/p&gt;
+&lt;p&gt;The topic lies at the intersection of fields including inverse problems, differential equations, machine learning, and uncertainty quantification. Applications are drawn from the physical, biological, and data sciences.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Basic differential equations, linear algebra, probability, and statistics, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ACM/IDS 104&lt;/li&gt;
+&lt;li&gt;ACM/EE 106 ab&lt;/li&gt;
+&lt;li&gt;ACM/EE/IDS 116&lt;/li&gt;
+&lt;li&gt;IDS/ACM/CS 157&lt;/li&gt;
+&lt;li&gt;Or equivalent preparation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;main-textbook&#34;&gt;Main Textbook&lt;/h2&gt;
+&lt;p&gt;The main textbook for the course is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;course-repositories&#34;&gt;Course Repositories&lt;/h2&gt;
+&lt;p&gt;Related GitHub repositories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AGU25 Oral — Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/event/agu25/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/agu25/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Join us at &lt;strong&gt;AGU25&lt;/strong&gt; for an oral presentation on learning-enhanced ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conference:&lt;/strong&gt; AGU25 — New Orleans, LA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentation Type:&lt;/strong&gt; Oral&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session:&lt;/strong&gt; &lt;strong&gt;NG21A&lt;/strong&gt; — &lt;em&gt;Advances in Data Assimilation, Data Fusion, Machine Learning, Predictability, and Uncertainty Quantification in the Geosciences I (Oral)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; &lt;strong&gt;Tuesday, December 16, 2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;09:42–09:52 Central Time (CT)&lt;/strong&gt; / &lt;strong&gt;07:42–07:52 Pacific Time (PT)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; New Orleans Convention Center, &lt;strong&gt;Rooms 298–299&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstract ID:&lt;/strong&gt; &lt;strong&gt;2000239&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Talk Title:&lt;/strong&gt; &lt;em&gt;Learning Enhanced Ensemble Filters&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The filtering distribution in hidden Markov models evolves according to the law of a mean-field model in state-observation space. The ensemble Kalman filter (EnKF) approximates this mean-field model with an ensemble of interacting particles, employing a Gaussian ansatz for the joint distribution of the state and observation at each observation time. These methods are robust, but the Gaussian ansatz limits accuracy. This shortcoming is addressed by approximating the mean-field evolution using a novel form of neural operator taking probability distributions as input: a measure neural mapping (MNM). A MNM is used to design a novel approach to filtering, the MNM-enhanced ensemble filter (MNMEF), which is defined in both the mean-field limit and for interacting ensemble particle approximations. The ensemble approach uses empirical measures as input to the MNM and is implemented using the set transformer, which is invariant to ensemble permutation and allows for different ensemble sizes. The derivation of methods from a mean-field formulation allows a single parameterization of the algorithm to be deployed at different ensemble sizes. In practice fine-tuning of a small number of parameters, for specific ensemble sizes, further enhances the accuracy of the scheme. The promise of the approach is demonstrated by its superior root mean-square-error performance relative to leading methods in filtering the Lorenz 96 and Kuramoto–Sivashinsky models.&lt;/p&gt;
+&lt;h2 id=&#34;why-attend&#34;&gt;Why Attend&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;See a &lt;strong&gt;measure neural mapping (MNM)&lt;/strong&gt; approach that treats probability measures as inputs.&lt;/li&gt;
+&lt;li&gt;Learn how &lt;strong&gt;MNMEF&lt;/strong&gt; operates in both &lt;strong&gt;mean-field limits&lt;/strong&gt; and &lt;strong&gt;interacting-particle&lt;/strong&gt; implementations.&lt;/li&gt;
+&lt;li&gt;Understand why &lt;strong&gt;set transformers&lt;/strong&gt; enable &lt;strong&gt;permutation invariance&lt;/strong&gt; and &lt;strong&gt;cross-ensemble-size&lt;/strong&gt; deployment.&lt;/li&gt;
+&lt;li&gt;Review &lt;strong&gt;benchmark results&lt;/strong&gt; on &lt;strong&gt;Lorenz-96&lt;/strong&gt; and &lt;strong&gt;Kuramoto–Sivashinsky&lt;/strong&gt; showing improved RMSE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bohan Chen&lt;/strong&gt; — California Institute of Technology&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Announcement: 1W-MINDS Seminar — Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/event/1w-minds-seminar/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/1w-minds-seminar/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#event-details&#34;&gt;Event Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#talk&#34;&gt;Talk&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#presenter&#34;&gt;Presenter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#add-to-calendar&#34;&gt;Add to Calendar&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I’m pleased to share that I’ll be speaking in the &lt;strong&gt;1W-MINDS&lt;/strong&gt; seminar series. The talk will present new results on learning-augmented ensemble filtering for nonlinear, non-Gaussian state estimation.&lt;/p&gt;
+&lt;h2 id=&#34;event-details&#34;&gt;Event Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Thursday, &lt;strong&gt;November 6, 2025&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; &lt;strong&gt;2:30 PM – 3:30 PM Eastern&lt;/strong&gt; (11:30 AM – 12:30 PM Pacific)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; Online (Zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom:&lt;/strong&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Password:&lt;/strong&gt; 101 &lt;em&gt;(likely not required when using the full link)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talk&#34;&gt;Talk&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Learning Enhanced Ensemble Filters&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br&gt;
+The filtering distribution in hidden Markov models evolves according to a mean-field law on the joint state–observation space. While the ensemble Kalman filter (EnKF) provides a robust particle approximation, its Gaussian ansatz limits accuracy for non-Gaussian dynamics. We address this with a measure neural mapping (MNM)—a neural operator defined on probability measures—which yields the MNM-enhanced ensemble filter (MNMEF) in both the mean-field limit and as an interacting-particle algorithm. The ensemble instantiation uses a permutation-invariant set transformer, enabling a single parameterization to operate across varying ensemble sizes, with light size-specific fine-tuning further improving accuracy. Empirically, MNMEF achieves superior RMSE to leading methods on Lorenz-96 and Kuramoto–Sivashinsky benchmarks.&lt;/p&gt;
+&lt;p&gt;A central theoretical contribution establishes a continuum limit for attention on measures: attention layers fed empirical measures are consistent with their continuous-measure counterparts, with outputs converging to those from the underlying measure in Wasserstein distance as the sample size goes to infinity. This result justifies cross-size parameter sharing, explains the observed stability of MNMEF when changing ensemble sizes.&lt;/p&gt;
+&lt;h2 id=&#34;presenter&#34;&gt;Presenter&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;add-to-calendar&#34;&gt;Add to Calendar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eastern Time:&lt;/strong&gt; Nov 6, 2025, 2:30–3:30 PM ET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pacific Time:&lt;/strong&gt; Nov 6, 2025, 11:30 AM–12:30 PM PT&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talk Announcement: SIAM DS25 Minisymposium ‘Advances in Dynamic Data Analysis’</title>
+      <link>http://localhost:1313/event/siam-ds25/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/siam-ds25/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#session-details&#34;&gt;Session Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#my-talk-schedule&#34;&gt;My Talk Schedule&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I’m pleased to announce that I will be presenting in the minisymposium “Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II” at the SIAM Conference on Applications of Dynamical Systems (DS25).&lt;/p&gt;
+&lt;h2 id=&#34;session-details&#34;&gt;Session Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Date:&lt;/strong&gt; Monday, May 12, 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session:&lt;/strong&gt; MS87 – Advances in Dynamic Data Analysis: Transfer Operators, Machine Learning, and Networks – Part II of II&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; 4:45 PM – 6:45 PM&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Room:&lt;/strong&gt; Plaza Concourse Level – Plaza Ballroom BCEF&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;See Part I:&lt;/strong&gt; MS69&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-talk-schedule&#34;&gt;My Talk Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5:45 – 6:10 PM&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Learning Enhanced Ensemble Filters&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Bohan Chen, California Institute of Technology, U.S.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

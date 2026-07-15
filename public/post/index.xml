@@ -1,220 +1,357 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/post/</link><atom:link href="https://chenbh.com/post/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Blog</title><link>https://chenbh.com/post/</link></image><item><title>GitHub Demos for Machine Learning for Inverse Problems and Data Assimilation</title><link>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/ml-for-ip-and-da-github-demos/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#what-the-repository-contains">What the Repository Contains&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#how-to-use-it">How to Use It&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#relation-to-other-materials">Relation to Other Materials&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;div style="margin: 1.5rem 0; text-align: center;">
-&lt;img src="combined_vi.gif" alt="Variational posterior approximation demos" style="max-width: 100%; height: auto;">
-&lt;/div>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>I wrote a detailed GitHub repository of demo notebooks for the textbook &lt;strong>Machine Learning for Inverse Problems and Data Assimilation&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Repository:&lt;/strong>
-&lt;/li>
-&lt;li>&lt;strong>Textbook:&lt;/strong>
-&lt;/li>
-&lt;/ul>
-&lt;p>The repository is designed to make the mathematical and algorithmic ideas in the textbook more concrete through executable examples. Each notebook is written as a self-contained demonstration, with references to the relevant textbook chapters and sections.&lt;/p>
-&lt;h2 id="what-the-repository-contains">What the Repository Contains&lt;/h2>
-&lt;p>The codebase contains a collection of textbook-ready Jupyter notebooks covering both inverse problems and data assimilation, with an emphasis on how modern machine learning methods interact with classical Bayesian and filtering ideas.&lt;/p>
-&lt;p>The demos include:&lt;/p>
-&lt;ul>
-&lt;li>A basic PyTorch machine learning pipeline, including supervised learning, model training, checkpointing, and diagnostics.&lt;/li>
-&lt;li>Introductory Bayesian inverse problems, including priors, likelihoods, posteriors, MAP estimation, and image reconstruction examples.&lt;/li>
-&lt;li>Classical posterior sampling methods, including importance sampling, Markov chain Monte Carlo, and ensemble Kalman inversion.&lt;/li>
-&lt;li>Variational posterior approximation and transport-map-based posterior sampling.&lt;/li>
-&lt;li>Amortized posterior sampling with conditional normalizing flows and energy-distance objectives.&lt;/li>
-&lt;li>Data assimilation basics, including Kalman filtering, particle filters, ensemble Kalman filters, and filtering diagnostics.&lt;/li>
-&lt;li>Lorenz-63 and Lorenz-96 examples for parameter estimation, learned regularization, learned gains, model-error learning, and ensemble transport filtering.&lt;/li>
-&lt;/ul>
-&lt;h2 id="how-to-use-it">How to Use It&lt;/h2>
-&lt;p>The notebooks are intended to be interactive. They can be read alongside the textbook or opened directly in Google Colab from the repository README.&lt;/p>
-&lt;p>For Colab, I recommend using a high-RAM runtime with a GPU accelerator. A standard T4 or L4 GPU should be sufficient for the intended experiments.&lt;/p>
-&lt;p>The repository currently follows the chapter and section references from version 2 of the textbook, dated October 6, 2025.&lt;/p>
-&lt;h2 id="relation-to-other-materials">Relation to Other Materials&lt;/h2>
-&lt;p>Some materials in the repository are based on the &lt;strong>ML for IP and DA winter school in Amsterdam&lt;/strong>, whose original resources are available here:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;p>My goal with
-is to provide a detailed, organized, and executable companion to the textbook, especially for readers who want to move back and forth between mathematical formulations and working code.&lt;/p>
-&lt;p>The notebooks may still contain small mistakes. If you find an issue, please feel free to contact me or open a GitHub issue.&lt;/p></description></item><item><title>🎉 Caltech SURF 2026</title><link>https://chenbh.com/post/surf2026/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/surf2026/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#research-focus">Research Focus&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#1-machine-learning-for-data-assimilation">1. Machine Learning for Data Assimilation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#2-machine-learning-theory-attention-mechanisms-and-transformers">2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#expectations-for-students">Expectations for Students&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#references-for-surf">References for SURF&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#license">License&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p>
-&lt;p>In 2026, I will serve again as a mentor in the SURF program.&lt;/p>
-&lt;p>This year, there will be &lt;strong>two main research directions&lt;/strong> available:&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Machine Learning for Data Assimilation&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>Machine Learning Theory, with a focus on Attention Mechanisms and Transformers&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;p>You may indicate your preferred direction in your application; I am happy to discuss which option is a better fit for your background and interests.&lt;/p>
-&lt;h2 id="research-focus">Research Focus&lt;/h2>
-&lt;h3 id="1-machine-learning-for-data-assimilation">1. Machine Learning for Data Assimilation&lt;/h3>
-&lt;p>This direction will explore accessible yet meaningful problems in &lt;strong>data assimilation (DA)&lt;/strong>, with an emphasis on how &lt;strong>machine learning methods&lt;/strong> can enhance or complement classical DA techniques.&lt;/p>
-&lt;p>Possible topics include (but are not limited to):&lt;/p>
-&lt;ul>
-&lt;li>Designing &lt;strong>ML-augmented ensemble filters&lt;/strong> that are &lt;em>amortized&lt;/em> over families of observation operators and noise levels, so that a single learned component can adapt efficiently to changing observation models and uncertainty structures.&lt;/li>
-&lt;li>Using &lt;strong>machine learning to approximate optimal particle filters&lt;/strong>, with learned mechanisms that jointly improve both the &lt;strong>prediction&lt;/strong> (propagation) step and the &lt;strong>analysis&lt;/strong> (update) step, aiming for better stability, accuracy, and computational efficiency.&lt;/li>
-&lt;/ul>
-&lt;p>The project is designed to be manageable. I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources. A typical workflow may include reading and discussing selected papers, implementing algorithms in Python, running controlled numerical experiments, and analyzing the results.&lt;/p>
-&lt;p>My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for you to gain a solid understanding and valuable skills in DA and ML.&lt;/p>
-&lt;p>&lt;strong>References:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-machine-learning-theory-attention-mechanisms-and-transformers">2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/h3>
-&lt;p>This direction will use &lt;strong>carefully designed experiments to explore questions in modern machine learning theory&lt;/strong>, with a particular focus on the role of the &lt;strong>activation function inside the attention mechanism&lt;/strong> of Transformer architectures.&lt;/p>
-&lt;p>According to my current theoretical work, under certain assumptions, the conventional choice of softmax in attention may &lt;strong>not&lt;/strong> be theoretically optimal. Motivated by this, I would like SURF students to systematically investigate, through experiments, how replacing softmax with alternative activation functions changes the behavior and performance of Transformers.&lt;/p>
-&lt;p>In this project, you may:&lt;/p>
-&lt;ul>
-&lt;li>Implement Transformer variants in which the attention weights are produced by &lt;strong>different activation functions&lt;/strong> (for example, polynomial activations, ReLU-type alternatives, or normalization-based replacements for softmax).&lt;/li>
-&lt;li>Design and run experiments on &lt;strong>benchmark tasks&lt;/strong> to compare these variants in terms of accuracy, stability, and training dynamics.&lt;/li>
-&lt;li>Probe how the &lt;strong>optimization, generalization, and robustness&lt;/strong> of these models relate to the theoretical predictions that I am developing.&lt;/li>
-&lt;/ul>
-&lt;p>There is already a growing empirical literature on &lt;strong>softmax-free or softmax-alternative attention mechanisms&lt;/strong>. This project is designed to complement those works from a &lt;strong>theory-first perspective&lt;/strong>: I will start from theoretical analysis to derive concrete hypotheses, and you will help test these hypotheses experimentally. Through this process, you will both:&lt;/p>
-&lt;ul>
-&lt;li>Gain a &lt;strong>deeper understanding of the theory behind Transformers and attention&lt;/strong>, and&lt;/li>
-&lt;li>Build &lt;strong>practical experience&lt;/strong> implementing and training modern Transformer-style models.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>References:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="expectations-for-students">Expectations for Students&lt;/h2>
-&lt;p>My primary expectation is that you bring &lt;strong>genuine enthusiasm&lt;/strong> to this project. Please make sure that at least one of the two general research directions outlined above aligns with your interests and that you are willing to dedicate time and effort to it over the summer of 2026.&lt;/p>
-&lt;p>In terms of skills, it would be very helpful if you have:&lt;/p>
-&lt;ul>
-&lt;li>A foundational understanding of &lt;strong>probability&lt;/strong>, &lt;strong>stochastic processes&lt;/strong>, &lt;strong>(ordinary) differential equations&lt;/strong>, and &lt;strong>linear algebra&lt;/strong> (ideally from coursework).&lt;/li>
-&lt;li>Solid &lt;strong>coding proficiency&lt;/strong>, especially in &lt;strong>Python&lt;/strong>; experience with &lt;strong>PyTorch&lt;/strong> (or a similar framework) is helpful but not strictly required—I am happy to provide guidance.&lt;/li>
-&lt;/ul>
-&lt;p>Passion and curiosity are the key qualities I am looking for. If you are excited about these topics and ready to engage deeply, I believe you will find this project both rewarding and educational.&lt;/p>
-&lt;h2 id="references-for-surf">References for SURF&lt;/h2>
-&lt;p>For more information on the SURF program, please refer to the official
-. This page provides additional links to details about the program, including:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;li>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
-&lt;p>I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share these opportunities with undergraduate students.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2024-present
-.&lt;/p>
-&lt;p>Released under the
-license.&lt;/p></description></item><item><title>🎉 Caltech SURF 2025</title><link>https://chenbh.com/post/surf2025/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/surf2025/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#i-have-already-selected-my-surf-student">I have already selected my SURF student&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#research-focus">Research Focus&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#expectations-for-students">Expectations for Students&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#references">References&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#acknowledgments">Acknowledgments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#license">License&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="i-have-already-selected-my-surf-student">I have already selected my SURF student&lt;/h2>
-&lt;p>This is an update on 2/11/2025 that I have already selected my 2025 SURF student. I am writing the SURF proposal with him. Thank you very much for your interest in my research and the SURF program. However, I sincerely apologize as I am unable to accommodate any further inquiries at this time.&lt;/p>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p>
-&lt;p>In 2025, I will serve as a mentor in the SURF program, co-mentoring alongside CMS postdoctoral researcher
-. Together, we will guide a team of 2 to 3 undergraduate students.&lt;/p>
-&lt;h2 id="research-focus">Research Focus&lt;/h2>
-&lt;p>The research project in the SURF program will address accessible yet meaningful problems in data assimilation (DA), particularly in combining DA with machine learning methods. The project is designed to be manageable, and I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources.&lt;/p>
-&lt;p>My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for students to gain a solid understanding and valuable skills in DA and ML. Ultimately, if you walk away from this project having learned a great deal, I will consider it a success.&lt;/p>
-&lt;h2 id="expectations-for-students">Expectations for Students&lt;/h2>
-&lt;p>My primary expectation is that you bring genuine enthusiasm to this project. Please make sure that the general research direction outlined above aligns with your interests and that you’re willing to dedicate time and effort to it over the summer of 2025.&lt;/p>
-&lt;p>In terms of skills, I hope you have a foundational understanding of probability, stochastic processes, (ordinary) differential equations, and linear algebra—ideally having taken coursework in these areas. Coding proficiency is also important; Python experience is essential, and familiarity with or experience in PyTorch is a plus, though not required—I’m happy to provide guidance on this if needed.&lt;/p>
-&lt;p>Passion and curiosity are the key qualities I’m looking for. If you’re excited about this topic and ready to engage deeply, I believe you’ll find this project both rewarding and educational.&lt;/p>
-&lt;h2 id="references">References&lt;/h2>
-&lt;p>For more information on the SURF program, please refer to the official
-. This page provides additional links to details about the program, including
-,
-,
-, and
-.&lt;/p>
-&lt;p>For a comprehensive understanding of data assimilation, I highly recommend the following resource:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Inverse Problems and Data Assimilation: A Machine Learning Approach&lt;/strong>: available on
-.&lt;/li>
-&lt;/ul>
-&lt;h2 id="acknowledgments">Acknowledgments&lt;/h2>
-&lt;p>I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share this opportunity with undergraduate students.&lt;/p>
-&lt;h2 id="license">License&lt;/h2>
-&lt;p>Copyright 2024-present
-.&lt;/p>
-&lt;p>Released under the
-license.&lt;/p></description></item><item><title>My Personal Icon Design</title><link>https://chenbh.com/post/my-personal-icon/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/post/my-personal-icon/</guid><description>
-&lt;details class="print:hidden xl:hidden" open>
-&lt;summary>Table of Contents&lt;/summary>
-&lt;div class="text-sm">
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#overview">Overview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#use-and-purpose">Use and Purpose&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#copyright">Copyright&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/div>
-&lt;/details>
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>This personal icon is a unique design created independently by me, Bohan Chen, inspired by symbols from mathematics. The concept combines the symbols ∑ (Sigma), π (Pi), and ∫ (Integral) into one cohesive form. In my design, the Sigma symbol transforms seamlessly into the shape of an integral sign, which cleverly intertwines to resemble the shape of Pi. This integration of mathematical symbols not only represents my affinity for mathematics but also serves as a distinctive representation of my identity, Bohan Chen.&lt;/p>
-&lt;h2 id="use-and-purpose">Use and Purpose&lt;/h2>
-&lt;p>This icon is currently used as the symbol for my personal website and will also be incorporated into other platforms and contexts as a recognizable personal mark that represents me, Bohan Chen.&lt;/p>
-&lt;h2 id="copyright">Copyright&lt;/h2>
-&lt;p>Copyright 2024-present
-.&lt;/p>
-&lt;p>All rights reserved. This icon is an original design and is protected under copyright law. It may not be copied, reproduced, or redistributed in any form without explicit permission from the copyright holder. For inquiries regarding use or licensing, please contact me directly.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Blog</title>
+      <link>http://localhost:1313/post/</link>
+    </image>
+    
+    <item>
+      <title>GitHub Demos for Machine Learning for Inverse Problems and Data Assimilation</title>
+      <link>http://localhost:1313/post/ml-for-ip-and-da-github-demos/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/ml-for-ip-and-da-github-demos/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#what-the-repository-contains&#34;&gt;What the Repository Contains&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#how-to-use-it&#34;&gt;How to Use It&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#relation-to-other-materials&#34;&gt;Relation to Other Materials&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;div style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;combined_vi.gif&#34; alt=&#34;Variational posterior approximation demos&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I wrote a detailed GitHub repository of demo notebooks for the textbook &lt;strong&gt;Machine Learning for Inverse Problems and Data Assimilation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Textbook:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The repository is designed to make the mathematical and algorithmic ideas in the textbook more concrete through executable examples. Each notebook is written as a self-contained demonstration, with references to the relevant textbook chapters and sections.&lt;/p&gt;
+&lt;h2 id=&#34;what-the-repository-contains&#34;&gt;What the Repository Contains&lt;/h2&gt;
+&lt;p&gt;The codebase contains a collection of textbook-ready Jupyter notebooks covering both inverse problems and data assimilation, with an emphasis on how modern machine learning methods interact with classical Bayesian and filtering ideas.&lt;/p&gt;
+&lt;p&gt;The demos include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A basic PyTorch machine learning pipeline, including supervised learning, model training, checkpointing, and diagnostics.&lt;/li&gt;
+&lt;li&gt;Introductory Bayesian inverse problems, including priors, likelihoods, posteriors, MAP estimation, and image reconstruction examples.&lt;/li&gt;
+&lt;li&gt;Classical posterior sampling methods, including importance sampling, Markov chain Monte Carlo, and ensemble Kalman inversion.&lt;/li&gt;
+&lt;li&gt;Variational posterior approximation and transport-map-based posterior sampling.&lt;/li&gt;
+&lt;li&gt;Amortized posterior sampling with conditional normalizing flows and energy-distance objectives.&lt;/li&gt;
+&lt;li&gt;Data assimilation basics, including Kalman filtering, particle filters, ensemble Kalman filters, and filtering diagnostics.&lt;/li&gt;
+&lt;li&gt;Lorenz-63 and Lorenz-96 examples for parameter estimation, learned regularization, learned gains, model-error learning, and ensemble transport filtering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-use-it&#34;&gt;How to Use It&lt;/h2&gt;
+&lt;p&gt;The notebooks are intended to be interactive. They can be read alongside the textbook or opened directly in Google Colab from the repository README.&lt;/p&gt;
+&lt;p&gt;For Colab, I recommend using a high-RAM runtime with a GPU accelerator. A standard T4 or L4 GPU should be sufficient for the intended experiments.&lt;/p&gt;
+&lt;p&gt;The repository currently follows the chapter and section references from version 2 of the textbook, dated October 6, 2025.&lt;/p&gt;
+&lt;h2 id=&#34;relation-to-other-materials&#34;&gt;Relation to Other Materials&lt;/h2&gt;
+&lt;p&gt;Some materials in the repository are based on the &lt;strong&gt;ML for IP and DA winter school in Amsterdam&lt;/strong&gt;, whose original resources are available here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My goal with 
+ is to provide a detailed, organized, and executable companion to the textbook, especially for readers who want to move back and forth between mathematical formulations and working code.&lt;/p&gt;
+&lt;p&gt;The notebooks may still contain small mistakes. If you find an issue, please feel free to contact me or open a GitHub issue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🔊 Make Some Noise: Variational Flow Maps for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/post/variational-flow-maps-icml-2026/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/variational-flow-maps-icml-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Our paper, &lt;strong&gt;“Variational Flow Maps: Make Some Noise for One-Step Conditional Generation,”&lt;/strong&gt; has been accepted to the main track of &lt;strong&gt;ICML 2026&lt;/strong&gt; as a poster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code and checkpoints:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/h2&gt;
+&lt;p&gt;Flow maps can turn noise into a high-quality image in one forward pass. That makes them dramatically faster than iterative diffusion models, but it also removes the trajectory normally used to inject measurements, constraints, or rewards.&lt;/p&gt;
+&lt;p&gt;For an inverse problem, we observe a degraded image—perhaps blurred, masked, or downsampled—and want samples that are both consistent with that observation and plausible under the learned image prior. Diffusion methods can repeatedly guide an evolving sample toward the observation. A one-step flow map has no intermediate states to steer: once its initial noise is fixed, its output is fixed too.&lt;/p&gt;
+&lt;p&gt;VFM addresses this “guidance gap” by changing the question. Instead of asking how to guide the sampling path, we ask:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is the right noise distribution to start from?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/h2&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;vfm-overview.png&#34; alt=&#34;Overview of one-step conditional generation with Variational Flow Maps&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Given an observation, a noise adapter produces conditional noise samples; the jointly trained flow map transports them to conditional data samples in one step.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Given an observation or condition, VFM uses a lightweight &lt;strong&gt;noise adapter&lt;/strong&gt; to predict a distribution in latent noise space. A sample from this distribution is then decoded by the flow map in a single forward pass.&lt;/p&gt;
+&lt;p&gt;The adapter and flow map are trained jointly with a variational objective. This joint training is essential: a simple Gaussian adapter may be too limited when paired with a frozen generator, but the flow map can reshape the noise-to-data coupling so that the same simple adapter represents a complex, multimodal posterior in data space. In a linear-Gaussian setting, our analysis shows that joint training recovers the exact posterior mean, whereas separate training is generically biased.&lt;/p&gt;
+&lt;p&gt;We also connect the data-reconstruction term in the variational objective to the mean-flow loss. That structural constraint keeps generated samples near the learned data manifold and avoids the off-manifold failure mode seen when the adapter and generator are optimized without a flow-map constraint.&lt;/p&gt;
+&lt;h2 id=&#34;one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/h2&gt;
+&lt;p&gt;The adapter can be conditioned on the inverse-problem class, allowing a single model to amortize inference across denoising, random and box inpainting, super-resolution, Gaussian deblurring, and motion deblurring.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;inpainting-results.jpg&#34; alt=&#34;ImageNet box-inpainting comparison and diverse posterior samples from VFM&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;ImageNet 256×256 box inpainting. The lower row shows distinct VFM posterior samples that remain consistent with the visible image.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;On ImageNet 256×256 inverse problems, VFM combines distributional quality with a large speed advantage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For box inpainting, one-step VFM reaches an FID of &lt;strong&gt;33.34&lt;/strong&gt;, compared with &lt;strong&gt;62.35–75.62&lt;/strong&gt; for the iterative guidance baselines reported in the paper.&lt;/li&gt;
+&lt;li&gt;VFM uses &lt;strong&gt;1 neural function evaluation&lt;/strong&gt;, while those baselines use &lt;strong&gt;250×2&lt;/strong&gt; evaluations with classifier-free guidance.&lt;/li&gt;
+&lt;li&gt;A single VFM sample takes about &lt;strong&gt;0.025–0.027 seconds&lt;/strong&gt; in our experiments, versus roughly &lt;strong&gt;7–47 seconds&lt;/strong&gt; for the iterative methods.&lt;/li&gt;
+&lt;li&gt;VFM performs strongly on distributional and calibration metrics including &lt;strong&gt;FID, MMD, CRPS, and LPIPS&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is an important evaluation lesson here. For posterior sampling, diversity and calibration matter alongside pixel-wise fidelity. PSNR and SSIM often reward posterior-mean-like, smoother reconstructions, so they do not by themselves capture whether a method produces the right distribution of plausible solutions. Averaging several VFM draws improves these pixel-wise metrics, while the individual draws expose meaningful posterior uncertainty.&lt;/p&gt;
+&lt;h2 id=&#34;beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/h2&gt;
+&lt;p&gt;The same idea extends naturally from observations to general differentiable rewards. VFM learns a context-dependent noise adapter while fine-tuning the flow map toward a reward-tilted distribution. In our experiments, strong reward alignment emerges in less than half an epoch of fine-tuning, and the resulting model still generates with a single forward pass. The uncurated reward-aligned samples shown in this post&amp;rsquo;s header were generated by that fine-tuned flow map.&lt;/p&gt;
+&lt;h2 id=&#34;code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/h2&gt;
+&lt;p&gt;The 
+ includes the training and sampling code, released checkpoints, scripts for the ImageNet inverse problems, and a small checkerboard example that illustrates how joint training changes the latent coupling. The conditional sampler supports one-step generation as well as two-to-four-step refinement.&lt;/p&gt;
+&lt;p&gt;This work was a wonderful collaboration among &lt;strong&gt;Abbas Mammadov&lt;/strong&gt;, &lt;strong&gt;So Takao&lt;/strong&gt;, &lt;strong&gt;Bohan Chen&lt;/strong&gt;, &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Morteza Mardani&lt;/strong&gt;, &lt;strong&gt;Yee Whye Teh&lt;/strong&gt;, and &lt;strong&gt;Julius Berner&lt;/strong&gt;, spanning the University of Oxford, Caltech, PhysicsX, the University of Toronto, and NVIDIA. Abbas Mammadov and So Takao contributed equally.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figures on this page were extracted from the paper, which is available under a CC BY 4.0 license.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 Caltech SURF 2026</title>
+      <link>http://localhost:1313/post/surf2026/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/surf2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#research-focus&#34;&gt;Research Focus&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-machine-learning-for-data-assimilation&#34;&gt;1. Machine Learning for Data Assimilation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#2-machine-learning-theory-attention-mechanisms-and-transformers&#34;&gt;2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#expectations-for-students&#34;&gt;Expectations for Students&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references-for-surf&#34;&gt;References for SURF&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p&gt;
+&lt;p&gt;In 2026, I will serve again as a mentor in the SURF program.&lt;/p&gt;
+&lt;p&gt;This year, there will be &lt;strong&gt;two main research directions&lt;/strong&gt; available:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning for Data Assimilation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning Theory, with a focus on Attention Mechanisms and Transformers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may indicate your preferred direction in your application; I am happy to discuss which option is a better fit for your background and interests.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;h3 id=&#34;1-machine-learning-for-data-assimilation&#34;&gt;1. Machine Learning for Data Assimilation&lt;/h3&gt;
+&lt;p&gt;This direction will explore accessible yet meaningful problems in &lt;strong&gt;data assimilation (DA)&lt;/strong&gt;, with an emphasis on how &lt;strong&gt;machine learning methods&lt;/strong&gt; can enhance or complement classical DA techniques.&lt;/p&gt;
+&lt;p&gt;Possible topics include (but are not limited to):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing &lt;strong&gt;ML-augmented ensemble filters&lt;/strong&gt; that are &lt;em&gt;amortized&lt;/em&gt; over families of observation operators and noise levels, so that a single learned component can adapt efficiently to changing observation models and uncertainty structures.&lt;/li&gt;
+&lt;li&gt;Using &lt;strong&gt;machine learning to approximate optimal particle filters&lt;/strong&gt;, with learned mechanisms that jointly improve both the &lt;strong&gt;prediction&lt;/strong&gt; (propagation) step and the &lt;strong&gt;analysis&lt;/strong&gt; (update) step, aiming for better stability, accuracy, and computational efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project is designed to be manageable. I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources. A typical workflow may include reading and discussing selected papers, implementing algorithms in Python, running controlled numerical experiments, and analyzing the results.&lt;/p&gt;
+&lt;p&gt;My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for you to gain a solid understanding and valuable skills in DA and ML.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-machine-learning-theory-attention-mechanisms-and-transformers&#34;&gt;2. Machine Learning Theory: Attention Mechanisms and Transformers&lt;/h3&gt;
+&lt;p&gt;This direction will use &lt;strong&gt;carefully designed experiments to explore questions in modern machine learning theory&lt;/strong&gt;, with a particular focus on the role of the &lt;strong&gt;activation function inside the attention mechanism&lt;/strong&gt; of Transformer architectures.&lt;/p&gt;
+&lt;p&gt;According to my current theoretical work, under certain assumptions, the conventional choice of softmax in attention may &lt;strong&gt;not&lt;/strong&gt; be theoretically optimal. Motivated by this, I would like SURF students to systematically investigate, through experiments, how replacing softmax with alternative activation functions changes the behavior and performance of Transformers.&lt;/p&gt;
+&lt;p&gt;In this project, you may:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement Transformer variants in which the attention weights are produced by &lt;strong&gt;different activation functions&lt;/strong&gt; (for example, polynomial activations, ReLU-type alternatives, or normalization-based replacements for softmax).&lt;/li&gt;
+&lt;li&gt;Design and run experiments on &lt;strong&gt;benchmark tasks&lt;/strong&gt; to compare these variants in terms of accuracy, stability, and training dynamics.&lt;/li&gt;
+&lt;li&gt;Probe how the &lt;strong&gt;optimization, generalization, and robustness&lt;/strong&gt; of these models relate to the theoretical predictions that I am developing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is already a growing empirical literature on &lt;strong&gt;softmax-free or softmax-alternative attention mechanisms&lt;/strong&gt;. This project is designed to complement those works from a &lt;strong&gt;theory-first perspective&lt;/strong&gt;: I will start from theoretical analysis to derive concrete hypotheses, and you will help test these hypotheses experimentally. Through this process, you will both:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gain a &lt;strong&gt;deeper understanding of the theory behind Transformers and attention&lt;/strong&gt;, and&lt;/li&gt;
+&lt;li&gt;Build &lt;strong&gt;practical experience&lt;/strong&gt; implementing and training modern Transformer-style models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;expectations-for-students&#34;&gt;Expectations for Students&lt;/h2&gt;
+&lt;p&gt;My primary expectation is that you bring &lt;strong&gt;genuine enthusiasm&lt;/strong&gt; to this project. Please make sure that at least one of the two general research directions outlined above aligns with your interests and that you are willing to dedicate time and effort to it over the summer of 2026.&lt;/p&gt;
+&lt;p&gt;In terms of skills, it would be very helpful if you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A foundational understanding of &lt;strong&gt;probability&lt;/strong&gt;, &lt;strong&gt;stochastic processes&lt;/strong&gt;, &lt;strong&gt;(ordinary) differential equations&lt;/strong&gt;, and &lt;strong&gt;linear algebra&lt;/strong&gt; (ideally from coursework).&lt;/li&gt;
+&lt;li&gt;Solid &lt;strong&gt;coding proficiency&lt;/strong&gt;, especially in &lt;strong&gt;Python&lt;/strong&gt;; experience with &lt;strong&gt;PyTorch&lt;/strong&gt; (or a similar framework) is helpful but not strictly required—I am happy to provide guidance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passion and curiosity are the key qualities I am looking for. If you are excited about these topics and ready to engage deeply, I believe you will find this project both rewarding and educational.&lt;/p&gt;
+&lt;h2 id=&#34;references-for-surf&#34;&gt;References for SURF&lt;/h2&gt;
+&lt;p&gt;For more information on the SURF program, please refer to the official 
+. This page provides additional links to details about the program, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share these opportunities with undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 Caltech SURF 2025</title>
+      <link>http://localhost:1313/post/surf2025/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/surf2025/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#i-have-already-selected-my-surf-student&#34;&gt;I have already selected my SURF student&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#research-focus&#34;&gt;Research Focus&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#expectations-for-students&#34;&gt;Expectations for Students&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;i-have-already-selected-my-surf-student&#34;&gt;I have already selected my SURF student&lt;/h2&gt;
+&lt;p&gt;This is an update on 2/11/2025 that I have already selected my 2025 SURF student. I am writing the SURF proposal with him. Thank you very much for your interest in my research and the SURF program. However, I sincerely apologize as I am unable to accommodate any further inquiries at this time.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The Summer Undergraduate Research Fellowships (SURF) program is one of the &amp;ldquo;crown jewels&amp;rdquo; of Caltech. Since 1979, SURF students have had the opportunity to conduct research under the guidance of experienced mentors working at the frontier of their fields.&lt;/p&gt;
+&lt;p&gt;In 2025, I will serve as a mentor in the SURF program, co-mentoring alongside CMS postdoctoral researcher 
+. Together, we will guide a team of 2 to 3 undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;p&gt;The research project in the SURF program will address accessible yet meaningful problems in data assimilation (DA), particularly in combining DA with machine learning methods. The project is designed to be manageable, and I will provide detailed guidance, including theoretical background in both DA and ML, as well as relevant code resources.&lt;/p&gt;
+&lt;p&gt;My hope is to collaborate closely with the students to produce a research paper by the end of the project. However, if our results are not substantial enough for a publication, that is completely fine. My primary goal is for students to gain a solid understanding and valuable skills in DA and ML. Ultimately, if you walk away from this project having learned a great deal, I will consider it a success.&lt;/p&gt;
+&lt;h2 id=&#34;expectations-for-students&#34;&gt;Expectations for Students&lt;/h2&gt;
+&lt;p&gt;My primary expectation is that you bring genuine enthusiasm to this project. Please make sure that the general research direction outlined above aligns with your interests and that you’re willing to dedicate time and effort to it over the summer of 2025.&lt;/p&gt;
+&lt;p&gt;In terms of skills, I hope you have a foundational understanding of probability, stochastic processes, (ordinary) differential equations, and linear algebra—ideally having taken coursework in these areas. Coding proficiency is also important; Python experience is essential, and familiarity with or experience in PyTorch is a plus, though not required—I’m happy to provide guidance on this if needed.&lt;/p&gt;
+&lt;p&gt;Passion and curiosity are the key qualities I’m looking for. If you’re excited about this topic and ready to engage deeply, I believe you’ll find this project both rewarding and educational.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;For more information on the SURF program, please refer to the official 
+. This page provides additional links to details about the program, including 
+, 
+, 
+, and 
+.&lt;/p&gt;
+&lt;p&gt;For a comprehensive understanding of data assimilation, I highly recommend the following resource:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inverse Problems and Data Assimilation: A Machine Learning Approach&lt;/strong&gt;: available on 
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;p&gt;I would like to extend my heartfelt thanks to my supervisor, Professor Andrew Stuart, for his invaluable support in my role as a SURF mentor. His guidance and encouragement have been instrumental in enabling me to participate in this program and share this opportunity with undergraduate students.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;Released under the 
+ license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Personal Icon Design</title>
+      <link>http://localhost:1313/post/my-personal-icon/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/my-personal-icon/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#use-and-purpose&#34;&gt;Use and Purpose&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#copyright&#34;&gt;Copyright&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This personal icon is a unique design created independently by me, Bohan Chen, inspired by symbols from mathematics. The concept combines the symbols ∑ (Sigma), π (Pi), and ∫ (Integral) into one cohesive form. In my design, the Sigma symbol transforms seamlessly into the shape of an integral sign, which cleverly intertwines to resemble the shape of Pi. This integration of mathematical symbols not only represents my affinity for mathematics but also serves as a distinctive representation of my identity, Bohan Chen.&lt;/p&gt;
+&lt;h2 id=&#34;use-and-purpose&#34;&gt;Use and Purpose&lt;/h2&gt;
+&lt;p&gt;This icon is currently used as the symbol for my personal website and will also be incorporated into other platforms and contexts as a recognizable personal mark that represents me, Bohan Chen.&lt;/p&gt;
+&lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
+&lt;p&gt;Copyright 2024-present 
+.&lt;/p&gt;
+&lt;p&gt;All rights reserved. This icon is an original design and is protected under copyright law. It may not be copied, reproduced, or redistributed in any form without explicit permission from the copyright holder. For inquiries regarding use or licensing, please contact me directly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIAM MDS26 | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/siam-mds26/</link>
+      <atom:link href="http://localhost:1313/tags/siam-mds26/index.xml" rel="self" type="application/rss+xml" />
+    <description>SIAM MDS26</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>SIAM MDS26</title>
+      <link>http://localhost:1313/tags/siam-mds26/</link>
+    </image>
+    
+    <item>
+      <title>Organizing ‘Measure Transport for Inverse Problems and Data Assimilation’ at SIAM MDS26</title>
+      <link>http://localhost:1313/post/measure-transport-minisymposium-mds26/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/measure-transport-minisymposium-mds26/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#conference-details&#34;&gt;Conference Details&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#minisymposium-schedule&#34;&gt;Minisymposium Schedule&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#key-dates&#34;&gt;Key Dates&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#related-links&#34;&gt;Related Links&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;I am pleased to share that &lt;strong&gt;
+&lt;/strong&gt;,
+&lt;strong&gt;
+&lt;/strong&gt;, and I will be organizing a
+minisymposium titled&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Measure Transport for Inverse Problems and Data Assimilation&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;at the &lt;strong&gt;
+&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The minisymposium will bring together perspectives on measure-transport methods for
+Bayesian inverse problems and data assimilation. These problems require us to update,
+approximate, and sample probability distributions after incorporating indirect or
+noisy observations. Transport maps, flows, and related generative techniques provide
+a useful common language for developing scalable computational methods for these
+tasks.&lt;/p&gt;
+&lt;p&gt;We look forward to conversations connecting mathematical foundations, computational
+algorithms, and applications across inverse problems and sequential inference.&lt;/p&gt;
+&lt;h2 id=&#34;conference-details&#34;&gt;Conference Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conference:&lt;/strong&gt; SIAM Conference on Mathematics of Data Science (MDS26)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dates:&lt;/strong&gt; November 16–20, 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Salt Palace Convention Center, Salt Lake City, Utah, U.S.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format:&lt;/strong&gt; Fully in person; remote and prerecorded presentations are not permitted&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conference hashtag:&lt;/strong&gt; &lt;code&gt;#SIAMMDS26&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MDS26 will be held jointly with the
+
+
+and the
+
+.&lt;/p&gt;
+&lt;h2 id=&#34;minisymposium-schedule&#34;&gt;Minisymposium Schedule&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Update (July 14, 2026):&lt;/strong&gt; SIAM has not yet posted the detailed MDS26 schedule or
+speaker index. The minisymposium&amp;rsquo;s session number, date, time, room, speakers, and talk
+titles are therefore still &lt;strong&gt;to be announced&lt;/strong&gt;. SIAM states that these details will be
+published in July 2026 on the official
+
+.
+I will update this post when the session assignment becomes available.&lt;/p&gt;
+&lt;p&gt;SIAM&amp;rsquo;s standard format for a minisymposium is four 25-minute presentations, with five
+additional minutes for discussion after each talk. A minisymposium may have up to
+three parts and twelve speakers.&lt;/p&gt;
+&lt;h2 id=&#34;key-dates&#34;&gt;Key Dates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;April 20, 2026:&lt;/strong&gt; Minisymposium proposal submission deadline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;May 18, 2026:&lt;/strong&gt; Minisymposium presentation abstract submission deadline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;July 2026:&lt;/strong&gt; Conference schedule and speaker index expected&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;August 17, 2026:&lt;/strong&gt; Travel support application deadline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;October 19, 2026:&lt;/strong&gt; Early registration and hotel reservation deadlines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;November 16–20, 2026:&lt;/strong&gt; SIAM MDS26 in Salt Lake City&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-links&#34;&gt;Related Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see many of you in Salt Lake City!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

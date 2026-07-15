@@ -21,9 +21,38 @@ abstract: Traditional methods of linking large language models (LLMs) to knowled
   to the semantic similarity search, thereby enhancing the capabilities of LLMs in
   generating more insightful and relevant outputs.
 tags:
-- Knowledge Graph, Language model, Retrieval-augmented Generation
+- Knowledge Graphs
+- Large Language Models
+- Retrieval-Augmented Generation
+- Graph Laplacian
+- Graph Learning
+- Hybrid Search
+- Natural Language Processing
 links:
-- name: URL
+- name: IEEE Xplore
   url: https://ieeexplore.ieee.org/abstract/document/10386454
+- name: arXiv
+  url: https://arxiv.org/abs/2311.14740
+- name: PDF
+  url: /publication/chen-autokg-2023/AutoKG_Efficient_Automated_Knowledge_Graph_Generation_for_Language_Models.pdf
+- name: Code
+  url: https://github.com/wispcarey/AutoKG
+- name: DOI
+  url: https://doi.org/10.1109/BigData59044.2023.10386454
 featured: true
 ---
+
+**AutoKG** is a lightweight pipeline for turning an unstructured text collection into a
+knowledge graph that can augment a large language model. An LLM extracts keywords from
+text blocks, and graph Laplace learning estimates relationships between keyword pairs
+without requiring a hand-designed ontology or end-to-end model fine-tuning.
+
+At query time, AutoKG combines standard vector similarity with graph-guided retrieval.
+The vector search identifies semantically relevant text blocks, while the graph expands
+the search toward strongly associated keywords and their supporting passages. The merged
+context exposes relational information that a nearest-neighbor search can miss.
+
+Experiments on question answering and knowledge discovery show that this hybrid retrieval
+mechanism returns more interconnected context and helps the language model produce more
+relevant and informative responses. The paper appeared in the GTA3 workshop at **IEEE
+BigData 2023**, and the complete demonstration notebooks are publicly available.

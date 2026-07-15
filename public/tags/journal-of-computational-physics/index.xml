@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal of Computational Physics | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/journal-of-computational-physics/</link>
+      <atom:link href="http://localhost:1313/tags/journal-of-computational-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal of Computational Physics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Journal of Computational Physics</title>
+      <link>http://localhost:1313/tags/journal-of-computational-physics/</link>
+    </image>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters Published in JCP</title>
+      <link>http://localhost:1313/post/learning-enhanced-ensemble-filters-jcp/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/learning-enhanced-ensemble-filters-jcp/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;“Learning Enhanced Ensemble Filters,”&lt;/strong&gt; has been published in the
+&lt;strong&gt;Journal of Computational Physics&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Journal article:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The paper introduces the &lt;strong&gt;measure neural mapping enhanced ensemble filter (MNMEF)&lt;/strong&gt;.
+Starting from a mean-field formulation of filtering, we use a set transformer to learn
+corrections to ensemble filtering updates while respecting the permutation symmetry of an
+ensemble. The mean-field perspective allows a model trained at one ensemble size to be
+deployed at another, with lightweight fine-tuning for ensemble-size-dependent parameters.&lt;/p&gt;
+&lt;p&gt;Across Lorenz-63, Lorenz-96, and Kuramoto–Sivashinsky experiments, MNMEF improves on
+optimized classical ensemble filters over a range of ensemble sizes. I led this work in
+collaboration with &lt;strong&gt;Eviatar Bach&lt;/strong&gt;, &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Edoardo Calvello&lt;/strong&gt;, and
+&lt;strong&gt;Andrew Stuart&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The final article appears in &lt;strong&gt;Journal of Computational Physics, Volume 547, Article
+114550&lt;/strong&gt;: 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

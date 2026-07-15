@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic Aperture Radar | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/synthetic-aperture-radar/</link>
+      <atom:link href="http://localhost:1313/tags/synthetic-aperture-radar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synthetic Aperture Radar</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Synthetic Aperture Radar</title>
+      <link>http://localhost:1313/tags/synthetic-aperture-radar/</link>
+    </image>
+    
+    <item>
+      <title>Novel batch active learning approach and its application to synthetic aperture radar datasets</title>
+      <link>http://localhost:1313/publication/chapman-novel-2023/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-novel-2023/</guid>
+      <description>&lt;p&gt;The paper introduces a two-stage strategy for making &lt;strong&gt;batch active learning&lt;/strong&gt; nearly as
+accurate as sequential querying while substantially reducing the number of classifier
+updates. Dijkstra&amp;rsquo;s Annulus Core-Set (DAC) first constructs a representative candidate set;
+LocalMax then selects a diverse batch by enforcing local maxima of the acquisition
+function on the data graph.&lt;/p&gt;
+&lt;p&gt;The resulting pipeline combines transfer-learned image features, graph-based
+semi-supervised learning, DAC, and LocalMax for synthetic-aperture-radar target
+classification. On FUSAR-Ship and OpenSARShip, it retains the accuracy of sequential active
+learning with speedups that scale with batch size and outperforms the evaluated CNN-based
+baselines.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

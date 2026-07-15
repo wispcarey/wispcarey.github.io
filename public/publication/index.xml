@@ -1,1 +1,332 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/publication/</link><atom:link href="https://chenbh.com/publication/index.xml" rel="self" type="application/rss+xml"/><description>Publications</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Publications</title><link>https://chenbh.com/publication/</link></image><item><title>Flow Matching for Efficient and Scalable Data Assimilation</title><link>https://chenbh.com/publication/transue-flow-2025/</link><pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/transue-flow-2025/</guid><description/></item><item><title>Learning Enhanced Ensemble Filters</title><link>https://chenbh.com/publication/bach-learning-2025/</link><pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/bach-learning-2025/</guid><description/></item><item><title>GLL: A Differentiable Graph Learning Layer for Neural Networks</title><link>https://chenbh.com/publication/brown-gll-2024/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/brown-gll-2024/</guid><description/></item><item><title>The CommUnity near-Surface Permafrost (CUSP) dataset a global compilation of permafrost observations and related properties to support AI/ML model development</title><link>https://chenbh.com/publication/solander-cusp-2024/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/solander-cusp-2024/</guid><description/></item><item><title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title><link>https://chenbh.com/publication/chapman-narrative-2024/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chapman-narrative-2024/</guid><description/></item><item><title>CGAP: A Hybrid Contrastive and Graph-based Active Learning Pipeline to Detect Water and Sediment in Multispectral Images</title><link>https://chenbh.com/publication/chen-cgap-nodate/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-cgap-nodate/</guid><description/></item><item><title>Batch Active Learning for Multispectral and Hyperspectral Image Segmentation Using Similarity Graphs</title><link>https://chenbh.com/publication/chen-batch-2024/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-batch-2024/</guid><description/></item><item><title>AutoKG: Efficient Automated Knowledge Graph Generation for Language Models</title><link>https://chenbh.com/publication/chen-autokg-2023/</link><pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-autokg-2023/</guid><description/></item><item><title>Material Identification in Complex Environments: Neural Network Approaches to Hyperspectral Image Analysis</title><link>https://chenbh.com/publication/brown-material-2023/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/brown-material-2023/</guid><description/></item><item><title>Graph-Based Active Learning for Nearly Blind Hyperspectral Unmixing</title><link>https://chenbh.com/publication/chen-graph-based-2023/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-graph-based-2023/</guid><description/></item><item><title>Graph-Based Active Learning for Surface Water and Sediment Detection in Multispectral Images</title><link>https://chenbh.com/publication/chen-graph-based-2023-1/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-graph-based-2023-1/</guid><description/></item><item><title>Novel batch active learning approach and its application to synthetic aperture radar datasets</title><link>https://chenbh.com/publication/chapman-novel-2023/</link><pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chapman-novel-2023/</guid><description/></item><item><title>A Novel Point Process Model for COVID-19: Multivariate Recursive Hawkes Process</title><link>https://chenbh.com/publication/chen-novel-2022/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-novel-2022/</guid><description/></item><item><title>Modeling illegal logging in Brazil</title><link>https://chenbh.com/publication/chen-modeling-2021/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-modeling-2021/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Variational Flow Maps: Make Some Noise for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/publication/mammadov-variational-2026/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mammadov-variational-2026/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Variational Flow Maps (VFM)&lt;/strong&gt; recasts conditional generation as a problem of learning
+the right initial noise distribution for a pretrained or jointly trained one-step flow
+map. An observation-dependent adapter transforms simple noise before the flow map sends it
+to data space, enforcing the measurement while retaining the learned data prior.&lt;/p&gt;
+&lt;p&gt;A variational training objective aligns the adapted noise with the conditional target and
+supports both amortized inverse-problem solving and reward-based alignment. Because the
+conditioning mechanism acts before generation, VFM avoids tracing and guiding the long
+sampling trajectories required by diffusion and iterative flow models.&lt;/p&gt;
+&lt;p&gt;Across image inverse problems and ImageNet conditional-generation tasks, VFM produces
+diverse, well-calibrated samples in one or a few network evaluations. The results combine
+competitive fidelity with orders-of-magnitude faster sampling than iterative diffusion and
+flow baselines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Probabilistic Filters with Strictly Proper Scoring Rules</title>
+      <link>http://localhost:1313/publication/bach-probabilistic-2026/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-probabilistic-2026/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;proper scoring ensemble filter (PSEF)&lt;/strong&gt; learns an ensemble analysis operator that
+targets the complete Bayesian filtering distribution rather than only its conditional mean.
+The operator takes a forecast ensemble and a new observation as input and returns an
+analysis ensemble. A permutation-invariant transformer ensures that the result respects the
+exchangeability of ensemble members and can be evaluated at different ensemble sizes.&lt;/p&gt;
+&lt;p&gt;The key training device is a &lt;strong&gt;strictly proper scoring rule&lt;/strong&gt;, implemented with the energy
+score. Its expected value is uniquely minimized by the true filtering distribution, yet its
+empirical form requires only simulated state–observation trajectories—not direct access to
+the generally intractable filtering distribution. Under a realizability assumption, the
+population objective recovers the Bayesian filter, and a mean-field time-averaging argument
+connects the practical single-trajectory objective to this population target.&lt;/p&gt;
+&lt;p&gt;Experiments cover a linear–Gaussian diagnostic, the strongly non-Gaussian doubling-angle
+model, Lorenz-63, and Lorenz-96. Energy-score training captures multimodal distributions
+missed by Gaussian filters and mean-based learning objectives. The results also reveal a
+useful architectural distinction: an EnKF correction provides an effective inductive bias in
+close-to-Gaussian problems, while a flexible end-to-end update is better suited to strongly
+non-Gaussian posterior geometry.&lt;/p&gt;
+&lt;p&gt;The manuscript has been submitted to the &lt;strong&gt;Journal of Machine Learning Research&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;ensemble flow filter (EnFF)&lt;/strong&gt; is a training-free data-assimilation framework that
+uses flow matching to transform a forecast ensemble into samples from the filtering
+distribution. Its Monte Carlo flow-field estimator and localized observation guidance
+avoid model training while retaining the flexibility of generative flow design.&lt;/p&gt;
+&lt;p&gt;The paper introduces a &lt;strong&gt;filtering-to-predictive (F2P) flow&lt;/strong&gt; that uses the previous
+filtering distribution, rather than a standard Gaussian, as its reference. This path is
+better aligned with sequential Bayesian filtering and improves efficiency and
+robustness when only a small number of sampling steps is available. The analysis also
+shows how EnFF recovers the bootstrap particle filter and ensemble Kalman filter under
+appropriate choices and assumptions.&lt;/p&gt;
+&lt;p&gt;Experiments span Lorenz-63, Lorenz-96, the one-dimensional Kuramoto–Sivashinsky system,
+and two-dimensional Navier–Stokes equations, including state dimensions up to a
+256×256 grid. Across these benchmarks, EnFF provides a strong accuracy–cost trade-off
+and scales to nonlinear, high-dimensional data-assimilation problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/publication/bach-learning-2025/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-learning-2025/</guid>
+      <description>&lt;p&gt;This work introduces the &lt;strong&gt;measure neural mapping enhanced ensemble filter (MNMEF)&lt;/strong&gt;,
+a learning-based data-assimilation method derived from a mean-field formulation of the
+filtering problem. Measure neural mappings extend neural operators to maps acting on
+probability measures; their finite-ensemble implementation uses a permutation-invariant set
+transformer.&lt;/p&gt;
+&lt;p&gt;The mean-field construction allows most learned parameters to be shared across ensemble
+sizes. A model can therefore be trained efficiently using a small ensemble and deployed at
+other ensemble sizes, while lightweight fine-tuning adapts a limited number of parameters
+such as inflation and localization.&lt;/p&gt;
+&lt;p&gt;Experiments on Lorenz-63, Lorenz-96, and Kuramoto–Sivashinsky systems show improved
+filtering accuracy relative to optimized classical ensemble methods across both small and
+larger ensembles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GLL: A Differentiable Graph Learning Layer for Neural Networks</title>
+      <link>http://localhost:1313/publication/brown-gll-2024/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/brown-gll-2024/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;graph learning layer (GLL)&lt;/strong&gt; replaces the usual projection head and softmax
+classifier with graph-Laplacian label propagation. Samples in a minibatch become nodes of
+a similarity graph, allowing predictions to use relationships among examples instead of
+classifying each representation independently.&lt;/p&gt;
+&lt;p&gt;The main technical contribution is an exact end-to-end differentiation rule for a broad
+family of graph learning methods. By deriving the backward pass with the adjoint method,
+the graph solver can participate directly in neural-network training rather than being
+detached from the feature extractor or differentiated through a heuristic approximation.&lt;/p&gt;
+&lt;p&gt;Experiments show smoother transitions between classes, improved optimization and
+generalization, and stronger resistance to adversarial perturbations than a conventional
+softmax head. The framework supports both supervised and semi-supervised learning and is
+released with an open-source implementation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The CommUnity near-Surface Permafrost (CUSP) dataset a global compilation of permafrost observations and related properties to support AI/ML model development</title>
+      <link>http://localhost:1313/publication/solander-cusp-2024/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/solander-cusp-2024/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;CommUnity near-Surface Permafrost (CUSP) dataset&lt;/strong&gt; brings together geographically
+distributed observations of near-surface permafrost and related environmental attributes
+in a common resource. The compilation is designed to reduce the data-discovery and
+harmonization burden that often limits large-scale permafrost analysis.&lt;/p&gt;
+&lt;p&gt;Presented at the 2024 AGU Fall Meeting, the project emphasizes data structures and
+supporting properties suitable for artificial-intelligence and machine-learning workflows.
+Its goal is to enable reproducible model development and comparison across regions where
+observation density, measurement practices, and landscape conditions vary substantially.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models</title>
+      <link>http://localhost:1313/publication/chapman-narrative-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-narrative-2024/</guid>
+      <description>&lt;p&gt;This work develops a &lt;strong&gt;knowledge-graph-augmented language-model pipeline&lt;/strong&gt; for analyzing
+long, contested narratives. Using the first season of the &lt;em&gt;Serial&lt;/em&gt; true-crime podcast as a
+case study, the system organizes people, claims, events, and relationships into a structure
+that can be queried while preserving connections across episodes and competing accounts.&lt;/p&gt;
+&lt;p&gt;The study compares classical NLP and LLM-based approaches to knowledge-graph construction,
+topic modeling, and sentiment analysis. It then uses the graph as retrieval context for
+natural-language question answering and evaluates the resulting KGLLM under factual and
+adversarial prompts. The graph-augmented model gives more grounded answers, produces more
+coherent topic summaries, and is more robust to misleading prompts than an unaugmented LLM.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CGAP: A Hybrid Contrastive and Graph-based Active Learning Pipeline to Detect Water and Sediment in Multispectral Images</title>
+      <link>http://localhost:1313/publication/chen-cgap-nodate/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-cgap-nodate/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;contrastive graph-based active learning pipeline (CGAP)&lt;/strong&gt; combines a learned feature
+embedding with graph Laplace learning to classify land, surface water, and near-water
+sediment in Landsat imagery. Custom contrastive augmentations make the features robust to
+geometric transformations, changes in spatial resolution, and light cloud cover while
+reducing the dimension used for graph construction.&lt;/p&gt;
+&lt;p&gt;CGAP includes a basic version trained from the labeled RiverPIXELS dataset and an adaptive
+version that uses active learning to guide a human-in-the-loop labeling process. A compact
+representative set is joined with each test image to form a graph, allowing label
+propagation without constructing one prohibitively large graph over every training pixel.&lt;/p&gt;
+&lt;p&gt;The experiments show stronger boundary and overall accuracy than the preceding GAP,
+support-vector-machine, random-forest, and DeepWaterMap baselines, using orders of magnitude
+less labeled data than a CNN–U-Net pipeline. The accompanying &lt;strong&gt;GraphRiverClassifier&lt;/strong&gt;
+connects the trained model to Google Earth Engine and Colab for rapid analysis of arbitrary
+Landsat scenes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Batch Active Learning for Multispectral and Hyperspectral Image Segmentation Using Similarity Graphs</title>
+      <link>http://localhost:1313/publication/chen-batch-2024/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-batch-2024/</guid>
+      <description>&lt;p&gt;This paper develops a graph-based pipeline for &lt;strong&gt;label-efficient multispectral and
+hyperspectral image segmentation&lt;/strong&gt;. Pixels or local image patches are embedded as nodes of
+a similarity graph, and graph Laplace learning propagates the small number of queried
+labels across the image.&lt;/p&gt;
+&lt;p&gt;The batch acquisition rule selects unlabeled nodes that are local maxima of a model-change
+score on the graph. This prevents a batch from concentrating on redundant nearby samples,
+while patch-neighborhood features provide spatial context beyond individual spectra. The
+method therefore reduces both human labeling effort and the number of expensive learning
+cycles.&lt;/p&gt;
+&lt;p&gt;Experiments across remote-sensing datasets show that carefully selected batches reach a
+target segmentation accuracy with far fewer labels than random sampling and retain the
+effectiveness of sequential active learning at substantially lower computational cost.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AutoKG: Efficient Automated Knowledge Graph Generation for Language Models</title>
+      <link>http://localhost:1313/publication/chen-autokg-2023/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-autokg-2023/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;AutoKG&lt;/strong&gt; is a lightweight pipeline for turning an unstructured text collection into a
+knowledge graph that can augment a large language model. An LLM extracts keywords from
+text blocks, and graph Laplace learning estimates relationships between keyword pairs
+without requiring a hand-designed ontology or end-to-end model fine-tuning.&lt;/p&gt;
+&lt;p&gt;At query time, AutoKG combines standard vector similarity with graph-guided retrieval.
+The vector search identifies semantically relevant text blocks, while the graph expands
+the search toward strongly associated keywords and their supporting passages. The merged
+context exposes relational information that a nearest-neighbor search can miss.&lt;/p&gt;
+&lt;p&gt;Experiments on question answering and knowledge discovery show that this hybrid retrieval
+mechanism returns more interconnected context and helps the language model produce more
+relevant and informative responses. The paper appeared in the GTA3 workshop at &lt;strong&gt;IEEE
+BigData 2023&lt;/strong&gt;, and the complete demonstration notebooks are publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Material Identification in Complex Environments: Neural Network Approaches to Hyperspectral Image Analysis</title>
+      <link>http://localhost:1313/publication/brown-material-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/brown-material-2023/</guid>
+      <description>&lt;p&gt;This study examines &lt;strong&gt;plastic identification in complex hyperspectral scenes&lt;/strong&gt;, where
+illumination, background materials, spectral mixing, and within-class variation make
+pixel-level classification substantially harder than controlled laboratory sorting. The
+data include both visible and near-infrared measurements, making it possible to compare
+the practical value of different wavelength ranges.&lt;/p&gt;
+&lt;p&gt;The paper evaluates neural feature-learning strategies—including autoencoders and
+contrastive learning—alongside established hyperspectral classification approaches. The
+comparison focuses on how well the learned representations separate plastic from
+confounding materials under realistic scene variability, and on which sensor spectrum is
+most informative for this recycling application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graph-Based Active Learning for Nearly Blind Hyperspectral Unmixing</title>
+      <link>http://localhost:1313/publication/chen-graph-based-2023/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-graph-based-2023/</guid>
+      <description>&lt;p&gt;This work formulates &lt;strong&gt;nearly blind hyperspectral unmixing&lt;/strong&gt; as a semi-supervised problem:
+instead of assuming all endmember spectra are known, it requests abundance information or
+simple one-hot pseudo-labels for only a very small set of pixels selected by graph-based
+active learning.&lt;/p&gt;
+&lt;p&gt;Two complementary models are introduced. Graph Learning Unmixing (GLU) interprets graph
+Laplace class probabilities directly as abundance maps and then estimates the endmembers.
+Graph-Regularized Semi-supervised Unmixing (GRSU) combines the linear mixing model,
+nonnegativity and sum-to-one constraints, graph regularization, and supervision on the
+queried pixels in a joint optimization problem initialized by GLU.&lt;/p&gt;
+&lt;p&gt;Experiments on Urban, Samson, and Jasper Ridge imagery show that both exact abundances and
+easy-to-obtain one-hot labels substantially improve blind-unmixing baselines. With only
+0.4% of pixels labeled, the proposed methods improve state-of-the-art blind approaches by
+50% or more on the reported reconstruction and abundance-estimation metrics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graph-Based Active Learning for Surface Water and Sediment Detection in Multispectral Images</title>
+      <link>http://localhost:1313/publication/chen-graph-based-2023-1/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-graph-based-2023-1/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;graph active learning pipeline (GAP)&lt;/strong&gt; treats multispectral pixels as nodes in a
+similarity graph and uses graph Laplace learning to distinguish land, surface water, and
+in-river sediment. An acquisition function identifies the pixels whose expert labels are
+expected to improve the classifier most, directly targeting the expensive step of building
+a hand-labeled remote-sensing dataset.&lt;/p&gt;
+&lt;p&gt;On the RiverPIXELS imagery, GAP trained with only 3,270 selected pixels surpasses the
+reported neural-network baseline trained on roughly 2.1 million pixels. The result
+demonstrates that graph geometry and targeted labeling can provide strong segmentation
+performance when dense annotation is impractical.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Novel batch active learning approach and its application to synthetic aperture radar datasets</title>
+      <link>http://localhost:1313/publication/chapman-novel-2023/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chapman-novel-2023/</guid>
+      <description>&lt;p&gt;The paper introduces a two-stage strategy for making &lt;strong&gt;batch active learning&lt;/strong&gt; nearly as
+accurate as sequential querying while substantially reducing the number of classifier
+updates. Dijkstra&amp;rsquo;s Annulus Core-Set (DAC) first constructs a representative candidate set;
+LocalMax then selects a diverse batch by enforcing local maxima of the acquisition
+function on the data graph.&lt;/p&gt;
+&lt;p&gt;The resulting pipeline combines transfer-learned image features, graph-based
+semi-supervised learning, DAC, and LocalMax for synthetic-aperture-radar target
+classification. On FUSAR-Ship and OpenSARShip, it retains the accuracy of sequential active
+learning with speedups that scale with batch size and outperforms the evaluated CNN-based
+baselines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Novel Point Process Model for COVID-19: Multivariate Recursive Hawkes Process</title>
+      <link>http://localhost:1313/publication/chen-novel-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-novel-2022/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;multivariate recursive Hawkes process&lt;/strong&gt; extends self-exciting point-process models in
+two directions needed for epidemic data: transmission can interact across multiple
+populations, and the productivity of events can vary recursively rather than remaining
+fixed. This gives the model enough flexibility to represent heterogeneous and evolving
+COVID-19 transmission patterns.&lt;/p&gt;
+&lt;p&gt;The chapter establishes existence of the counting process and derives its first two
+moments. It also develops expectation-maximization procedures for parametric and
+semiparametric specifications, together with a reconstruction algorithm for observations
+whose event times are reported only coarsely.&lt;/p&gt;
+&lt;p&gt;Synthetic experiments validate the estimators, and applications to real COVID-19 data
+illustrate how the model recovers cross-population excitation and time-varying transmission
+effects from imperfect public-health records.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling illegal logging in Brazil</title>
+      <link>http://localhost:1313/publication/chen-modeling-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-modeling-2021/</guid>
+      <description>&lt;p&gt;This paper builds a continuous &lt;strong&gt;optimal-control model of illegal logging&lt;/strong&gt; on general
+geographic domains. Loggers choose routes and harvesting behavior in response to resource
+value, travel cost, and law-enforcement pressure, while the model accounts for finite-time
+logging events and slower travel under heavier loads.&lt;/p&gt;
+&lt;p&gt;The competing objectives are expressed through Hamilton–Jacobi–Bellman and level-set
+methods, producing spatial predictions of attractive logging locations and transport
+paths. Calibrating the model with observed deforestation in the Brazilian rainforest makes
+it possible to compare patrol strategies under realistic terrain and economic conditions.&lt;/p&gt;
+&lt;p&gt;The numerical results show that enforcement is most effective when it is geographically
+targeted rather than distributed uniformly. The framework provides a quantitative way to
+study how patrol placement changes the incentives and routes of environmental offenders.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

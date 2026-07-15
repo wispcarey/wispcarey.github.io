@@ -30,10 +30,31 @@ abstract: 'Active learning improves the performance of machine learning methods 
   embedding, graph learning, DAC, and LocalMax to classify the FUSAR-Ship and OpenSARShip
   datasets. Our pipeline outperforms the state-of-the-art CNN-based methods.'
 tags:
-- Batch active learning, Graph Learning, synthetic aperture radar
+- Batch Active Learning
+- Graph Learning
+- Core-set Selection
+- Dijkstra's Algorithm
+- Remote Sensing
+- Synthetic Aperture Radar
 links:
-- name: URL
+- name: SPIE
   url: 
     https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12520/125200B/Novel-batch-active-learning-approach-and-its-application-to-synthetic/10.1117/12.2662393.full
+- name: PDF
+  url: /publication/chapman-novel-2023/Novel%20Batch%20Active%20Learning%20Approach.pdf
+- name: DOI
+  url: https://doi.org/10.1117/12.2662393
 featured: true
 ---
+
+The paper introduces a two-stage strategy for making **batch active learning** nearly as
+accurate as sequential querying while substantially reducing the number of classifier
+updates. Dijkstra's Annulus Core-Set (DAC) first constructs a representative candidate set;
+LocalMax then selects a diverse batch by enforcing local maxima of the acquisition
+function on the data graph.
+
+The resulting pipeline combines transfer-learned image features, graph-based
+semi-supervised learning, DAC, and LocalMax for synthetic-aperture-radar target
+classification. On FUSAR-Ship and OpenSARShip, it retains the accuracy of sequential active
+learning with speedups that scale with batch size and outperforms the evaluated CNN-based
+baselines.

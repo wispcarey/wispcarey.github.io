@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Level Set Methods | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/level-set-methods/</link>
+      <atom:link href="http://localhost:1313/tags/level-set-methods/index.xml" rel="self" type="application/rss+xml" />
+    <description>Level Set Methods</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Level Set Methods</title>
+      <link>http://localhost:1313/tags/level-set-methods/</link>
+    </image>
+    
+    <item>
+      <title>Modeling illegal logging in Brazil</title>
+      <link>http://localhost:1313/publication/chen-modeling-2021/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-modeling-2021/</guid>
+      <description>&lt;p&gt;This paper builds a continuous &lt;strong&gt;optimal-control model of illegal logging&lt;/strong&gt; on general
+geographic domains. Loggers choose routes and harvesting behavior in response to resource
+value, travel cost, and law-enforcement pressure, while the model accounts for finite-time
+logging events and slower travel under heavier loads.&lt;/p&gt;
+&lt;p&gt;The competing objectives are expressed through Hamilton–Jacobi–Bellman and level-set
+methods, producing spatial predictions of attractive logging locations and transport
+paths. Calibrating the model with observed deforestation in the Brazilian rainforest makes
+it possible to compare patrol strategies under realistic terrain and economic conditions.&lt;/p&gt;
+&lt;p&gt;The numerical results show that enforcement is most effective when it is geographically
+targeted rather than distributed uniformly. The framework provides a quantitative way to
+study how patrol placement changes the incentives and routes of environmental offenders.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

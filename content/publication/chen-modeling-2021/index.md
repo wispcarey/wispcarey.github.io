@@ -23,9 +23,32 @@ abstract: Deforestation is a major threat to global environmental wellness, with
   calibrate our model using real deforestation data from the Brazilian rainforest
   and demonstrate the importance of geographically targeted patrol strategies.
 tags:
-- Optimal control, Level set, Hamilton–Jacobi–Bellman equation
+- Environmental Crime
+- Hamilton–Jacobi–Bellman Equations
+- Level Set Methods
+- Multiobjective Optimization
+- Optimal Control
+- Rainforest Conservation
 links:
-- name: URL
+- name: Journal
+  url: https://link.springer.com/article/10.1007/s40687-021-00263-6
+- name: PDF
+  url: /publication/chen-modeling-2021/Modeling%20illegal%20logging%20in%20Brazil.pdf
+- name: DOI
   url: https://doi.org/10.1007/s40687-021-00263-6
 featured: true
 ---
+
+This paper builds a continuous **optimal-control model of illegal logging** on general
+geographic domains. Loggers choose routes and harvesting behavior in response to resource
+value, travel cost, and law-enforcement pressure, while the model accounts for finite-time
+logging events and slower travel under heavier loads.
+
+The competing objectives are expressed through Hamilton–Jacobi–Bellman and level-set
+methods, producing spatial predictions of attractive logging locations and transport
+paths. Calibrating the model with observed deforestation in the Brazilian rainforest makes
+it possible to compare patrol strategies under realistic terrain and economic conditions.
+
+The numerical results show that enforcement is most effective when it is geographically
+targeted rather than distributed uniformly. The framework provides a quantitative way to
+study how patrol placement changes the incentives and routes of environmental offenders.

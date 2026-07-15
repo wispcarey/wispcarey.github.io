@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hybrid Search | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/hybrid-search/</link>
+      <atom:link href="http://localhost:1313/tags/hybrid-search/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hybrid Search</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Hybrid Search</title>
+      <link>http://localhost:1313/tags/hybrid-search/</link>
+    </image>
+    
+    <item>
+      <title>AutoKG: Efficient Automated Knowledge Graph Generation for Language Models</title>
+      <link>http://localhost:1313/publication/chen-autokg-2023/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-autokg-2023/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;AutoKG&lt;/strong&gt; is a lightweight pipeline for turning an unstructured text collection into a
+knowledge graph that can augment a large language model. An LLM extracts keywords from
+text blocks, and graph Laplace learning estimates relationships between keyword pairs
+without requiring a hand-designed ontology or end-to-end model fine-tuning.&lt;/p&gt;
+&lt;p&gt;At query time, AutoKG combines standard vector similarity with graph-guided retrieval.
+The vector search identifies semantically relevant text blocks, while the graph expands
+the search toward strongly associated keywords and their supporting passages. The merged
+context exposes relational information that a nearest-neighbor search can miss.&lt;/p&gt;
+&lt;p&gt;Experiments on question answering and knowledge discovery show that this hybrid retrieval
+mechanism returns more interconnected context and helps the language model produce more
+relevant and informative responses. The paper appeared in the GTA3 workshop at &lt;strong&gt;IEEE
+BigData 2023&lt;/strong&gt;, and the complete demonstration notebooks are publicly available.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

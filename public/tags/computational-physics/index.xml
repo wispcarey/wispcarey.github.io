@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Physics | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/computational-physics/</link>
+      <atom:link href="http://localhost:1313/tags/computational-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computational Physics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Computational Physics</title>
+      <link>http://localhost:1313/tags/computational-physics/</link>
+    </image>
+    
+    <item>
+      <title>Learning Enhanced Ensemble Filters</title>
+      <link>http://localhost:1313/publication/bach-learning-2025/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-learning-2025/</guid>
+      <description>&lt;p&gt;This work introduces the &lt;strong&gt;measure neural mapping enhanced ensemble filter (MNMEF)&lt;/strong&gt;,
+a learning-based data-assimilation method derived from a mean-field formulation of the
+filtering problem. Measure neural mappings extend neural operators to maps acting on
+probability measures; their finite-ensemble implementation uses a permutation-invariant set
+transformer.&lt;/p&gt;
+&lt;p&gt;The mean-field construction allows most learned parameters to be shared across ensemble
+sizes. A model can therefore be trained efficiently using a small ensemble and deployed at
+other ensemble sizes, while lightweight fine-tuning adapts a limited number of parameters
+such as inflation and localization.&lt;/p&gt;
+&lt;p&gt;Experiments on Lorenz-63, Lorenz-96, and Kuramoto–Sivashinsky systems show improved
+filtering accuracy relative to optimized classical ensemble methods across both small and
+larger ensembles.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

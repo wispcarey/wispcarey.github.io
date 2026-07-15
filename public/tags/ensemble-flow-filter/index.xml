@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ensemble Flow Filter | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/ensemble-flow-filter/</link>
+      <atom:link href="http://localhost:1313/tags/ensemble-flow-filter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ensemble Flow Filter</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Ensemble Flow Filter</title>
+      <link>http://localhost:1313/tags/ensemble-flow-filter/</link>
+    </image>
+    
+    <item>
+      <title>Flow Matching for Data Assimilation Accepted in SIAM/ASA JUQ</title>
+      <link>http://localhost:1313/post/enff-accepted-siam-asa-juq/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/enff-accepted-siam-asa-juq/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#why-flow-matching-for-data-assimilation&#34;&gt;Why Flow Matching for Data Assimilation?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-ensemble-flow-filter&#34;&gt;The Ensemble Flow Filter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#accuracy-efficiency-and-scale&#34;&gt;Accuracy, Efficiency, and Scale&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#collaboration-and-reproducibility&#34;&gt;Collaboration and Reproducibility&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;I am happy to share that our paper, &lt;strong&gt;“Flow Matching for Efficient and Scalable Data
+Assimilation,”&lt;/strong&gt; has been &lt;strong&gt;accepted for publication in the SIAM/ASA Journal on
+Uncertainty Quantification&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Journal:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-flow-matching-for-data-assimilation&#34;&gt;Why Flow Matching for Data Assimilation?&lt;/h2&gt;
+&lt;p&gt;Data assimilation combines a dynamical model with noisy observations to estimate a
+system&amp;rsquo;s evolving state. Classical ensemble filters are efficient but can struggle
+with nonlinear or non-Gaussian distributions. More expressive generative approaches
+can address those settings, but methods such as the ensemble score filter require many
+sampling steps and can become expensive in large systems.&lt;/p&gt;
+&lt;p&gt;Our goal was to retain the expressiveness of a generative method while making the
+sampling process faster, training-free, and easier to scale.&lt;/p&gt;
+&lt;h2 id=&#34;the-ensemble-flow-filter&#34;&gt;The Ensemble Flow Filter&lt;/h2&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;enff-framework.png&#34; alt=&#34;Comparison of EnSF, EnFF-OT, and the filtering-to-predictive EnFF flow&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;EnFF transports an ensemble through a guided flow. The F2P variant directly connects one filtering distribution to the next predictive distribution instead of repeatedly returning to a Gaussian reference.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;We introduce the &lt;strong&gt;ensemble flow filter (EnFF)&lt;/strong&gt;, a flow-matching framework for
+sequential Bayesian data assimilation. It does not require an offline training stage.
+Instead, it constructs a Monte Carlo estimate of the marginal flow field from the
+current ensemble and incorporates each observation through localized guidance.&lt;/p&gt;
+&lt;p&gt;A central ingredient is the &lt;strong&gt;filtering-to-predictive (F2P) flow&lt;/strong&gt;. Standard generative
+filters repeatedly transport samples from a Gaussian reference distribution. F2P
+instead starts from the previous filtering ensemble and transports it toward the next
+predictive distribution. This uses the structure already present in Bayesian filtering,
+producing a more direct path and more stable behavior when the number of sampling steps
+is small.&lt;/p&gt;
+&lt;p&gt;The framework also connects new generative filters with classical methods. Under
+appropriate flow choices and assumptions, EnFF recovers the bootstrap particle filter
+and the ensemble Kalman filter.&lt;/p&gt;
+&lt;h2 id=&#34;accuracy-efficiency-and-scale&#34;&gt;Accuracy, Efficiency, and Scale&lt;/h2&gt;
+&lt;p&gt;We evaluate EnFF on Lorenz-63, Lorenz-96, the one-dimensional
+Kuramoto–Sivashinsky equation, and the two-dimensional Navier–Stokes equations, using
+both identity and nonlinear observation operators. The experiments range from compact
+chaotic systems to a Navier–Stokes pressure field on a &lt;strong&gt;256×256 grid&lt;/strong&gt;.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;featured.jpg&#34; alt=&#34;Ground truth and predicted Navier-Stokes pressure fields from EnSF and EnFF-F2P&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;On the 256×256 Navier–Stokes benchmark, EnFF-F2P closely reconstructs the pressure field with only ten sampling steps, while EnSF shows a much larger error.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The results show that EnFF can match or improve the ensemble score filter while using
+far fewer sampling steps, with the advantage becoming more pronounced as the sampling
+budget decreases. EnFF-F2P is also less sensitive to its flow hyperparameters across
+different step counts.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;benchmark-results.jpg&#34; alt=&#34;RMSE and energy-score comparisons across Kuramoto-Sivashinsky and Navier-Stokes dimensions&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Accuracy across increasing Kuramoto–Sivashinsky and Navier–Stokes dimensions under identity and nonlinear observations. EnFF variants remain competitive as the state dimension grows.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Across the high-dimensional benchmarks, EnFF offers a favorable balance of filtering
+accuracy, distributional quality, runtime, and stability. These results suggest that
+flow design—not only the choice of generative model—is a useful lever for building
+practical data-assimilation algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;collaboration-and-reproducibility&#34;&gt;Collaboration and Reproducibility&lt;/h2&gt;
+&lt;p&gt;This work was a rewarding collaboration with &lt;strong&gt;Taos Transue&lt;/strong&gt;, &lt;strong&gt;So Takao&lt;/strong&gt;, and
+&lt;strong&gt;Bao Wang&lt;/strong&gt;. Taos Transue and I contributed equally. The accompanying
+
+
+contains the implementation and experiment code.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figures on this page were extracted from the latest version of the paper.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flow Matching for Efficient and Scalable Data Assimilation</title>
+      <link>http://localhost:1313/publication/transue-flow-2025/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/transue-flow-2025/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;ensemble flow filter (EnFF)&lt;/strong&gt; is a training-free data-assimilation framework that
+uses flow matching to transform a forecast ensemble into samples from the filtering
+distribution. Its Monte Carlo flow-field estimator and localized observation guidance
+avoid model training while retaining the flexibility of generative flow design.&lt;/p&gt;
+&lt;p&gt;The paper introduces a &lt;strong&gt;filtering-to-predictive (F2P) flow&lt;/strong&gt; that uses the previous
+filtering distribution, rather than a standard Gaussian, as its reference. This path is
+better aligned with sequential Bayesian filtering and improves efficiency and
+robustness when only a small number of sampling steps is available. The analysis also
+shows how EnFF recovers the bootstrap particle filter and ensemble Kalman filter under
+appropriate choices and assumptions.&lt;/p&gt;
+&lt;p&gt;Experiments span Lorenz-63, Lorenz-96, the one-dimensional Kuramoto–Sivashinsky system,
+and two-dimensional Navier–Stokes equations, including state dimensions up to a
+256×256 grid. Across these benchmarks, EnFF provides a strong accuracy–cost trade-off
+and scales to nonlinear, high-dimensional data-assimilation problems.&lt;/p&gt;
+&lt;p&gt;Taos Transue and Bohan Chen contributed equally to this work.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

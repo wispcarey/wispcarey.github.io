@@ -32,3 +32,13 @@ links:
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024AGUFMIN23B2201S
 ---
+
+The **CommUnity near-Surface Permafrost (CUSP) dataset** brings together geographically
+distributed observations of near-surface permafrost and related environmental attributes
+in a common resource. The compilation is designed to reduce the data-discovery and
+harmonization burden that often limits large-scale permafrost analysis.
+
+Presented at the 2024 AGU Fall Meeting, the project emphasizes data structures and
+supporting properties suitable for artificial-intelligence and machine-learning workflows.
+Its goal is to enable reproducible model development and comparison across regions where
+observation density, measurement practices, and landscape conditions vary substantially.

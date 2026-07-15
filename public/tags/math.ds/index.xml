@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math.DS | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/math.ds/</link>
+      <atom:link href="http://localhost:1313/tags/math.ds/index.xml" rel="self" type="application/rss+xml" />
+    <description>Math.DS</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Math.DS</title>
+      <link>http://localhost:1313/tags/math.ds/</link>
+    </image>
+    
+    <item>
+      <title>Learning Probabilistic Filters with Strictly Proper Scoring Rules</title>
+      <link>http://localhost:1313/publication/bach-probabilistic-2026/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bach-probabilistic-2026/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;proper scoring ensemble filter (PSEF)&lt;/strong&gt; learns an ensemble analysis operator that
+targets the complete Bayesian filtering distribution rather than only its conditional mean.
+The operator takes a forecast ensemble and a new observation as input and returns an
+analysis ensemble. A permutation-invariant transformer ensures that the result respects the
+exchangeability of ensemble members and can be evaluated at different ensemble sizes.&lt;/p&gt;
+&lt;p&gt;The key training device is a &lt;strong&gt;strictly proper scoring rule&lt;/strong&gt;, implemented with the energy
+score. Its expected value is uniquely minimized by the true filtering distribution, yet its
+empirical form requires only simulated state–observation trajectories—not direct access to
+the generally intractable filtering distribution. Under a realizability assumption, the
+population objective recovers the Bayesian filter, and a mean-field time-averaging argument
+connects the practical single-trajectory objective to this population target.&lt;/p&gt;
+&lt;p&gt;Experiments cover a linear–Gaussian diagnostic, the strongly non-Gaussian doubling-angle
+model, Lorenz-63, and Lorenz-96. Energy-score training captures multimodal distributions
+missed by Gaussian filters and mean-based learning objectives. The results also reveal a
+useful architectural distinction: an EnKF correction provides an effective inductive bias in
+close-to-Gaussian problems, while a flexible end-to-end update is better suited to strongly
+non-Gaussian posterior geometry.&lt;/p&gt;
+&lt;p&gt;The manuscript is currently submitted to the &lt;strong&gt;Journal of Machine Learning Research&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

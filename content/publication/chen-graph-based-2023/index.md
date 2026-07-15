@@ -27,9 +27,39 @@ abstract: Hyperspectral unmixing (HSU) is an effective tool to ascertain the mat
   methods improve the state-of-the-art blind unmixing approaches by 50% or more using
   only 0.4% of training pixels.
 tags:
-- Graph-based Optimization, Hyperspectral Unmixing, positive matrix factorization
+- Active Learning
+- Graph Learning
+- Graph-based Optimization
+- Hyperspectral Unmixing
+- Matrix Factorization
+- Remote Sensing
+- Semi-supervised Learning
 links:
-- name: URL
+- name: IEEE Xplore
   url: https://ieeexplore.ieee.org/document/10246337/?arnumber=10246337
+- name: Open Access
+  url: https://escholarship.org/uc/item/7mc9950n
+- name: PDF
+  url: /publication/chen-graph-based-2023/Graph-Based_Active_Learning_for_Nearly_Blind_Hyperspectral_Unmixing.pdf
+- name: Code
+  url: https://github.com/wispcarey/Nearly-Blind-Hyperspectral-Unmixing
+- name: DOI
+  url: https://doi.org/10.1109/TGRS.2023.3313933
 featured: true
 ---
+
+This work formulates **nearly blind hyperspectral unmixing** as a semi-supervised problem:
+instead of assuming all endmember spectra are known, it requests abundance information or
+simple one-hot pseudo-labels for only a very small set of pixels selected by graph-based
+active learning.
+
+Two complementary models are introduced. Graph Learning Unmixing (GLU) interprets graph
+Laplace class probabilities directly as abundance maps and then estimates the endmembers.
+Graph-Regularized Semi-supervised Unmixing (GRSU) combines the linear mixing model,
+nonnegativity and sum-to-one constraints, graph regularization, and supervision on the
+queried pixels in a joint optimization problem initialized by GLU.
+
+Experiments on Urban, Samson, and Jasper Ridge imagery show that both exact abundances and
+easy-to-obtain one-hot labels substantially improve blind-unmixing baselines. With only
+0.4% of pixels labeled, the proposed methods improve state-of-the-art blind approaches by
+50% or more on the reported reconstruction and abundance-estimation metrics.

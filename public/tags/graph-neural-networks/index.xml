@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph Neural Networks | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/graph-neural-networks/</link>
+      <atom:link href="http://localhost:1313/tags/graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graph Neural Networks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Graph Neural Networks</title>
+      <link>http://localhost:1313/tags/graph-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>GLL: A Differentiable Graph Learning Layer for Neural Networks</title>
+      <link>http://localhost:1313/publication/brown-gll-2024/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/brown-gll-2024/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;graph learning layer (GLL)&lt;/strong&gt; replaces the usual projection head and softmax
+classifier with graph-Laplacian label propagation. Samples in a minibatch become nodes of
+a similarity graph, allowing predictions to use relationships among examples instead of
+classifying each representation independently.&lt;/p&gt;
+&lt;p&gt;The main technical contribution is an exact end-to-end differentiation rule for a broad
+family of graph learning methods. By deriving the backward pass with the adjoint method,
+the graph solver can participate directly in neural-network training rather than being
+detached from the feature extractor or differentiated through a heuristic approximation.&lt;/p&gt;
+&lt;p&gt;Experiments show smoother transitions between classes, improved optimization and
+generalization, and stronger resistance to adversarial perturbations than a conventional
+softmax head. The framework supports both supervised and semi-supervised learning and is
+released with an open-source implementation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

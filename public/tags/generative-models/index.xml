@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative Models | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/generative-models/</link>
+      <atom:link href="http://localhost:1313/tags/generative-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Generative Models</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Generative Models</title>
+      <link>http://localhost:1313/tags/generative-models/</link>
+    </image>
+    
+    <item>
+      <title>Variational Flow Maps: Make Some Noise for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/publication/mammadov-variational-2026/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mammadov-variational-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔊 Make Some Noise: Variational Flow Maps for One-Step Conditional Generation</title>
+      <link>http://localhost:1313/post/variational-flow-maps-icml-2026/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/variational-flow-maps-icml-2026/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Our paper, &lt;strong&gt;“Variational Flow Maps: Make Some Noise for One-Step Conditional Generation,”&lt;/strong&gt; has been accepted to the main track of &lt;strong&gt;ICML 2026&lt;/strong&gt; as a poster.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; 
+ · 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code and checkpoints:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publication page and BibTeX:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original announcement:&lt;/strong&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-problem-fast-generation-is-hard-to-condition&#34;&gt;The Problem: Fast Generation Is Hard to Condition&lt;/h2&gt;
+&lt;p&gt;Flow maps can turn noise into a high-quality image in one forward pass. That makes them dramatically faster than iterative diffusion models, but it also removes the trajectory normally used to inject measurements, constraints, or rewards.&lt;/p&gt;
+&lt;p&gt;For an inverse problem, we observe a degraded image—perhaps blurred, masked, or downsampled—and want samples that are both consistent with that observation and plausible under the learned image prior. Diffusion methods can repeatedly guide an evolving sample toward the observation. A one-step flow map has no intermediate states to steer: once its initial noise is fixed, its output is fixed too.&lt;/p&gt;
+&lt;p&gt;VFM addresses this “guidance gap” by changing the question. Instead of asking how to guide the sampling path, we ask:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is the right noise distribution to start from?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-key-idea-learn-the-right-noise&#34;&gt;The Key Idea: Learn the Right Noise&lt;/h2&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;vfm-overview.png&#34; alt=&#34;Overview of one-step conditional generation with Variational Flow Maps&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;Given an observation, a noise adapter produces conditional noise samples; the jointly trained flow map transports them to conditional data samples in one step.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Given an observation or condition, VFM uses a lightweight &lt;strong&gt;noise adapter&lt;/strong&gt; to predict a distribution in latent noise space. A sample from this distribution is then decoded by the flow map in a single forward pass.&lt;/p&gt;
+&lt;p&gt;The adapter and flow map are trained jointly with a variational objective. This joint training is essential: a simple Gaussian adapter may be too limited when paired with a frozen generator, but the flow map can reshape the noise-to-data coupling so that the same simple adapter represents a complex, multimodal posterior in data space. In a linear-Gaussian setting, our analysis shows that joint training recovers the exact posterior mean, whereas separate training is generically biased.&lt;/p&gt;
+&lt;p&gt;We also connect the data-reconstruction term in the variational objective to the mean-flow loss. That structural constraint keeps generated samples near the learned data manifold and avoids the off-manifold failure mode seen when the adapter and generator are optimized without a flow-map constraint.&lt;/p&gt;
+&lt;h2 id=&#34;one-model-multiple-inverse-problems&#34;&gt;One Model, Multiple Inverse Problems&lt;/h2&gt;
+&lt;p&gt;The adapter can be conditioned on the inverse-problem class, allowing a single model to amortize inference across denoising, random and box inpainting, super-resolution, Gaussian deblurring, and motion deblurring.&lt;/p&gt;
+&lt;figure style=&#34;margin: 1.5rem 0; text-align: center;&#34;&gt;
+  &lt;img src=&#34;inpainting-results.jpg&#34; alt=&#34;ImageNet box-inpainting comparison and diverse posterior samples from VFM&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+  &lt;figcaption style=&#34;margin-top: 0.6rem;&#34;&gt;ImageNet 256×256 box inpainting. The lower row shows distinct VFM posterior samples that remain consistent with the visible image.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;On ImageNet 256×256 inverse problems, VFM combines distributional quality with a large speed advantage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For box inpainting, one-step VFM reaches an FID of &lt;strong&gt;33.34&lt;/strong&gt;, compared with &lt;strong&gt;62.35–75.62&lt;/strong&gt; for the iterative guidance baselines reported in the paper.&lt;/li&gt;
+&lt;li&gt;VFM uses &lt;strong&gt;1 neural function evaluation&lt;/strong&gt;, while those baselines use &lt;strong&gt;250×2&lt;/strong&gt; evaluations with classifier-free guidance.&lt;/li&gt;
+&lt;li&gt;A single VFM sample takes about &lt;strong&gt;0.025–0.027 seconds&lt;/strong&gt; in our experiments, versus roughly &lt;strong&gt;7–47 seconds&lt;/strong&gt; for the iterative methods.&lt;/li&gt;
+&lt;li&gt;VFM performs strongly on distributional and calibration metrics including &lt;strong&gt;FID, MMD, CRPS, and LPIPS&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is an important evaluation lesson here. For posterior sampling, diversity and calibration matter alongside pixel-wise fidelity. PSNR and SSIM often reward posterior-mean-like, smoother reconstructions, so they do not by themselves capture whether a method produces the right distribution of plausible solutions. Averaging several VFM draws improves these pixel-wise metrics, while the individual draws expose meaningful posterior uncertainty.&lt;/p&gt;
+&lt;h2 id=&#34;beyond-inverse-problems-one-step-reward-alignment&#34;&gt;Beyond Inverse Problems: One-Step Reward Alignment&lt;/h2&gt;
+&lt;p&gt;The same idea extends naturally from observations to general differentiable rewards. VFM learns a context-dependent noise adapter while fine-tuning the flow map toward a reward-tilted distribution. In our experiments, strong reward alignment emerges in less than half an epoch of fine-tuning, and the resulting model still generates with a single forward pass. The uncurated reward-aligned samples shown in this post&amp;rsquo;s header were generated by that fine-tuned flow map.&lt;/p&gt;
+&lt;h2 id=&#34;code-and-reproducibility&#34;&gt;Code and Reproducibility&lt;/h2&gt;
+&lt;p&gt;The 
+ includes the training and sampling code, released checkpoints, scripts for the ImageNet inverse problems, and a small checkerboard example that illustrates how joint training changes the latent coupling. The conditional sampler supports one-step generation as well as two-to-four-step refinement.&lt;/p&gt;
+&lt;p&gt;This work was a wonderful collaboration among &lt;strong&gt;Abbas Mammadov&lt;/strong&gt;, &lt;strong&gt;So Takao&lt;/strong&gt;, &lt;strong&gt;Bohan Chen&lt;/strong&gt;, &lt;strong&gt;Ricardo Baptista&lt;/strong&gt;, &lt;strong&gt;Morteza Mardani&lt;/strong&gt;, &lt;strong&gt;Yee Whye Teh&lt;/strong&gt;, and &lt;strong&gt;Julius Berner&lt;/strong&gt;, spanning the University of Oxford, Caltech, PhysicsX, the University of Toronto, and NVIDIA. Abbas Mammadov and So Takao contributed equally.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Figures on this page were extracted from the paper, which is available under a CC BY 4.0 license.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

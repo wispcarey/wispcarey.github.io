@@ -29,8 +29,19 @@ tags:
 - Topic Modeling
 - True Crime
 links:
-- name: URL
+- name: NSF Public Access
   url: https://par.nsf.gov/biblio/10608878
 - name: PDF
-  url: /mnt/data/10608878.pdf
+  url: https://par.nsf.gov/servlets/purl/10608878
 ---
+
+This work develops a **knowledge-graph-augmented language-model pipeline** for analyzing
+long, contested narratives. Using the first season of the *Serial* true-crime podcast as a
+case study, the system organizes people, claims, events, and relationships into a structure
+that can be queried while preserving connections across episodes and competing accounts.
+
+The study compares classical NLP and LLM-based approaches to knowledge-graph construction,
+topic modeling, and sentiment analysis. It then uses the graph as retrieval context for
+natural-language question answering and evaluates the resulting KGLLM under factual and
+adversarial prompts. The graph-augmented model gives more grounded answers, produces more
+coherent topic summaries, and is more robust to misleading prompts than an unaugmented LLM.

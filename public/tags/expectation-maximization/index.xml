@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Expectation-Maximization | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/expectation-maximization/</link>
+      <atom:link href="http://localhost:1313/tags/expectation-maximization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Expectation-Maximization</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Expectation-Maximization</title>
+      <link>http://localhost:1313/tags/expectation-maximization/</link>
+    </image>
+    
+    <item>
+      <title>A Novel Point Process Model for COVID-19: Multivariate Recursive Hawkes Process</title>
+      <link>http://localhost:1313/publication/chen-novel-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-novel-2022/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;multivariate recursive Hawkes process&lt;/strong&gt; extends self-exciting point-process models in
+two directions needed for epidemic data: transmission can interact across multiple
+populations, and the productivity of events can vary recursively rather than remaining
+fixed. This gives the model enough flexibility to represent heterogeneous and evolving
+COVID-19 transmission patterns.&lt;/p&gt;
+&lt;p&gt;The chapter establishes existence of the counting process and derives its first two
+moments. It also develops expectation-maximization procedures for parametric and
+semiparametric specifications, together with a reconstruction algorithm for observations
+whose event times are reported only coarsely.&lt;/p&gt;
+&lt;p&gt;Synthetic experiments validate the estimators, and applications to real COVID-19 data
+illustrate how the model recovers cross-population excitation and time-varying transmission
+effects from imperfect public-health records.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

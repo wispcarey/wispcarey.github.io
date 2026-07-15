@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matrix Factorization | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/matrix-factorization/</link>
+      <atom:link href="http://localhost:1313/tags/matrix-factorization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matrix Factorization</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Matrix Factorization</title>
+      <link>http://localhost:1313/tags/matrix-factorization/</link>
+    </image>
+    
+    <item>
+      <title>Graph-Based Active Learning for Nearly Blind Hyperspectral Unmixing</title>
+      <link>http://localhost:1313/publication/chen-graph-based-2023/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-graph-based-2023/</guid>
+      <description>&lt;p&gt;This work formulates &lt;strong&gt;nearly blind hyperspectral unmixing&lt;/strong&gt; as a semi-supervised problem:
+instead of assuming all endmember spectra are known, it requests abundance information or
+simple one-hot pseudo-labels for only a very small set of pixels selected by graph-based
+active learning.&lt;/p&gt;
+&lt;p&gt;Two complementary models are introduced. Graph Learning Unmixing (GLU) interprets graph
+Laplace class probabilities directly as abundance maps and then estimates the endmembers.
+Graph-Regularized Semi-supervised Unmixing (GRSU) combines the linear mixing model,
+nonnegativity and sum-to-one constraints, graph regularization, and supervision on the
+queried pixels in a joint optimization problem initialized by GLU.&lt;/p&gt;
+&lt;p&gt;Experiments on Urban, Samson, and Jasper Ridge imagery show that both exact abundances and
+easy-to-obtain one-hot labels substantially improve blind-unmixing baselines. With only
+0.4% of pixels labeled, the proposed methods improve state-of-the-art blind approaches by
+50% or more on the reported reconstruction and abundance-estimation metrics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

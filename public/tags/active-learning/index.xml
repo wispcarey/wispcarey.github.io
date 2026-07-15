@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Active Learning | Bohan Chen's Personal Webpage</title><link>https://chenbh.com/tags/active-learning/</link><atom:link href="https://chenbh.com/tags/active-learning/index.xml" rel="self" type="application/rss+xml"/><description>Active Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>https://chenbh.com/media/icon_hu5000416120042106492.png</url><title>Active Learning</title><link>https://chenbh.com/tags/active-learning/</link></image><item><title>Graph-Based Active Learning for Surface Water and Sediment Detection in Multispectral Images</title><link>https://chenbh.com/publication/chen-graph-based-2023-1/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><guid>https://chenbh.com/publication/chen-graph-based-2023-1/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Learning | Bohan Chen&#39;s Personal Webpage</title>
+    <link>http://localhost:1313/tags/active-learning/</link>
+      <atom:link href="http://localhost:1313/tags/active-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Active Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5000416120042106492.png</url>
+      <title>Active Learning</title>
+      <link>http://localhost:1313/tags/active-learning/</link>
+    </image>
+    
+    <item>
+      <title>Graph-Based Active Learning for Surface Water and Sediment Detection in Multispectral Images</title>
+      <link>http://localhost:1313/publication/chen-graph-based-2023-1/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-graph-based-2023-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
