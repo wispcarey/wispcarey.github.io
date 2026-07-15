@@ -43,11 +43,12 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-4159-076X
 
 interests:
+  - "Bayesian Inverse Problems"
   - "Data Assimilation"
-  - "Graph-based Machine Learning"
-  - "Image Analysis and Processing"
-  - "Mathematical Modeling"
-  - "KG-enhanced LLMs"
+  - "Conditional Generative Modeling"
+  - "Scientific Machine Learning"
+  - "Attention on Probability Measures"
+  - "Graph-Based Active Learning"
 
 education:
   - area: Ph.D. in Mathematics
@@ -151,7 +152,7 @@ awards:
 
 ## About Me
 
-Bohan Chen is a postdoctoral researcher at Caltech under the supervision of Prof. Andrew Stuart. His research interests includes data assimilation, stochastic process models, graph-based machine learning, and active learning. His work during Ph.D. applied graph-based active learning methods to tackle different image processing problems, and developed innovative batch active learning strategies. He explored the integration of large language models with knowledge graphs. His current research is primarily focused on data assimilation.
+Bohan Chen is a postdoctoral researcher at Caltech working with Prof. Andrew Stuart. His research centers on Bayesian inverse problems and data assimilation, with an emphasis on scalable methods for learning and sampling complex posterior distributions. His current work combines conditional generative modeling, machine-learning-enhanced ensemble methods, and transformers and attention acting on probability measures. During his Ph.D. at UCLA, he worked with Prof. Andrea Bertozzi on graph-based and active-learning methods for imaging and label-efficient inference, using data geometry and adaptive information acquisition to address problems with limited observations.
 
 Email: bhchen@caltech.edu
 
