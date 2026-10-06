@@ -1,11 +1,11 @@
 ---
 title: Narrative Analysis of True Crime Podcasts With Knowledge Graph-Augmented Large Language Models
 authors:
-- James Chapman
 - Xinyi Leng
 - Jason Liang
 - Jack Mauro
 - Xu Wang
+- James Chapman
 - Andrea L. Bertozzi
 - Junyuan Lin
 - Bohan Chen
@@ -16,7 +16,7 @@ date: '2024-10-01'
 publishDate: '2025-11-01T00:00:00Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of ACM Conference (GTA3 Workshop at the 33rd ACM International Conference on Information and Knowledge Management, 2024)*'
+publication: '*Graph Techniques for Adversarial Activity Analytics (GTA3) Workshop at ACM CIKM 2024*'
 abstract: >
   Narrative data spans all disciplines and provides a coherent model of the world to the reader or viewer. Large Language Models (LLMs) have advanced natural language analysis but still struggle with complex, conflicting narrative arcs. This work analyzes true-crime podcast data (Serial) using knowledge graphs (KGs) with both classical NLP and LLM approaches, and directly compares KG-augmented LLMs (KGLLMs) with classical methods for KG construction, topic modeling, and sentiment analysis. The KGLLM enables natural-language querying of the knowledge base, factual Q&A, and robustness testing under adversarial prompting. Results indicate KGLLMs outperform standard LLMs on multiple metrics, show greater robustness to adversarial prompts, and better summarize text into topics.
 tags:
@@ -29,10 +29,13 @@ tags:
 - Topic Modeling
 - True Crime
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2411.02435
 - name: NSF Public Access
   url: https://par.nsf.gov/biblio/10608878
 - name: PDF
   url: https://par.nsf.gov/servlets/purl/10608878
+featured: false
 ---
 
 This work develops a **knowledge-graph-augmented language-model pipeline** for analyzing
